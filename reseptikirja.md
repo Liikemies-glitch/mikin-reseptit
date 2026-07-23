@@ -442,7 +442,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Mikin rahkakakku
-*~4 annosta · 8/10*
+*~4 annosta · 6/10*
 
 **Ainekset:**
 - 375 g maitorahkaa
