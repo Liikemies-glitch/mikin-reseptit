@@ -329,7 +329,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Marokkolainen kanapata
-*~6 annosta · 8/10*
+*~4 annosta · 8/10*
 
 **Ainekset:**
 - ~800 g kanarintafileetä
@@ -359,7 +359,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 7. Hauduta miedolla lämmöllä ~30 min.
 8. Tarjoa kvinoan/riisin ja jogurtin kanssa.
 
-**Makrot:** ~275 kcal / ~31 g prot per annos (6 annosta).
+**Makrot:** ~413 kcal / ~47 g prot per annos (4 annosta; sama satsi kuin aiemmin 6:lla).
 
 ---
 
