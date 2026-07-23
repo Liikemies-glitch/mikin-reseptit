@@ -724,7 +724,7 @@
               "items": []
             }
           ],
-          "rating": null,
+          "rating": 8,
           "id": "aamupalat-0"
         },
         {
@@ -1386,7 +1386,7 @@
       "title": "Mikin köyhä aamusmoothie",
       "meta": "1 annos",
       "macros": "~416 kcal / ~31 g prot.",
-      "rating": null
+      "rating": 8
     },
     {
       "kind": "recipe",
