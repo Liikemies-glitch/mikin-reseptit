@@ -358,8 +358,8 @@ td:last-child {
     transform: translateY(-4vh) scale(0.98);
   }
   to {
-    opacity: 1;
-    transform: translateY(-6vh) scale(1);
+    opacity: var(--watermark-opacity);
+    transform: translateY(-8vh) scale(1);
   }
 }
 
@@ -369,7 +369,7 @@ td:last-child {
   }
 
   .watermark__text {
-    opacity: 0.045;
+    --watermark-opacity: 0.045;
     font-size: clamp(160px, 55vw, 320px);
     transform: translateY(-18vh);
   }
@@ -434,10 +434,14 @@ td:last-child {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .reveal,
-  .watermark__text {
+  .reveal {
     animation: none;
     opacity: 1;
     transform: none;
+  }
+  .watermark__text {
+    animation: none;
+    opacity: var(--watermark-opacity);
+    transform: translateY(-8vh);
   }
 }
