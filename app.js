@@ -44,7 +44,7 @@ function matchesQuery(row, query) {
   return hay.includes(query);
 }
 
-function renderIndex() {
+function renderIndexList() {
   const query = state.query.trim().toLocaleLowerCase("fi");
   const rows = state.data.index.filter((row) => matchesQuery(row, query));
 
@@ -137,7 +137,19 @@ function renderRecipe(section, recipe) {
 }
 
 function recipeIdFromLocation() {
+  const params = new URLSearchParams(location.search);
+  const fromQuery = params.get("r");
+  if (fromQuery) return fromQuery;
+  // legacy hash links
   return decodeURIComponent(location.hash.replace(/^#/, ""));
+}
+
+function indexHref() {
+  return `${location.pathname}`;
+}
+
+function detailHref(id) {
+  return `${location.pathname}?r=${encodeURIComponent(id)}`;
 }
 
 function paintIndex() {
@@ -148,7 +160,7 @@ function paintIndex() {
   els.backBtn.hidden = true;
   els.filter.hidden = false;
   els.count.hidden = false;
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  window.scrollTo(0, 0);
 }
 
 function paintDetail(id) {
@@ -170,7 +182,7 @@ function paintDetail(id) {
       ? renderTable(found.section)
       : renderRecipe(found.section, found.recipe);
 
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  window.scrollTo(0, 0);
   return true;
 }
 
@@ -182,18 +194,17 @@ function applyRoute() {
 
 function openDetail(id) {
   if (!findRecipe(id)) return;
-  const nextHash = `#${encodeURIComponent(id)}`;
-  if (location.hash === nextHash) {
+  const href = detailHref(id);
+  if (`${location.pathname}${location.search}` === href) {
     applyRoute();
     return;
   }
-  // pushState so swipe-back / browser back can return to the index
-  history.pushState({ view: "detail", id }, "", nextHash);
+  history.pushState({ view: "detail", id }, "", href);
   applyRoute();
 }
 
 function goBackToIndex() {
-  if (location.hash) {
+  if (recipeIdFromLocation()) {
     history.back();
     return;
   }
@@ -207,12 +218,20 @@ async function init() {
   document.title = state.data.brand || state.data.title;
   els.footerNote.textContent = state.data.footer || state.data.intro || "";
 
-  renderIndex();
+  // Migrate old #id links into history-friendly ?r=id URLs
+  if (!new URLSearchParams(location.search).get("r") && location.hash.length > 1) {
+    const legacyId = decodeURIComponent(location.hash.slice(1));
+    if (findRecipe(legacyId)) {
+      history.replaceState({ view: "detail", id: legacyId }, "", detailHref(legacyId));
+    }
+  }
+
+  renderIndexList();
   applyRoute();
 
   els.filter.addEventListener("input", () => {
     state.query = els.filter.value;
-    renderIndex();
+    renderIndexList();
   });
 
   els.indexRows.addEventListener("click", (event) => {
