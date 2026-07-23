@@ -81,13 +81,15 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Appelsiinikana
-*2 kg kanarintafileetä*
+*2 kg kanarintafileetä · Mikin suosikki*
 
 **Kastike:** 250 ml appelsiinimehua, 200 ml soijaa, 9 valkosipulinkynttä, ~25 g inkivääriä, 36 g tumma ruokosokeri, 4 rkl omenaviinietikkaa, 1 rkl chilijauhetta
 
 **Suurustus:** 3 rkl maissitärkkelystä kylmään veteen
 
 **Valmistus:** Paista kanafileet uunissa 200°C ~26 min. Keitä kastike kasaan, lisää suurustus ja anna sakeutua. Yhdistä kana kastikkeeseen. Ripottele seesaminsiemenet + kevätsipuli päälle.
+
+**Vinkki:** Maku 100/100 (5/5), mutta sokeritonta appelsiinimehua ei välttämättä kannata käyttää — maku heikkenee tosi nopeasti. Normi appelsiinimehu toimii todennäköisesti paremmin.
 
 **Makrot:** 6 ann: ~441 kcal / ~59 g prot
 
