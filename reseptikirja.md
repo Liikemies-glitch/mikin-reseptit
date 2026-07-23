@@ -61,7 +61,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
-### Keema
+### Intialainen jauhelihakeema
 *~4–5 annosta*
 
 **Ainekset:**
