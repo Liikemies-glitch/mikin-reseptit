@@ -111,7 +111,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
-### High Protein Creamy Beef Pasta
+### Creamy Beef Pasta
 *~3 annosta*
 
 **Ainekset:**
