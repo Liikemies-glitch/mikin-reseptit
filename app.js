@@ -129,9 +129,6 @@ function renderBlock(block) {
 function renderRecipe(section, recipe) {
   const blocks = (recipe.blocks || []).map(renderBlock).join("");
   return `
-    <p class="detail__meta">${escapeHtml(section.name)}${
-      recipe.meta ? ` · ${escapeHtml(recipe.meta)}` : ""
-    }</p>
     <h1 class="detail__title">${escapeHtml(recipe.title)}</h1>
     ${blocks}`;
 }
