@@ -1,23 +1,37 @@
 # Mikin Reseptikirja
 
-Proteiinipainotteinen reseptikirja verkossa.
+Proteiinipainotteinen reseptikirja verkossa. Visuaalinen kieli: Refero **19–86** (`DESIGN.md`).
 
 ## Paikallinen ajo
-
-Avaa kansio staattisella palvelimella, esim:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Sitten: http://localhost:8080
+Avaa http://localhost:8080
 
-## GitHub Pages
+## Julkaisu GitHub Pagesiin
 
-Repo: https://github.com/Liikemies-glitch/mikin-reseptikirja
+Repo ei ole vielä olemassa. Luo se ja työnnä koodi:
 
-Julkaisu rootista (`index.html`). Settings → Pages → Deploy from branch `main` / `/ (root)`.
+```bash
+# 1) Luo tyhjä repo GitHubissa nimellä mikin-reseptikirja (Liikemies-glitch)
+# 2) Tässä kansiossa:
+git remote add origin https://github.com/Liikemies-glitch/mikin-reseptikirja.git
+git push -u origin main
+```
 
-## Tyylit
+Sitten GitHubissa: **Settings → Pages → Branch: `main` → folder: `/ (root)` → Save**
 
-Visuaalinen kieli perustuu Refero-tyyliin **19–86** (`DESIGN.md`): musta/valkoinen typografinen ledger, yksi fonttipaino, hairline-erottimet, brand-watermark.
+Sivusto: `https://liikemies-glitch.github.io/mikin-reseptikirja/`
+
+## Rakenne
+
+| Tiedosto | Sisältö |
+|---|---|
+| `index.html` | Hakemisto + reseptinäkymä |
+| `styles.css` | 19–86-tokenit |
+| `app.js` | Suodatus ja navigointi |
+| `recipes.json` | Parsitut reseptit |
+| `reseptikirja.md` | Lähdemarkdown |
+| `DESIGN.md` | Refero-tyylitiedosto |
