@@ -119,6 +119,12 @@
             },
             {
               "type": "section",
+              "label": "Vinkki",
+              "content": "Ison satsin saa helposti kasvattamalla seokseen esim. kikherneitä, papuja, maissia, herneitä tai härkäpapuja.",
+              "items": []
+            },
+            {
+              "type": "section",
               "label": "Makrot",
               "content": "~420 kcal / ~42 g prot per annos.",
               "items": []

@@ -74,6 +74,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Valmistus:** Kuullota sipuli, valkosipuli ja inkivääri öljyssä. Lisää jauheliha ja mausteet, ruskista. Lisää tomaatti/murska, hauduta kunnes neste haihtunut. Sekoita herneet lopuksi.
 
+**Vinkki:** Ison satsin saa helposti kasvattamalla seokseen esim. kikherneitä, papuja, maissia, herneitä tai härkäpapuja.
+
 **Makrot:** ~420 kcal / ~42 g prot per annos.
 
 ---
