@@ -207,15 +207,26 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 *~4 annosta · 7/10*
 
 **Ainekset:**
-- 650 g kanarintafileetä + oliiviöljy + suola + valkosipulijauhe + fajitamauste + limemehu
-- 2 sipulia + 3 paprikaa
-- Täytteet: 150 g juustoraastetta 17 % + tomaatti + korianteri + 4 tortillaa
+- 650 g kanarintafileetä
+- Oliiviöljy, suola, valkosipulijauhe, fajitamauste, limemehu
+- 2 sipulia + 3 paprikaa + 1 tl oliiviöljyä
+- 150 g juustoraastetta 17 %
+- 1 tomaatti + kourallinen korianteria
+- 4 tortillaa (361 g paketti / 6 kpl → käytä 4)
 
-**Kastike:** 150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola
+**Kastike:** 150 g kreikkalaista jogurttia 3 % + 15 g sriracha + ripaus savupaprikaa + suolaa
 
-**Valmistus:** Mausta kana ja paista kypsäksi, suikaloi. Kuullota sipuli + paprika. Sekoita kastike. Lämmitä tortillat, täytä kanalla, kasviksilla, juustolla, tomaatilla ja korianterilla. Lisää kastike.
+**Valmistus:**
+1. Kuutioi kananrinta ja mausta oliiviöljyllä, suolalla, valkosipulijauheella, fajitamausteella ja limemehulla.
+2. Pilko sipulit, paprikat, tomaatti ja korianteri.
+3. Heitä sipuli ja paprikat uunipellille, mausta samoilla mausteilla kuin kana, sekoita. Laita pelti uuniin.
+4. Sekoita kastike kreikkalaisesta jogurtista, srirachasta, savupaprikasta ja suolasta.
+5. Kypsennä kasviksia uunissa ~20 min.
+6. Lisää kanakuutiot samalle pellille ja jatka uunissa ~30 min.
+7. Ota pelti uunista, sekoita joukkoon osa juustosta sekä tomaatti ja korianteri. Ripottele loput juustoraasteesta päälle ja grillaa vielä ~5 min.
+8. Ota uunista. Lado täytettä tortillan väliin, lusikoi jogurttikastike päälle, rullaa.
 
-**Makrot:** ~543 kcal / ~54 g prot per annos.
+**Makrot:** ~590 kcal / ~57 g prot per annos.
 
 ---
 
