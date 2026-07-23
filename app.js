@@ -52,21 +52,27 @@ function renderIndexList() {
   els.emptyState.hidden = rows.length > 0;
 
   els.indexRows.innerHTML = rows
-    .map(
-      (row) => `
+    .map((row) => {
+      const badge = row.badge
+        ? `<div class="badge">${escapeHtml(row.badge)}</div>`
+        : "";
+      return `
       <button
-        class="index__row"
+        class="index__row${row.favorite ? " index__row--favorite" : ""}"
         type="button"
         data-id="${escapeHtml(row.id)}"
         aria-label="${escapeHtml(row.title)}"
       >
         <div class="cell">${escapeHtml(row.section)}</div>
-        <div class="cell">${escapeHtml(row.title)}</div>
+        <div class="cell">
+          <div class="cell__title">${escapeHtml(row.title)}</div>
+          ${badge}
+        </div>
         <div class="cell">${escapeHtml(row.meta || "—")}</div>
         <div class="cell">${escapeHtml(row.macros || "—")}</div>
         <div class="cell"><span class="dot" aria-hidden="true"></span></div>
-      </button>`
-    )
+      </button>`;
+    })
     .join("");
 }
 
@@ -128,7 +134,11 @@ function renderBlock(block) {
 
 function renderRecipe(section, recipe) {
   const blocks = (recipe.blocks || []).map(renderBlock).join("");
+  const badge = recipe.badge
+    ? `<p class="detail__badge">${escapeHtml(recipe.badge)}</p>`
+    : "";
   return `
+    ${badge}
     <h1 class="detail__title">${escapeHtml(recipe.title)}</h1>
     ${blocks}`;
 }
