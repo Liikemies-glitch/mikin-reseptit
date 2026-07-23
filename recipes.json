@@ -531,7 +531,7 @@
               "items": []
             }
           ],
-          "rating": 7,
+          "rating": 10,
           "id": "paaruuat-11"
         },
         {
@@ -593,7 +593,7 @@
               ]
             }
           ],
-          "rating": 6,
+          "rating": 10,
           "id": "paaruuat-12"
         }
       ],
@@ -1281,7 +1281,7 @@
       "title": "Rahkapohja-pizza",
       "meta": "koko pizza",
       "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameet…",
-      "rating": 7
+      "rating": 10
     },
     {
       "kind": "recipe",
@@ -1291,7 +1291,7 @@
       "title": "Rullakebab",
       "meta": "~6 annosta",
       "macros": null,
-      "rating": 6
+      "rating": 10
     },
     {
       "kind": "recipe",
