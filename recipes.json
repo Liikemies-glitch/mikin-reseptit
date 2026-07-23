@@ -164,6 +164,12 @@
             },
             {
               "type": "section",
+              "label": "Liha",
+              "content": "Voi käyttää myös kanan rintafilettä. Sniiduilla kanan paistileike on halvinta, mutta siitä pitää trimmata rasva pois jos haluaa yhtä hyvät makrot. Suositus: kanan rintafile, jos budjetti kestää.",
+              "items": []
+            },
+            {
+              "type": "section",
               "label": "Makrot",
               "content": "6 ann: ~441 kcal / ~59 g prot",
               "items": []
