@@ -138,7 +138,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 **Ainekset:**
 - 800 g kanafileetä
 - 250 ml täysi kookosmaito, 150 ml kevytmaito
-- 2 paprikaa, 1 sipuli, 3 valkosipulinkynttä, 2 cm inkivääri
+- 2 paprikaa, 1 sipuli, 3 valkosipulinkynttä, peukalon kokonen köntti inkivääriä
 - 200 g pakasteherneitä
 - 200–300 g tomaattimurskaa
 - 1 peltipurkki ananasmurskaa
