@@ -2,24 +2,27 @@
 
 Proteiinipainotteinen reseptikirja verkossa.
 
-**Sivusto:** https://liikemies-glitch.github.io/mikin-reseptit/
+**Sivusto (ihmisille):** https://liikemies-glitch.github.io/mikin-reseptit/
 
-## Anna agentille tämä URL
+## Anna agentille tämä URL (ei etusivua)
+
+Etusivu on JavaScript-SPA — ChatGPT/Claude näkee siitä usein vain tyhjän kuoren. Anna agentille sen sijaan:
 
 ```text
 https://liikemies-glitch.github.io/mikin-reseptit/llms.txt
 ```
 
-Agentti lukee sieltä Markdown/JSON-lähteet, suosittelee reseptejä ja antaa valmistusohjeet. Katso myös [AGENTS.md](./AGENTS.md).
+tai suoraan koko kirja:
+
+```text
+https://liikemies-glitch.github.io/mikin-reseptit/reseptikirja.md
+```
 
 ### Esimerkki Cursorille / ChatGPT:lle / Claudelle
 
 > Käytä lähteenä https://liikemies-glitch.github.io/mikin-reseptit/llms.txt  
+> Hae sieltä linkatut `reseptikirja.md` tai `recipes.json` (älä scrapea etusivun HTML:ää).  
 > Suosittele proteiinipitoista illallista ja anna valmistusohjeet suomeksi.
-
-## Ihmisen UI
-
-Avaa https://liikemies-glitch.github.io/mikin-reseptit/
 
 ## Data
 

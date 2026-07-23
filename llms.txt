@@ -1,23 +1,29 @@
 # Mikin Reseptikirja
 
-> Proteiinipainotteinen reseptikirja (fat loss): korkea proteiini, kontrolloidut kalorit. Kaikki annoskoot ja makrot ovat arvioita.
+> Proteiinipainotteinen reseptikirja (fat loss): korkea proteiini, kontrolloidut kalorit. Kaikki annoskoot ja makrot ovat arvioita. Arvosanat ovat asteikolla 0–10.
 
-Tämä tiedosto on koneellisesti luettava sisällysluettelo AI-agenteille. Hae alla olevat lähteet HTTP GET -pyynnöllä (ei kirjautumista).
+Tämä tiedosto on koneellisesti luettava sisällysluettelo AI-agenteille (ChatGPT, Claude, Cursor, ym.).
 
-## Ensisijaiset lähteet
+## Tärkeää — älä scrapea käyttöliittymää
 
-- [Koko reseptikirja Markdownina](https://liikemies-glitch.github.io/mikin-reseptit/reseptikirja.md): ihmisen lukema lähde; ainekset, valmistus, makrot
-- [Reseptit JSONina](https://liikemies-glitch.github.io/mikin-reseptit/recipes.json): strukturoitu data suodatukseen ja suosituksiin
-- [Agenttiohje](https://liikemies-glitch.github.io/mikin-reseptit/AGENTS.md): miten suositella reseptejä ja antaa valmistusohjeita
+Etusivu `https://liikemies-glitch.github.io/mikin-reseptit/` on JavaScript-SPA: HTML-kuori ei sisällä reseptejä. Jos hait vain etusivun, näet vain otsikon. **Hae aina alla olevat staattiset tiedostot HTTP GET -pyynnöllä** (ei kirjautumista, ei JS:ää).
+
+## Ensisijaiset lähteet (hae nämä)
+
+- https://liikemies-glitch.github.io/mikin-reseptit/reseptikirja.md — koko kirja Markdownina (ainekset, valmistus, makrot, arvosanat, vinkit)
+- https://liikemies-glitch.github.io/mikin-reseptit/recipes.json — sama data strukturoituna (suodatus, haku, `rating`, `meta`, `blocks`)
+- https://liikemies-glitch.github.io/mikin-reseptit/AGENTS.md — miten suositella reseptejä ja antaa valmistusohjeita
 
 ## Sivusto
 
-- [Käyttöliittymä](https://liikemies-glitch.github.io/mikin-reseptit/): hakemisto ihmisille
-- [GitHub-repo](https://github.com/Liikemies-glitch/mikin-reseptit): lähdekoodi
+- https://liikemies-glitch.github.io/mikin-reseptit/ — hakemisto ihmisille (vaatii JS)
+- https://github.com/Liikemies-glitch/mikin-reseptit — lähdekoodi
 
-## Käyttöohje agentille (lyhyt)
+## Käyttöohje agentille
 
-1. Lue `reseptikirja.md` tai `recipes.json`.
-2. Suosittele reseptejä käyttäjän tavoitteen mukaan (proteiini, kcal, aika, ainesosat, restriktiot).
-3. Anna valmistusohjeet suomeksi lähteen `Valmistus`-kentästä; älä keksi puuttuvia vaiheita.
-4. Mainitse makrot jos ne on annettu; kerro että arvot ovat arvioita.
+1. Hae `reseptikirja.md` tai `recipes.json` (älä etusivun HTML:ää).
+2. Käytä `rating` (0–10) suosituksissa; korkeampi = Mikki suosittelee enemmän.
+3. Suosittele 1–3 reseptiä kerrallaan käyttäjän tavoitteen mukaan (proteiini, kcal, aika, ainesosat).
+4. Anna valmistusohjeet vain lähteen `Valmistus`-osiosta; älä keksi vaiheita.
+5. Mainitse makrot jos ne on annettu; kerro että arvot ovat arvioita.
+6. Linkitä UI-reseptiin tarvittaessa: `https://liikemies-glitch.github.io/mikin-reseptit/?r=<id>` (id JSONista).
