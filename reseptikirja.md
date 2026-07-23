@@ -190,7 +190,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Bataatti-jauhelihabowl
-*~5 annosta · 7/10*
+*~5 annosta · 10/10*
 
 **Ainekset:**
 - 900 g bataattia + oliiviöljyä uuniin
