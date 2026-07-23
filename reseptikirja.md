@@ -135,7 +135,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Keltainen curry
-*~4–5 annosta · 7/10*
+*~4–5 annosta · 9/10*
 
 **Ainekset:**
 - 800 g kanafileetä
