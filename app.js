@@ -67,6 +67,57 @@ function sortedIndexRows(query) {
     });
 }
 
+function renderThumb(src, title) {
+  if (!src) {
+    return `<div class="cell cell--thumb" aria-hidden="true"></div>`;
+  }
+  return `
+    <div class="cell cell--thumb">
+      <img
+        class="thumb"
+        src="${escapeHtml(src)}"
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
+    </div>`;
+}
+
+function renderGallery(images, title) {
+  if (!images || !images.length) return "";
+  const main = images[0];
+  const thumbs =
+    images.length > 1
+      ? `<div class="detail__thumbs" role="list">
+          ${images
+            .map(
+              (src, i) => `
+            <button
+              class="detail__thumb${i === 0 ? " is-active" : ""}"
+              type="button"
+              role="listitem"
+              data-gallery-src="${escapeHtml(src)}"
+              aria-label="Kuva ${i + 1}"
+              aria-pressed="${i === 0 ? "true" : "false"}"
+            >
+              <img src="${escapeHtml(src)}" alt="" loading="lazy" decoding="async" />
+            </button>`
+            )
+            .join("")}
+        </div>`
+      : "";
+  return `
+    <figure class="detail__gallery">
+      <img
+        class="detail__photo"
+        src="${escapeHtml(main)}"
+        alt="${escapeHtml(title)}"
+        decoding="async"
+      />
+      ${thumbs}
+    </figure>`;
+}
+
 function renderRecipeRow(row) {
   const rating =
     typeof row.rating === "number" ? String(row.rating) : "—";
@@ -77,6 +128,7 @@ function renderRecipeRow(row) {
         data-id="${escapeHtml(row.id)}"
         aria-label="${escapeHtml(row.title)}"
       >
+        ${renderThumb(row.image, row.title)}
         <div class="cell cell--rating">${rating}</div>
         <div class="cell cell__title">${escapeHtml(row.title)}</div>
         <div class="cell">${escapeHtml(row.meta || "—")}</div>
@@ -179,9 +231,11 @@ function renderRecipe(section, recipe) {
     typeof recipe.rating === "number"
       ? `<p class="detail__rating">Arvosana ${recipe.rating}/10</p>`
       : "";
+  const gallery = renderGallery(recipe.images || [], recipe.title);
   return `
     ${rating}
     <h1 class="detail__title">${escapeHtml(recipe.title)}</h1>
+    ${gallery}
     ${blocks}`;
 }
 
@@ -261,7 +315,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=64");
+  const res = await fetch("./recipes.json?v=65");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
@@ -293,6 +347,20 @@ async function init() {
     const row = event.target.closest("[data-id]");
     if (!row) return;
     openDetail(row.dataset.id);
+  });
+
+  els.detailView.addEventListener("click", (event) => {
+    const thumb = event.target.closest("[data-gallery-src]");
+    if (!thumb || !els.detailView.contains(thumb)) return;
+    const src = thumb.dataset.gallerySrc;
+    const photo = els.detailView.querySelector(".detail__photo");
+    if (!photo || !src) return;
+    photo.src = src;
+    els.detailView.querySelectorAll("[data-gallery-src]").forEach((btn) => {
+      const on = btn === thumb;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    });
   });
 
   els.backBtn.addEventListener("click", goBackToIndex);

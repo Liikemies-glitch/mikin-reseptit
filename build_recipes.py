@@ -11,12 +11,43 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 MD_PATH = ROOT / "reseptikirja.md"
 OUT_PATH = ROOT / "recipes.json"
+IMAGES_DIR = ROOT / "images"
+MANIFEST_PATH = IMAGES_DIR / "manifest.json"
+IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
 SECTION_IDS = {
     "Pääruoat": "paaruuat",
     "Aamupalat": "aamupalat",
     "Jälkiruoat": "jalkiruoat",
     "Kastikkeet ja soosit": "kastikkeet",
+}
+
+# Short / casual filenames → recipe title slug
+FILENAME_ALIASES = {
+    "pizza": "rahkapohja-pizza",
+    "piz": "rahkapohja-pizza",
+    "joku-piz": "rahkapohja-pizza",
+    "joku-pizza": "rahkapohja-pizza",
+    "rahkapohja": "rahkapohja-pizza",
+    "kebab": "rullakebab",
+    "rullakebab": "rullakebab",
+    "moussaka": "kreikkalainen-moussaka",
+    "munakoiso": "kreikkalainen-moussaka",
+    "curry": "keltainen-curry",
+    "tortilla": "kanatortillat",
+    "kanatortilla": "kanatortillat",
+    "kanatortillat": "kanatortillat",
+    "jauhelihapata": "mausteinen-jauhelihapata",
+    "keema": "intialainen-jauhelihakeema",
+    "jauhelihakeema": "intialainen-jauhelihakeema",
+    "makaroni": "gluteeniton-makaroonilaatikko-munaton",
+    "makaroonilaatikko": "gluteeniton-makaroonilaatikko-munaton",
+    "porkkana": "proteiini-porkkanakakku",
+    "porkkanakakku": "proteiini-porkkanakakku",
+    "mikin-maukas-matto": "intialainen-jauhelihakeema",
+    "mikin-maukas-matto-2": "intialainen-jauhelihakeema",
+    "mustikka": "brownie",
+    "mustikkabrownie": "brownie",
 }
 
 KNOWN_LABELS = (
@@ -40,6 +71,7 @@ KNOWN_LABELS = (
     "Glaze",
     "Kasvatettu glaze (isompi versio, 5 ann)",
     "Lime-jogurttisoosi (muhennosversio)",
+    "Kuvat",
 )
 
 
@@ -52,6 +84,174 @@ def slugify(name: str) -> str:
     ascii_ = ascii_.replace("ä", "a").replace("ö", "o").replace("å", "a")
     ascii_ = re.sub(r"[^a-z0-9]+", "-", ascii_).strip("-")
     return ascii_ or "section"
+
+
+def web_path(path: Path) -> str:
+    """Repo-relative POSIX path for the static site."""
+    rel = path.resolve().relative_to(ROOT)
+    return rel.as_posix()
+
+
+def parse_image_refs(text: str) -> list[str]:
+    """Split a Kuvat line / list into image path stems or filenames."""
+    parts = re.split(r"[,;\n]+", text)
+    out = []
+    for part in parts:
+        name = part.strip().strip("`").strip()
+        if not name:
+            continue
+        out.append(name)
+    return out
+
+
+def resolve_image_ref(ref: str) -> str | None:
+    """Turn a markdown image ref into a site-relative path if the file exists."""
+    candidates = []
+    raw = Path(ref)
+    if raw.is_absolute():
+        return None
+    if ref.startswith("images/"):
+        candidates.append(ROOT / ref)
+    else:
+        candidates.append(IMAGES_DIR / ref)
+        candidates.append(ROOT / ref)
+    for cand in candidates:
+        if cand.is_file() and cand.suffix.lower() in IMAGE_EXTS:
+            return web_path(cand)
+    return None
+
+
+def extract_explicit_images(blocks: list[dict]) -> tuple[list[dict], list[str]]:
+    """Pull **Kuvat:** block out of recipe body → image paths."""
+    remaining: list[dict] = []
+    images: list[str] = []
+    for block in blocks:
+        if (block.get("label") or "").strip().lower() != "kuvat":
+            remaining.append(block)
+            continue
+        refs: list[str] = []
+        if block.get("content"):
+            refs.extend(parse_image_refs(block["content"]))
+        for item in block.get("items") or []:
+            refs.extend(parse_image_refs(item))
+        for ref in refs:
+            resolved = resolve_image_ref(ref)
+            if resolved and resolved not in images:
+                images.append(resolved)
+    return remaining, images
+
+
+def load_manifest() -> dict[str, list[str]]:
+    if not MANIFEST_PATH.is_file():
+        return {}
+    try:
+        data = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    out: dict[str, list[str]] = {}
+    for key, value in data.items():
+        slug = slugify(str(key))
+        refs = value if isinstance(value, list) else [value]
+        paths = []
+        for ref in refs:
+            resolved = resolve_image_ref(str(ref))
+            if resolved and resolved not in paths:
+                paths.append(resolved)
+        if paths:
+            out[slug] = paths
+    return out
+
+
+def stem_match_keys(stem: str) -> list[str]:
+    """Possible recipe slugs a filename stem could belong to."""
+    base = slugify(stem)
+    trimmed = re.sub(r"[-_]\d+$", "", base)
+    keys: list[str] = []
+
+    def push(k: str):
+        if k and k not in keys:
+            keys.append(k)
+
+    push(trimmed)
+    push(base)
+    if trimmed in FILENAME_ALIASES:
+        push(FILENAME_ALIASES[trimmed])
+    if base in FILENAME_ALIASES:
+        push(FILENAME_ALIASES[base])
+    # progressive suffix pieces (joku-piz → piz)
+    parts = trimmed.split("-") if trimmed else []
+    for i in range(len(parts)):
+        piece = "-".join(parts[i:])
+        push(piece)
+        if piece in FILENAME_ALIASES:
+            push(FILENAME_ALIASES[piece])
+    return keys
+
+
+def discover_images_by_slug(known_slugs: set[str] | None = None) -> dict[str, list[str]]:
+    """Map recipe title slug → image paths from images/ folder layout."""
+    known = known_slugs or set()
+    by_slug: dict[str, list[str]] = {}
+    if not IMAGES_DIR.is_dir():
+        return by_slug
+
+    def add(slug: str, path: Path):
+        if path.suffix.lower() not in IMAGE_EXTS:
+            return
+        if path.name.startswith("."):
+            return
+        web = web_path(path)
+        by_slug.setdefault(slug, [])
+        if web not in by_slug[slug]:
+            by_slug[slug].append(web)
+
+    for path in sorted(IMAGES_DIR.rglob("*")):
+        if not path.is_file():
+            continue
+        if path.suffix.lower() not in IMAGE_EXTS:
+            continue
+        if path.name.lower() == "manifest.json":
+            continue
+        rel = path.relative_to(IMAGES_DIR)
+        # images/<slug>/file.jpg
+        if len(rel.parts) >= 2:
+            folder_slug = slugify(rel.parts[0])
+            folder_slug = FILENAME_ALIASES.get(folder_slug, folder_slug)
+            add(folder_slug, path)
+            continue
+        # Prefer a key that matches a known recipe slug, else first key / alias target
+        candidates = stem_match_keys(path.stem)
+        chosen = next((k for k in candidates if k in known), None)
+        if not chosen:
+            chosen = next(
+                (FILENAME_ALIASES[k] for k in candidates if k in FILENAME_ALIASES),
+                candidates[0] if candidates else None,
+            )
+        if chosen:
+            add(chosen, path)
+
+    return by_slug
+
+
+def attach_recipe_images(sections: list[dict]) -> None:
+    known_slugs = {slugify(r["title"]) for s in sections for r in s["recipes"]}
+    discovered = discover_images_by_slug(known_slugs)
+    manifest = load_manifest()
+
+    for section in sections:
+        for recipe in section["recipes"]:
+            blocks, explicit = extract_explicit_images(recipe.get("blocks") or [])
+            recipe["blocks"] = blocks
+            title_slug = slugify(recipe["title"])
+            images: list[str] = []
+            for src in (explicit, manifest.get(title_slug, []), discovered.get(title_slug, [])):
+                for path in src:
+                    if path not in images:
+                        images.append(path)
+            recipe["images"] = images
+            recipe["image"] = images[0] if images else None
 
 
 def truncate(text: str, limit: int = 48) -> str:
@@ -285,6 +485,8 @@ def parse_markdown(text: str) -> dict:
         for idx, recipe in enumerate(section["recipes"]):
             recipe["id"] = f"{section['id']}-{idx}"
 
+    attach_recipe_images(sections)
+
     footers = re.findall(r"^\*(Kokoelma.+)\*\s*$", text, re.M)
     footer = footers[-1] if footers else None
 
@@ -304,6 +506,8 @@ def parse_markdown(text: str) -> dict:
                     "meta": recipe.get("meta"),
                     "macros": extract_macros(recipe.get("blocks") or []),
                     "rating": recipe.get("rating"),
+                    "image": recipe.get("image"),
+                    "images": recipe.get("images") or [],
                 }
             )
 

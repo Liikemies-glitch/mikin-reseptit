@@ -171,6 +171,7 @@ strong {
 .index__row {
   display: grid;
   grid-template-columns:
+    56px
     minmax(72px, 0.55fr)
     minmax(160px, 2fr)
     minmax(100px, 1fr)
@@ -234,6 +235,66 @@ strong {
 .cell--rating {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
+}
+
+.cell--thumb {
+  width: 56px;
+  padding-top: 2px;
+}
+
+.thumb {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border: 1px solid var(--color-ink);
+  background: var(--color-paper);
+}
+
+.detail__gallery {
+  margin: 24px 0 0;
+  padding: 0;
+  max-width: 720px;
+}
+
+.detail__photo {
+  display: block;
+  width: 100%;
+  max-height: min(70vh, 640px);
+  object-fit: cover;
+  border: 1px solid var(--color-ink);
+  background: var(--color-paper);
+}
+
+.detail__thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.detail__thumb {
+  display: block;
+  padding: 0;
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--color-ink);
+  opacity: 0.55;
+  cursor: pointer;
+}
+
+.detail__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail__thumb.is-active,
+.detail__thumb:hover,
+.detail__thumb:focus-visible {
+  opacity: 1;
+  outline: none;
 }
 
 .detail__rating {
@@ -396,20 +457,33 @@ td:last-child {
   }
 
   .index__row {
-    grid-template-columns: 1fr 30px;
+    grid-template-columns: 56px 1fr 30px;
     grid-template-areas:
-      "rating dot"
-      "title dot"
-      "meta meta"
-      "macros macros";
-    gap: 0 24px;
+      "thumb rating dot"
+      "thumb title dot"
+      "thumb meta meta"
+      "thumb macros macros";
+    gap: 0 16px;
   }
 
-  .index__row .cell:nth-child(1) { grid-area: rating; opacity: 0.7; }
-  .index__row .cell:nth-child(2) { grid-area: title; }
-  .index__row .cell:nth-child(3) { grid-area: meta; opacity: 0.7; }
-  .index__row .cell:nth-child(4) { grid-area: macros; opacity: 0.7; }
-  .index__row .cell:nth-child(5) { grid-area: dot; }
+  .index__row .cell:nth-child(1) { grid-area: thumb; }
+  .index__row .cell:nth-child(2) { grid-area: rating; opacity: 0.7; }
+  .index__row .cell:nth-child(3) { grid-area: title; }
+  .index__row .cell:nth-child(4) { grid-area: meta; opacity: 0.7; }
+  .index__row .cell:nth-child(5) { grid-area: macros; opacity: 0.7; }
+  .index__row .cell:nth-child(6) { grid-area: dot; }
+
+  .cell--thumb {
+    padding-top: 4px;
+  }
+
+  .detail__gallery {
+    max-width: none;
+  }
+
+  .detail__photo {
+    max-height: 55vh;
+  }
 
   .index__section {
     padding-inline: 16px;

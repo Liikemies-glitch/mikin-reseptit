@@ -29,8 +29,11 @@ Käytä tätä, kun käyttäjä pyytää reseptisuosituksia tai valmistusohjeita
 - `sections[].recipes[].meta` — annoskoko / WIP-merkintä ym.
 - `sections[].recipes[].rating` — arvosana 0–10
 - `sections[].recipes[].id` — URL-id (`?r=`)
+- `sections[].recipes[].images[]` / `.image` — ateriakuvat (`images/…`), jos ladattu
 - `sections[].recipes[].blocks[]` — osiot: `Ainekset`, `Valmistus`, `Makrot`, `Huom`, `Vinkki`, …
-- `index[]` — litteä lista UI:ta varten (title, meta, macros, rating, section)
+- `index[]` — litteä lista UI:ta varten (title, meta, macros, rating, image, section)
+
+Kuvat: droppaa tiedostot `images/`-kansioon (nimeä reseptin mukaan, ks. `images/README.md`), aja `python3 build_recipes.py`.
 
 ## Esimerkkiprompti käyttäjälle
 

@@ -30,8 +30,11 @@ https://liikemies-glitch.github.io/mikin-reseptit/reseptikirja.md
 |---|---|
 | `reseptikirja.md` | Koko kirja Markdownina |
 | `recipes.json` | Strukturoitu data |
+| `images/` | Ateriakuvat (nimeä reseptin mukaan, ks. `images/README.md`) |
 | `llms.txt` | Agenttien sisällysluettelo |
 | `AGENTS.md` | Agentin käyttöohje |
+
+Kuvien jälkeen: `python3 build_recipes.py`
 
 ## Paikallinen ajo
 
