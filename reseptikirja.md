@@ -252,6 +252,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ### Kanapohjapizza
 *~6 siivua*
 
+**Huom:** En ole itse testannut, mutta muut ovat suositelleet.
+
 **Ainekset:**
 - 500 g kanajauhelihaa
 - 50 g parmesan

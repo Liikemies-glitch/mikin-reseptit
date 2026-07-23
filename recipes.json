@@ -509,6 +509,12 @@
           "blocks": [
             {
               "type": "section",
+              "label": "Huom",
+              "content": "En ole itse testannut, mutta muut ovat suositelleet.",
+              "items": []
+            },
+            {
+              "type": "section",
               "label": "Ainekset",
               "content": "",
               "items": [
