@@ -216,7 +216,8 @@ strong {
 }
 
 .detail__title {
-  margin: 24px 0;
+  margin: 0 0 24px;
+  padding-top: 40px;
   font-size: clamp(40px, 8vw, 96px);
   font-weight: var(--font-weight-regular);
   line-height: 1;
@@ -224,7 +225,7 @@ strong {
 }
 
 .detail__meta {
-  margin: 0 0 24px;
+  margin: 0;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--color-ink);
 }
