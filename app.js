@@ -67,6 +67,11 @@ function sortedIndexRows(query) {
     });
 }
 
+function imageSrc(src) {
+  // Encode spaces/unicode in filenames for GitHub Pages; then escape for HTML attrs.
+  return escapeHtml(encodeURI(src));
+}
+
 function datasetHasImages() {
   return (state.data?.index || []).some((row) => row.image);
 }
@@ -80,7 +85,7 @@ function renderThumb(src, showColumn) {
     <div class="cell cell--thumb">
       <img
         class="thumb"
-        src="${escapeHtml(src)}"
+        src="${imageSrc(src)}"
         alt=""
         loading="lazy"
         decoding="async"
@@ -101,11 +106,11 @@ function renderGallery(images, title) {
               class="detail__thumb${i === 0 ? " is-active" : ""}"
               type="button"
               role="listitem"
-              data-gallery-src="${escapeHtml(src)}"
+              data-gallery-src="${imageSrc(src)}"
               aria-label="Kuva ${i + 1}"
               aria-pressed="${i === 0 ? "true" : "false"}"
             >
-              <img src="${escapeHtml(src)}" alt="" loading="lazy" decoding="async" />
+              <img src="${imageSrc(src)}" alt="" loading="lazy" decoding="async" />
             </button>`
             )
             .join("")}
@@ -115,7 +120,7 @@ function renderGallery(images, title) {
     <figure class="detail__gallery">
       <img
         class="detail__photo"
-        src="${escapeHtml(main)}"
+        src="${imageSrc(main)}"
         alt="${escapeHtml(title)}"
         decoding="async"
       />
@@ -324,7 +329,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=66");
+  const res = await fetch("./recipes.json?v=68");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;

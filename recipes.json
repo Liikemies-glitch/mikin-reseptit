@@ -58,8 +58,10 @@
           ],
           "rating": 10,
           "id": "paaruuat-0",
-          "images": [],
-          "image": null
+          "images": [
+            "images/Mausteinen jauhelihapata.jpeg"
+          ],
+          "image": "images/Mausteinen jauhelihapata.jpeg"
         },
         {
           "title": "Kreikkalainen moussaka",
@@ -93,8 +95,12 @@
           ],
           "rating": 8,
           "id": "paaruuat-1",
-          "images": [],
-          "image": null
+          "images": [
+            "images/Moussaka.jpeg",
+            "images/Moussaka whole meal.jpeg",
+            "images/Moussaka ladonta.jpeg"
+          ],
+          "image": "images/Moussaka.jpeg"
         },
         {
           "title": "Intialainen jauhelihakeema",
@@ -134,8 +140,12 @@
           ],
           "rating": 9,
           "id": "paaruuat-2",
-          "images": [],
-          "image": null
+          "images": [
+            "images/Intialainen keema 2.jpeg",
+            "images/Intialainen keema.jpeg",
+            "images/Intialainen keema koko ateria.jpeg"
+          ],
+          "image": "images/Intialainen keema 2.jpeg"
         },
         {
           "title": "Appelsiinikana",
@@ -186,8 +196,10 @@
           ],
           "rating": 10,
           "id": "paaruuat-3",
-          "images": [],
-          "image": null
+          "images": [
+            "images/appelsiinikana.png"
+          ],
+          "image": "images/appelsiinikana.png"
         },
         {
           "title": "Hot Honey Kanariisivuoka",
@@ -301,8 +313,10 @@
           ],
           "rating": 9,
           "id": "paaruuat-6",
-          "images": [],
-          "image": null
+          "images": [
+            "images/Keltainen curry.jpeg"
+          ],
+          "image": "images/Keltainen curry.jpeg"
         },
         {
           "title": "Gluteeniton makaroonilaatikko (munaton)",
@@ -454,8 +468,11 @@
           ],
           "rating": 10,
           "id": "paaruuat-9",
-          "images": [],
-          "image": null
+          "images": [
+            "images/kanatortilla.jpeg",
+            "images/kanatortillan täytteet.jpeg"
+          ],
+          "image": "images/kanatortilla.jpeg"
         },
         {
           "title": "Teriyaki-jauhelihaperunavuoka",
@@ -555,8 +572,10 @@
           ],
           "rating": 10,
           "id": "paaruuat-11",
-          "images": [],
-          "image": null
+          "images": [
+            "images/pizza2.jpeg"
+          ],
+          "image": "images/pizza2.jpeg"
         },
         {
           "title": "Rullakebab",
@@ -619,8 +638,10 @@
           ],
           "rating": 10,
           "id": "paaruuat-12",
-          "images": [],
-          "image": null
+          "images": [
+            "images/kebabbia.jpeg"
+          ],
+          "image": "images/kebabbia.jpeg"
         },
         {
           "title": "Tonnikalamelt ruisleipä",
@@ -863,8 +884,10 @@
           ],
           "rating": 9,
           "id": "jalkiruoat-0",
-          "images": [],
-          "image": null
+          "images": [
+            "images/brownie.jpeg"
+          ],
+          "image": "images/brownie.jpeg"
         },
         {
           "title": "Proteiini-porkkanakakku",
@@ -938,8 +961,10 @@
           ],
           "rating": 9,
           "id": "jalkiruoat-1",
-          "images": [],
-          "image": null
+          "images": [
+            "images/porkkanakakku ilman frostingia.jpeg"
+          ],
+          "image": "images/porkkanakakku ilman frostingia.jpeg"
         },
         {
           "title": "Raejuusto-vadelmajäätelö",
@@ -1293,8 +1318,10 @@
       "meta": "~5–6 annosta",
       "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41…",
       "rating": 10,
-      "image": null,
-      "images": []
+      "image": "images/Mausteinen jauhelihapata.jpeg",
+      "images": [
+        "images/Mausteinen jauhelihapata.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1305,8 +1332,12 @@
       "meta": "~6 annosta",
       "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
       "rating": 8,
-      "image": null,
-      "images": []
+      "image": "images/Moussaka.jpeg",
+      "images": [
+        "images/Moussaka.jpeg",
+        "images/Moussaka whole meal.jpeg",
+        "images/Moussaka ladonta.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1317,8 +1348,12 @@
       "meta": "~4–5 annosta",
       "macros": "~420 kcal / ~42 g prot per annos.",
       "rating": 9,
-      "image": null,
-      "images": []
+      "image": "images/Intialainen keema 2.jpeg",
+      "images": [
+        "images/Intialainen keema 2.jpeg",
+        "images/Intialainen keema.jpeg",
+        "images/Intialainen keema koko ateria.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1329,8 +1364,10 @@
       "meta": "6 annosta",
       "macros": "6 ann: ~441 kcal / ~59 g prot",
       "rating": 10,
-      "image": null,
-      "images": []
+      "image": "images/appelsiinikana.png",
+      "images": [
+        "images/appelsiinikana.png"
+      ]
     },
     {
       "kind": "recipe",
@@ -1365,8 +1402,10 @@
       "meta": "~4–5 annosta",
       "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 kcal / ~46…",
       "rating": 9,
-      "image": null,
-      "images": []
+      "image": "images/Keltainen curry.jpeg",
+      "images": [
+        "images/Keltainen curry.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1401,8 +1440,11 @@
       "meta": "~4 annosta",
       "macros": "~590 kcal / ~57 g prot per annos.",
       "rating": 10,
-      "image": null,
-      "images": []
+      "image": "images/kanatortilla.jpeg",
+      "images": [
+        "images/kanatortilla.jpeg",
+        "images/kanatortillan täytteet.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1425,8 +1467,10 @@
       "meta": "1–2 annosta",
       "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameet…",
       "rating": 10,
-      "image": null,
-      "images": []
+      "image": "images/pizza2.jpeg",
+      "images": [
+        "images/pizza2.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1437,8 +1481,10 @@
       "meta": "4–6 annosta",
       "macros": null,
       "rating": 10,
-      "image": null,
-      "images": []
+      "image": "images/kebabbia.jpeg",
+      "images": [
+        "images/kebabbia.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1497,8 +1543,10 @@
       "meta": "2–6 annosta",
       "macros": "koko satsi ~979 kcal / ~58 g prot · 1/2 = ~490 kcal / ~…",
       "rating": 9,
-      "image": null,
-      "images": []
+      "image": "images/brownie.jpeg",
+      "images": [
+        "images/brownie.jpeg"
+      ]
     },
     {
       "kind": "recipe",
@@ -1509,8 +1557,10 @@
       "meta": "1 annos",
       "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 kcal / ~15,…",
       "rating": 9,
-      "image": null,
-      "images": []
+      "image": "images/porkkanakakku ilman frostingia.jpeg",
+      "images": [
+        "images/porkkanakakku ilman frostingia.jpeg"
+      ]
     },
     {
       "kind": "recipe",
