@@ -115,7 +115,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Creamy Beef Pasta
-*~3 annosta · 7/10*
+*~3 annosta · 8/10*
 
 **Ainekset:**
 - 600 g naudanjauheliha mahd vähärasvanen
