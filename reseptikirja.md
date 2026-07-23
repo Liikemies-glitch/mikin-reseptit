@@ -197,7 +197,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Kastike:** 120 g jogurttia 3 % + oliiviöljy + lime + persilja + sinappi → blenderi
 
-**Valmistus:** Paista bataatit öljyssä uunissa kypsiksi. Ruskista sipuli + valkosipuli + jauheliha, lisää tomaattipyree ja mausteet. Sekoita juustoraaste lopuksi. Blenderoi kastike. Kokoa bowl: bataatti, jauheliha, kastike päälle.
+**Valmistus:** Kuutioi bataatit puolikkaan peukalon kokoisiksi paloiksi, pistä kulhoon, lisää vähä oliiviöljyä, levitä uunipellille ja kypsennä uunissa. Ruskista sipuli + valkosipuli + jauheliha, lisää tomaattipyree ja mausteet. Sekoita juustoraaste lopuksi. Blenderoi kastike. Kokoa bowl: bataatti, jauheliha, kastike päälle.
 
 **Makrot:** ~482 kcal / ~43 g prot per annos.
 
