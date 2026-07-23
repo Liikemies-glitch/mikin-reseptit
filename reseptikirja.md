@@ -87,7 +87,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Suurustus:** 3 rkl maissitärkkelystä kylmään veteen
 
-**Valmistus:** Paista kanafileet uunissa 200°C ~26 min. Keitä kastike kasaan, lisää suurustus ja anna sakeutua. Yhdistä kana kastikkeeseen. Ripottele seesaminsiemenet + kevätsipuli päälle.
+**Valmistus:** Leikkaa kana puolikkaan peukalon kokoisiksi paloiksi, levitä uunipellille ja kypsennä uunissa 200°C ~26 min. Keitä kastike kasaan, lisää suurustus ja anna sakeutua. Yhdistä kana kastikkeeseen. Ripottele seesaminsiemenet + kevätsipuli päälle.
 
 **Vinkki:** Maku 100/100 (5/5), mutta sokeritonta appelsiinimehua ei välttämättä kannata käyttää — maku heikkenee tosi nopeasti. Normi appelsiinimehu toimii todennäköisesti paremmin.
 
