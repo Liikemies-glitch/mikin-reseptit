@@ -183,7 +183,7 @@
         },
         {
           "title": "Hot Honey Kanariisivuoka",
-          "meta": "4 annosta, 50 min",
+          "meta": "4 annosta",
           "blocks": [
             {
               "type": "section",
@@ -1169,7 +1169,7 @@
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Hot Honey Kanariisivuoka",
-      "meta": "4 annosta, 50 min",
+      "meta": "4 annosta",
       "macros": "~446 kcal / ~42 g prot per annos.",
       "rating": 10
     },
