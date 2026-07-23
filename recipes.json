@@ -391,27 +391,40 @@
               "label": "Ainekset",
               "content": "",
               "items": [
-                "650 g kanarintafileetä + oliiviöljy + suola + valkosipulijauhe + fajitamauste + limemehu",
-                "2 sipulia + 3 paprikaa",
-                "Täytteet: 150 g juustoraastetta 17 % + tomaatti + korianteri + 4 tortillaa"
+                "650 g kanarintafileetä",
+                "Oliiviöljy, suola, valkosipulijauhe, fajitamauste, limemehu",
+                "2 sipulia + 3 paprikaa + 1 tl oliiviöljyä",
+                "150 g juustoraastetta 17 %",
+                "1 tomaatti + kourallinen korianteria",
+                "4 tortillaa (361 g paketti / 6 kpl → käytä 4)"
               ]
             },
             {
               "type": "section",
               "label": "Kastike",
-              "content": "150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola",
+              "content": "150 g kreikkalaista jogurttia 3 % + 15 g sriracha + ripaus savupaprikaa + suolaa",
               "items": []
             },
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Mausta kana ja paista kypsäksi, suikaloi. Kuullota sipuli + paprika. Sekoita kastike. Lämmitä tortillat, täytä kanalla, kasviksilla, juustolla, tomaatilla ja korianterilla. Lisää kastike.",
-              "items": []
+              "content": "",
+              "items": [],
+              "steps": [
+                "Kuutioi kananrinta ja mausta oliiviöljyllä, suolalla, valkosipulijauheella, fajitamausteella ja limemehulla.",
+                "Pilko sipulit, paprikat, tomaatti ja korianteri.",
+                "Heitä sipuli ja paprikat uunipellille, mausta samoilla mausteilla kuin kana, sekoita. Laita pelti uuniin.",
+                "Sekoita kastike kreikkalaisesta jogurtista, srirachasta, savupaprikasta ja suolasta.",
+                "Kypsennä kasviksia uunissa ~20 min.",
+                "Lisää kanakuutiot samalle pellille ja jatka uunissa ~30 min.",
+                "Ota pelti uunista, sekoita joukkoon osa juustosta sekä tomaatti ja korianteri. Ripottele loput juustoraasteesta päälle ja grillaa vielä ~5 min.",
+                "Ota uunista. Lado täytettä tortillan väliin, lusikoi jogurttikastike päälle, rullaa."
+              ]
             },
             {
               "type": "section",
               "label": "Makrot",
-              "content": "~543 kcal / ~54 g prot per annos.",
+              "content": "~590 kcal / ~57 g prot per annos.",
               "items": []
             }
           ],
@@ -1256,7 +1269,7 @@
       "section": "Pääruoat",
       "title": "Kanatortillat",
       "meta": "~4 annosta",
-      "macros": "~543 kcal / ~54 g prot per annos.",
+      "macros": "~590 kcal / ~57 g prot per annos.",
       "rating": 7
     },
     {
