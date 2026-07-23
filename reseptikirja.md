@@ -233,34 +233,29 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Teriyaki-jauhelihaperunavuoka
-*~4–5 annosta · 8/10*
+*~4 annosta · 8/10*
 
-**Runko:**
-- 700 g jauhelihaa (Atria kevyt nauta-sika 9,5 %)
-- 500 g pakastettua perunasuikaletta
-- 500 g pakastettua parsakaali-kukkakaalia
-- 1 sipuli, suola, pippuri
-- *Isommassa versiossa lisäksi 230 g kidneypapuja valutettuna*
+**Ainekset:**
+- 600 g jauhelihaa
+- 400 g pakastettua perunasuikaletta
+- 250 g pakastettua parsakaalia
+- 250 g pakastettua kukkakaalia
+- 230 g kidneypapuja valutettuna
+- Suola, pippuri
 
-**Glaze (perus, 4 ann):** 50 g Teriyaki & Sesame Oil -wokkikastiketta, 2 rkl soijaa, 1 rkl hunajaa, 1 rkl omenaviinietikkaa, 1 tl valkosipulijauhetta, 1 tl kuivattua inkivääriä, ½ liemikuutio murennettuna
+**Glaze:** 50 g Santa Maria Teriyaki & Sesame Oil -wokkikastiketta, 4 rkl soijaa, 2 rkl hunajaa, 2 rkl omenaviinietikkaa, 2 tl valkosipulijauhetta, 2 tl kuivattua inkivääriä, 1 dl vahvaa lihalientä
 
-**Kasvatettu glaze (isompi versio, 5 ann):** 50 g teriyakia, 4 rkl soijaa, 2 rkl hunajaa, 2 rkl omenaviinietikkaa, 2 tl valkosipulijauhetta, 2 tl kuivattua inkivääriä, 1 dl vahvaa lihalientä
+**Lime-jogurttisoosi:** 200 g rasvatonta kreikkalaista jogurttia + puolen limen mehu + ripaus mustaa pippuria → blenderoi tasaiseksi
 
 **Valmistus:**
-1. Ruskista jauheliha ja mausta (pakollinen — raakana vuokaan jauheliha möykkyyntyy)
-2. Sekoita vuoassa kaikki, **ei lisänestettä** (pakastekasvikset päästävät sulaessaan 1,5–2 dl vettä)
-3. Glaze vuokaan, sekoita huolella läpi, folio, 200°C 30 min
-4. Folio pois, 15–20 min lisää
-5. Seesaminsiemenet + kevätsipuli päälle
+1. Ruskista jauheliha ja mausta suolalla sekä pippurilla (pakollinen — raakana vuokaan jauheliha möykkyyntyy).
+2. Sekoita vuoassa jauheliha, perunasuikale, parsakaali, kukkakaali ja pavut. **Ei lisänestettä** (pakastekasvikset päästävät sulaessaan 1,5–2 dl vettä).
+3. Sekoita glaze ja kaada vuokaan, sekoita huolella läpi. Folio päälle, 200°C 30 min.
+4. Folio pois, vielä 15–20 min.
+5. Ota vuoka uunista. Kaada lime-jogurttisoosi kuuman vuoan päälle heti ja sekoita muhennokseksi.
+6. Seesaminsiemenet + kevätsipuli päälle (valinnainen).
 
-**Lime-jogurttisoosi (muhennosversio):** 200 g rasvatonta kreikkalaista jogurttia + puolen limen mehu + ripaus mustaa pippuria, blenderoi tasaiseksi, kaada kuuman vuoan päälle heti uunista oton jälkeen ja sekoita huolella läpi muhennokseksi.
-
-**Makrot:**
-- Ilman papuja, 4 ann: ~496 kcal / ~42 g prot
-- Papujen kanssa koko vuoka: ~2370 kcal / ~188 g prot → 5 ann ~474 kcal / ~38 g prot, 4 ann ~592 kcal / ~47 g prot
-- Vuoka + lime-jogurttisoosi (600 g jauheliha, 500 g peruna, 600 g kaalia, 230 g papuja, ei sipulia): koko erä ~2035 kcal / ~179 g prot, per annos (4) ~509 kcal / ~44,8 g prot
-
-**Variaatio:** sama runko toimii myös hot honey -glazella.
+**Makrot:** koko erä ~1905 kcal / ~175 g prot → per annos (4) ~476 kcal / ~44 g prot.
 
 ---
 
@@ -504,7 +499,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 **Soveltuu:** Teriyaki-jauhelihaperunavuokaan — makea-suolainen wokkimainen glaze.
 
-**Ainekset:** 50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri
+**Ainekset:** 50 g Santa Maria Teriyaki & Sesame Oil, 4 rkl soija, 2 rkl hunaja, 2 rkl omenaviinietikka, 2 tl valkosipulijauhe, 2 tl kuivattu inkivääri, 1 dl vahvaa lihalientä
 
 **Valmistus:** Sekoita glaze ja sekoita vuokaan ennen uunia.
 

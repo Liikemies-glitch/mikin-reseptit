@@ -439,30 +439,31 @@
         },
         {
           "title": "Teriyaki-jauhelihaperunavuoka",
-          "meta": "~4–5 annosta",
+          "meta": "~4 annosta",
           "blocks": [
             {
               "type": "section",
-              "label": "Runko",
+              "label": "Ainekset",
               "content": "",
               "items": [
-                "700 g jauhelihaa (Atria kevyt nauta-sika 9,5 %)",
-                "500 g pakastettua perunasuikaletta",
-                "500 g pakastettua parsakaali-kukkakaalia",
-                "1 sipuli, suola, pippuri",
-                "*Isommassa versiossa lisäksi 230 g kidneypapuja valutettuna*"
+                "600 g jauhelihaa",
+                "400 g pakastettua perunasuikaletta",
+                "250 g pakastettua parsakaalia",
+                "250 g pakastettua kukkakaalia",
+                "230 g kidneypapuja valutettuna",
+                "Suola, pippuri"
               ]
             },
             {
               "type": "section",
-              "label": "Glaze (perus, 4 ann)",
-              "content": "50 g Teriyaki & Sesame Oil -wokkikastiketta, 2 rkl soijaa, 1 rkl hunajaa, 1 rkl omenaviinietikkaa, 1 tl valkosipulijauhetta, 1 tl kuivattua inkivääriä, ½ liemikuutio murennettuna",
+              "label": "Glaze",
+              "content": "50 g Santa Maria Teriyaki & Sesame Oil -wokkikastiketta, 4 rkl soijaa, 2 rkl hunajaa, 2 rkl omenaviinietikkaa, 2 tl valkosipulijauhetta, 2 tl kuivattua inkivääriä, 1 dl vahvaa lihalientä",
               "items": []
             },
             {
               "type": "section",
-              "label": "Kasvatettu glaze (isompi versio, 5 ann)",
-              "content": "50 g teriyakia, 4 rkl soijaa, 2 rkl hunajaa, 2 rkl omenaviinietikkaa, 2 tl valkosipulijauhetta, 2 tl kuivattua inkivääriä, 1 dl vahvaa lihalientä",
+              "label": "Lime-jogurttisoosi",
+              "content": "200 g rasvatonta kreikkalaista jogurttia + puolen limen mehu + ripaus mustaa pippuria → blenderoi tasaiseksi",
               "items": []
             },
             {
@@ -471,33 +472,18 @@
               "content": "",
               "items": [],
               "steps": [
-                "Ruskista jauheliha ja mausta (pakollinen — raakana vuokaan jauheliha möykkyyntyy)",
-                "Sekoita vuoassa kaikki, **ei lisänestettä** (pakastekasvikset päästävät sulaessaan 1,5–2 dl vettä)",
-                "Glaze vuokaan, sekoita huolella läpi, folio, 200°C 30 min",
-                "Folio pois, 15–20 min lisää",
-                "Seesaminsiemenet + kevätsipuli päälle"
+                "Ruskista jauheliha ja mausta suolalla sekä pippurilla (pakollinen — raakana vuokaan jauheliha möykkyyntyy).",
+                "Sekoita vuoassa jauheliha, perunasuikale, parsakaali, kukkakaali ja pavut. **Ei lisänestettä** (pakastekasvikset päästävät sulaessaan 1,5–2 dl vettä).",
+                "Sekoita glaze ja kaada vuokaan, sekoita huolella läpi. Folio päälle, 200°C 30 min.",
+                "Folio pois, vielä 15–20 min.",
+                "Ota vuoka uunista. Kaada lime-jogurttisoosi kuuman vuoan päälle heti ja sekoita muhennokseksi.",
+                "Seesaminsiemenet + kevätsipuli päälle (valinnainen)."
               ]
-            },
-            {
-              "type": "section",
-              "label": "Lime-jogurttisoosi (muhennosversio)",
-              "content": "200 g rasvatonta kreikkalaista jogurttia + puolen limen mehu + ripaus mustaa pippuria, blenderoi tasaiseksi, kaada kuuman vuoan päälle heti uunista oton jälkeen ja sekoita huolella läpi muhennokseksi.",
-              "items": []
             },
             {
               "type": "section",
               "label": "Makrot",
-              "content": "",
-              "items": [
-                "Ilman papuja, 4 ann: ~496 kcal / ~42 g prot",
-                "Papujen kanssa koko vuoka: ~2370 kcal / ~188 g prot → 5 ann ~474 kcal / ~38 g prot, 4 ann ~592 kcal / ~47 g prot",
-                "Vuoka + lime-jogurttisoosi (600 g jauheliha, 500 g peruna, 600 g kaalia, 230 g papuja, ei sipulia): koko erä ~2035 kcal / ~179 g prot, per annos (4) ~509 kcal / ~44,8 g prot"
-              ]
-            },
-            {
-              "type": "section",
-              "label": "Variaatio",
-              "content": "sama runko toimii myös hot honey -glazella.",
+              "content": "koko erä ~1905 kcal / ~175 g prot → per annos (4) ~476 kcal / ~44 g prot.",
               "items": []
             }
           ],
@@ -1025,7 +1011,7 @@
             {
               "type": "section",
               "label": "Ainekset",
-              "content": "50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri",
+              "content": "50 g Santa Maria Teriyaki & Sesame Oil, 4 rkl soija, 2 rkl hunaja, 2 rkl omenaviinietikka, 2 tl valkosipulijauhe, 2 tl kuivattu inkivääri, 1 dl vahvaa lihalientä",
               "items": []
             },
             {
@@ -1284,8 +1270,8 @@
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Teriyaki-jauhelihaperunavuoka",
-      "meta": "~4–5 annosta",
-      "macros": "Ilman papuja, 4 ann: ~496 kcal / ~42 g prot · Papujen k…",
+      "meta": "~4 annosta",
+      "macros": "koko erä ~1905 kcal / ~175 g prot → per annos (4) ~476…",
       "rating": 8
     },
     {
