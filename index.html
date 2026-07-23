@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mikin proteiinipainotteinen reseptikirja — korkea proteiini, kontrolloidut kalorit."
+    />
+    <title>Mikin Reseptikirja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="watermark" aria-hidden="true">
+        <p class="watermark__text">MIKKI</p>
+      </div>
+
+      <div class="content">
+        <header class="topbar reveal">
+          <div class="topbar__brand">Mikin Reseptikirja</div>
+          <div class="topbar__actions">
+            <button class="back" id="backBtn" type="button" hidden>← Hakemisto</button>
+            <input
+              class="filter reveal-delay-1"
+              id="filter"
+              type="search"
+              placeholder="Suodata"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <div class="topbar__meta reveal-delay-2" id="count"></div>
+          </div>
+        </header>
+
+        <main>
+          <section class="index reveal reveal-delay-2" id="indexView" aria-label="Reseptihakemisto">
+            <div class="index__header" aria-hidden="true">
+              <div class="cell">Kategoria</div>
+              <div class="cell">Resepti</div>
+              <div class="cell">Annos</div>
+              <div class="cell">Makrot</div>
+              <div class="cell"></div>
+            </div>
+            <div id="indexRows"></div>
+            <div class="empty" id="emptyState" hidden>Ei osumia.</div>
+          </section>
+
+          <section class="detail" id="detailView" hidden aria-live="polite"></section>
+        </main>
+
+        <footer class="footer-note reveal reveal-delay-3" id="footerNote"></footer>
+      </div>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

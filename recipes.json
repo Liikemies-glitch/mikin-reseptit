@@ -1,0 +1,1122 @@
+{
+  "title": "Mikin Proteiinipainotteinen Reseptikirja",
+  "brand": "Mikin Reseptikirja",
+  "intro": "Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloidut kalorit, hyvä maku. Kaikki annoskoot ja makrot ovat arvioita — tarkkuus vaihtelee sen mukaan onko käytetty pakkausmerkintöjä vai yleisarvioita.",
+  "footer": "Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.",
+  "sections": [
+    {
+      "id": "paaruuat",
+      "name": "Pääruoat",
+      "recipes": [
+        {
+          "title": "Mausteinen jauhelihapata",
+          "meta": "~5–6 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "1 kg jauheliha 20 % (nauta/sika)",
+                "2–3 paprikaa",
+                "1 sipuli",
+                "3 valkosipulinkynttä",
+                "Tomaattimurska",
+                "285 g maissia (Pirkka)",
+                "Kidneypapuja (Pirkka)",
+                "200 g fetaa (lautaselle erikseen)",
+                "Kirsikkatomaatteja",
+                "Tuore chili",
+                "Salsa de chipotle + Poppamiehen The Awesome -kastike",
+                "Mausteet: paprika, savupaprika, juustokumina, kurkuma, suola, pippuri",
+                "Riisi keitetään erikseen"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41 g prot",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-0"
+        },
+        {
+          "title": "Kreikkalainen moussaka",
+          "meta": "~6 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "650 g jauhelihaa",
+                "2 munakoisoa",
+                "200 g kreikkalaista jogurttia (päälle)",
+                "2 prk tomaattimurskaa",
+                "1 sipuli, 1 valkosipuli",
+                "Mausteet: kaneli, oregano, suola, pippuri"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Suolaa munakoiso 15 min, kuivaa, paista öljyssä ennen ladontaa. Uuni 200°C 25–30 min.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-1"
+        },
+        {
+          "title": "Keema",
+          "meta": "~4–5 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "600 g jauhelihaa",
+                "2 sipulia, 4 valkosipulinkynttä, inkivääri",
+                "2 tomaattia / tomaattimurska",
+                "200 g pakasteherneitä",
+                "Oliiviöljyä",
+                "Mausteet: garam masala 2 tl, kurkuma 1 tl, juustokumina 1 tl, korianteri 1 tl, chili, suola"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Hauduta kunnes neste haihtunut.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~420 kcal / ~42 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-2"
+        },
+        {
+          "title": "Appelsiinikana",
+          "meta": "2 kg kanarintafileetä",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Kastike",
+              "content": "250 ml appelsiinimehua, 200 ml soijaa, 9 valkosipulinkynttä, ~25 g inkivääriä, 36 g tumma ruokosokeri, 4 rkl omenaviinietikkaa, 1 rkl chilijauhetta",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Suurustus",
+              "content": "3 rkl maissitärkkelystä kylmään veteen",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Kana uuniin 200°C ~26 min → kastike kiehuvaksi + suurustus → yhdistä. Seesaminsiemenet + kevätsipuli päälle.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "6 ann: ~441 kcal / ~59 g prot",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-3"
+        },
+        {
+          "title": "Hot Honey Kanariisivuoka",
+          "meta": "4 annosta, 50 min",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "700 g broilerin paistileikettä",
+                "2,5 dl jasmiiniriisi",
+                "2 vihreää paprikaa",
+                "100 g sipulikuutioita",
+                "6 dl vettä + kanaliemikuutio"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Kastike",
+              "content": "0,5 dl hunajaa, 2 rkl sriracha, 1 rkl omenaviinietikkaa, 1 rkl soijaa, 1 tl savupaprikaa",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Puolet kastikkeesta vuokaan, folio 200°C 30 min → folio pois, loput kastikkeesta, 10–15 min.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~446 kcal / ~42 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-4"
+        },
+        {
+          "title": "High Protein Creamy Beef Pasta",
+          "meta": "~3 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "600 g naudanjauheliha extra lean",
+                "210 g kikhernepastakierteitä",
+                "200 g raejuustoa (blenderoidaan, korvaa tuorejuuston)",
+                "90 g sipulia",
+                "12 g tomaattipyreetä",
+                "150 ml naudanliemi",
+                "3 g valkosipulia",
+                "Mixed herbs / oregano",
+                "12 g Mexican seasoning"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi raejuusto + valkosipuli + yrtit + lihaliemi → kaada jauhelihaan matalalla lämmöllä.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~580 kcal / ~64 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-5"
+        },
+        {
+          "title": "Keltainen curry",
+          "meta": "~4–5 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "800 g kanafileetä",
+                "250 ml täysi kookosmaito, 150 ml kevytmaito",
+                "2 paprikaa, 1 sipuli, 3 valkosipulinkynttä, 2 cm inkivääri",
+                "200 g pakasteherneitä",
+                "Tomaattimurska, ananasmurska, oliiviöljyä",
+                "Mausteet: keltainen currytahna 2–3 rkl, kurkuma 1 tl, juustokumina 1 tl, korianteri 1 tl"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 kcal / ~46 g prot",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-6"
+        },
+        {
+          "title": "Gluteeniton makaroonilaatikko (munaton)",
+          "meta": "~5–6 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "800 g kanajauhelihaa",
+                "200 g gluteeniton makaroni",
+                "500 g raejuustoa",
+                "4 dl kevytmaitoa",
+                "3 tomaattia, 2 sipulia, 3 valkosipulinkynttä",
+                "150 g juustoraastetta",
+                "2 rkl riisijauhoa (munan korvike)",
+                "Oliiviöljyä",
+                "Mausteet: suola, pippuri, paprika, oregano, sinappi"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Uuni 200°C 35–40 min.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 kcal / ~54 g prot",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Variaatio (kidneypavuilla, vähemmän kaloreita)",
+              "content": "korvaa 100 g makaronia 100 g kidneypavuilla, ja Philadelphia Light 100 g → blenderoitu raejuusto 100 g. 4 ann: 150 g makaronia + 230 g kidneypapuja + raejuusto tuorejuuston tilalla → ~598 kcal / ~50 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-7"
+        },
+        {
+          "title": "Bataatti-jauhelihabowl",
+          "meta": "~5 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "900 g bataattia + oliiviöljyä uuniin",
+                "800 g jauhelihaa 7 % + 2 sipulia + 3 valkosipulia + 70 g tomaattipyree + 50 g juustoraastetta",
+                "Mausteet: cayenne, paprika, juustokumina, suola"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Kastike",
+              "content": "120 g jogurttia 3 % + oliiviöljy + lime + persilja + sinappi → blenderi",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~482 kcal / ~43 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-8"
+        },
+        {
+          "title": "Kanatortillat",
+          "meta": "~4 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "650 g kanarintafileetä + oliiviöljy + suola + valkosipulijauhe + fajitamauste + limemehu",
+                "2 sipulia + 3 paprikaa",
+                "Täytteet: 150 g juustoraastetta 17 % + tomaatti + korianteri + 4 tortillaa"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Kastike",
+              "content": "150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~543 kcal / ~54 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-9"
+        },
+        {
+          "title": "Teriyaki-jauhelihaperunavuoka",
+          "meta": "~4–5 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Runko",
+              "content": "",
+              "items": [
+                "700 g jauhelihaa (Atria kevyt nauta-sika 9,5 %)",
+                "500 g pakastettua perunasuikaletta",
+                "500 g pakastettua parsakaali-kukkakaalia",
+                "1 sipuli, suola, pippuri",
+                "*Isommassa versiossa lisäksi 230 g kidneypapuja valutettuna*"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Glaze (perus, 4 ann)",
+              "content": "50 g Teriyaki & Sesame Oil -wokkikastiketta, 2 rkl soijaa, 1 rkl hunajaa, 1 rkl omenaviinietikkaa, 1 tl valkosipulijauhetta, 1 tl kuivattua inkivääriä, ½ liemikuutio murennettuna",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Kasvatettu glaze (isompi versio, 5 ann)",
+              "content": "50 g teriyakia, 4 rkl soijaa, 2 rkl hunajaa, 2 rkl omenaviinietikkaa, 2 tl valkosipulijauhetta, 2 tl kuivattua inkivääriä, 1 dl vahvaa lihalientä",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "",
+              "items": [],
+              "steps": [
+                "Ruskista jauheliha ja mausta (pakollinen — raakana vuokaan jauheliha möykkyyntyy)",
+                "Sekoita vuoassa kaikki, **ei lisänestettä** (pakastekasvikset päästävät sulaessaan 1,5–2 dl vettä)",
+                "Glaze vuokaan, sekoita huolella läpi, folio, 200°C 30 min",
+                "Folio pois, 15–20 min lisää",
+                "Seesaminsiemenet + kevätsipuli päälle"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Lime-jogurttisoosi (muhennosversio)",
+              "content": "200 g rasvatonta kreikkalaista jogurttia + puolen limen mehu + ripaus mustaa pippuria, blenderoi tasaiseksi, kaada kuuman vuoan päälle heti uunista oton jälkeen ja sekoita huolella läpi muhennokseksi.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "",
+              "items": [
+                "Ilman papuja, 4 ann: ~496 kcal / ~42 g prot",
+                "Papujen kanssa koko vuoka: ~2370 kcal / ~188 g prot → 5 ann ~474 kcal / ~38 g prot, 4 ann ~592 kcal / ~47 g prot",
+                "Vuoka + lime-jogurttisoosi (600 g jauheliha, 500 g peruna, 600 g kaalia, 230 g papuja, ei sipulia): koko erä ~2035 kcal / ~179 g prot, per annos (4) ~509 kcal / ~44,8 g prot"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Variaatio",
+              "content": "sama runko toimii myös hot honey -glazella.",
+              "items": []
+            }
+          ],
+          "id": "paaruuat-10"
+        }
+      ],
+      "table": null,
+      "raw": []
+    },
+    {
+      "id": "pizzat",
+      "name": "Pizzat",
+      "recipes": [
+        {
+          "title": "Rahkapohja-pizza",
+          "meta": "koko pizza",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Pohja",
+              "content": "100 g maitorahkaa, 1,2 dl vehnäjauhot, 1 tl leivinjauhe, ½ tl suola, oregano, sipulijauhe",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Kastike",
+              "content": "Polpa ~70 ml",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Täytteet (vakio)",
+              "content": "70 g kalkkunan pepperoni + 75 g Kadett-juusto 12 % + 2 valkosipulinkynttä + 1 tl öljy + loraus valkosipulimajoneesia",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Kaikki kerralla 225°C ~10 min.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameetvursti + 50 g Valio 17 %: ~563 kcal / ~52 g prot)",
+              "items": []
+            }
+          ],
+          "id": "pizzat-0"
+        },
+        {
+          "title": "Kanapohjapizza",
+          "meta": "~6 siivua",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "500 g kanajauhelihaa",
+                "50 g parmesan",
+                "1 muna",
+                "Valkosipulijauhe, italian seasoning"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Levitä 0,5 cm leivinpaperille, 200°C 20–25 min, valuta neste, lisää tomaattikastike + mozzarella, vielä 8–10 min.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~175 kcal / ~19 g prot per siivu.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Vinkki",
+              "content": "raejuusto mozzarellan sekaan nostaa proteiinia.",
+              "items": []
+            }
+          ],
+          "id": "pizzat-1"
+        }
+      ],
+      "table": null,
+      "raw": []
+    },
+    {
+      "id": "liha-erikoisuudet",
+      "name": "Liha-erikoisuudet",
+      "recipes": [
+        {
+          "title": "TikTok-kebab",
+          "meta": "ohut versio",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Jauheliha kaulitaan ohueksi levyksi ja rullataan tiiviisti leivinpaperiin (~120 g lihaa per leivinpaperi). Mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri."
+            },
+            {
+              "type": "section",
+              "label": "Kypsennys",
+              "content": "15 min riittää ohuena versiona (ei 45–50 min kuten paksummassa rullaversiossa).",
+              "items": []
+            }
+          ],
+          "id": "liha-erikoisuudet-0"
+        }
+      ],
+      "table": null,
+      "raw": []
+    },
+    {
+      "id": "jalkiruoat",
+      "name": "Jälkiruoat",
+      "recipes": [
+        {
+          "title": "Brownie",
+          "meta": "jauhoton, proteiinipohjainen",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "2 banaania (soseutettuna)",
+                "1 kananmuna",
+                "1 skuuppi (30 g) suklaaproteiinijauhetta",
+                "100 g maapähkinävoita",
+                "~1,2 tl ruokasoodaa",
+                "Suklaahiput ~20 g (valinnainen)"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita kaikki tasaiseksi, kaada vuokaan, uuni 190–200°C **~35 min** (jauhoton taikina kiinteytyy hitaasti — 25 min ei riitä). Anna jäähtyä ennen leikkuuta, koostumus kiinteytyy myös jäähtyessä.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Säilyvyys",
+              "content": "paranee jääkaapissa — koostumus tiivistyy, maku tasaantuu.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Mustikkaversio",
+              "content": "pensasmustikat toimivat suklaahippujen tilalla, mutta valuvat mössöksi pohjalle — suklaahiput parempi jos rakenne merkitsee.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "koko satsi ~979 kcal / ~58 g prot",
+              "items": [
+                "1/2 = ~490 kcal / ~29 g prot",
+                "1/6 = ~163 kcal / ~9,7 g prot"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Kevennetyt variaatiot",
+              "content": "",
+              "items": [
+                "**(A) Omenasose-versio:** 60 g maapähkinävoita + 40 g omenasosetta. Koko satsi ~764 kcal / ~52 g prot; 1/6 = ~127 kcal / ~8,7 g prot.",
+                "**(B) Banaani-versio:** 3 banaania (2 sijaan) + 60 g maapähkinävoita. Koko satsi ~836 kcal / ~53 g prot; 1/6 = ~139 kcal / ~8,8 g prot."
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Lisävinkki",
+              "content": "Barebells-patukka (55 g, 217 kcal / 16 g prot) paloina sekaan toimii suklaahippujen tilalla, mutta sulaa uunissa eikä pysy ehjänä — tuo makutaskuja. Banaanimaku sopii pohjaan hyvin.",
+              "items": []
+            }
+          ],
+          "id": "jalkiruoat-0"
+        },
+        {
+          "title": "Proteiini-bataattikakku",
+          "meta": "8 palaa",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "2 keskikokoista bataattia (~400 g, kypsennä + soseuta)",
+                "100 g rahkaa",
+                "36 g kookosöljyä",
+                "~110 g vaahterasiirappia",
+                "2 kananmunaa",
+                "~125 g itsestäänkohoavaa jauhoa + ~40 g proteiinijauhetta",
+                "~50 g suklaahippuja"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Huom",
+              "content": "proteiinijauhe kuivattaa taikinaa — lisää tarvittaessa maitoa.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Uuni 180°C, tikkutesti.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~254 kcal / ~11,5 g prot per pala.",
+              "items": []
+            }
+          ],
+          "id": "jalkiruoat-1"
+        },
+        {
+          "title": "Proteiini-porkkanakakku",
+          "meta": "1 annos",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Kuivat",
+              "content": "",
+              "items": [
+                "40 g kaurahiutaleita (~0,7 dl, jauha hienoksi)",
+                "30 g proteiinijauhetta",
+                "1 rkl (~12 g) vähäkalorista leivontasokeria (esim. Hermesetas — erytritoli+stevia+isomaltuloosi, 1:1 sokerin kanssa, isomaltuloosi ruskistaa)",
+                "1 tl kanelia (muskotin voi korvata pelkällä kanelilla)",
+                "1 tl leivinjauhetta",
+                "1 tl maissitärkkelystä"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Märät",
+              "content": "",
+              "items": [
+                "100 g munanvalkuaista (~3 valkuaista)",
+                "50 g rasvatonta jogurttia",
+                "1 tl vaniljauutetta (aito, alkoholipohjainen uute toimii — alkoholi haihtuu paistossa)",
+                "60 g raastettua porkkanaa (~1 keskikokoinen)"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Vinkki",
+              "content": "märät ainekset (paitsi porkkana) helpoin sekoittaa blenderissä — porkkanaraaste ei mene blenderiin, lisää se sellaisenaan blendattujen joukkoon.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Frosting",
+              "content": "Frosting vasta täysin jäähtyneelle kakulle (lämpimänä juoksettuu), jäähdytä 30 min ennen levitystä.",
+              "items": [
+                "100 g vaniljaskyriä (kuohkea versio levittyy paremmin kuin tiivis rahka)",
+                "50 g maitorahkaa",
+                "Makeutusta maun mukaan",
+                "Ripaus kanelia"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Uuni",
+              "content": "180–200°C, 12–20 min — tikkutesti (10–12 min riittää vain ohuena kerroksena).",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Jäähdytys (turvallisuus)",
+              "content": "~15–20 min uunista oton jälkeen kannen alla pöydällä (loppukypsyminen jälkilämmöllä) → siirrä jääkaappiin loppuajaksi ennen frostingia. Ei jätetä yli 2 h huoneenlämpöön (munanvalkuainen + jogurtti).",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "kakku ~421 kcal / ~48 g prot, frosting ~112 kcal / ~15,3 g prot — **yhteensä ~533 kcal / ~63,3 g prot**.\n\nProteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. brownie 16,9) — ei rasvalähdettä lainkaan.",
+              "items": []
+            }
+          ],
+          "id": "jalkiruoat-2"
+        },
+        {
+          "title": "Raejuusto-vadelmajäätelö",
+          "meta": "~1,5–2 litraa",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "300 g raejuustoa",
+                "300 g vadelmia (puolet blenderoituna, puolet survottuna karkeaksi soseeksi swirl-marmorointiin)",
+                "3 munanvalkuaista (~100 g), vaahdotettuna pehmeäksi vaahdoksi (soft peak — kärki taipuu hieman, ei täysi kova marenki)",
+                "2 skuuppia vaniljaheraa (60 g)",
+                "2 tl vaniljauutetta",
+                "5 rkl makeutusainetta",
+                "Tilkka limemehua",
+                "1 dl täysmaitoa (notkistaa massaa)"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "",
+              "items": [],
+              "steps": [
+                "Vatkaa valkuaiset pehmeäksi vaahdoksi",
+                "Blenderoi raejuusto + puolet vadelmista + hera + vanilja + makeutus + lime + maito tasaiseksi (huolellisesti ja pitkään — raejuuston rakenne pitää hajottaa täysin)",
+                "Käännä valkuaisvaahto varovasti sekaan (nostava, taittava liike — ei sekoiteta voimakkaasti)",
+                "Survo loput vadelmat karkeaksi soseeksi, kaada massan päälle ja vedä haarukalla 2–3 kertaa läpi kevyeksi swirliksi (ei sekoiteta tasaiseksi)",
+                "Pakasta 4–6 h tai yön yli"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Rakennevinkki",
+              "content": "ota massa pakastimesta 30–45 min välein ensimmäisen 2–3 tunnin aikana ja vatkaa/sekoita voimakkaasti — tämä rikkoo muodostuvat jääkiteet ja estää liiallista kiteisyyttä (no-churn-tekniikka).",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot (koko erä)",
+              "content": "~762 kcal / ~108 g prot — poikkeuksellisen proteiinitehokas jäätelö.",
+              "items": []
+            }
+          ],
+          "id": "jalkiruoat-3"
+        },
+        {
+          "title": "Vadelmapirtelö",
+          "meta": "nopea versio",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "120 g vadelmia",
+                "250 g maitorahkaa",
+                "150 g rasvatonta kreikkalaista jogurttia",
+                "Makeutusainetta maun mukaan"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi kaikki tasaiseksi.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~324 kcal / ~49,2 g prot.",
+              "items": []
+            }
+          ],
+          "id": "jalkiruoat-4"
+        }
+      ],
+      "table": null,
+      "raw": []
+    },
+    {
+      "id": "rahkakakku",
+      "name": "Rahkakakku",
+      "recipes": [
+        {
+          "title": "Mikin rahkakakku",
+          "meta": "~4 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "375 g maitorahkaa",
+                "90 g heraa (3 skuuppia)",
+                "1,75 banaania (~175 g)",
+                "0,85 dl kaurahiutaleita (~51 g)",
+                "180 g marjoja",
+                "3 keitettyä munaa",
+                "0,15 dl kevytmaitoa"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita, jääkaappiin jähmettymään.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~309 kcal / ~34 g prot per annos.",
+              "items": []
+            }
+          ],
+          "id": "rahkakakku-0"
+        }
+      ],
+      "table": null,
+      "raw": []
+    },
+    {
+      "id": "kastikkeet",
+      "name": "Kastikkeet ja soosit",
+      "recipes": [],
+      "table": {
+        "headers": [
+          "Kastike",
+          "Käyttö",
+          "Ainekset",
+          "Makrot"
+        ],
+        "rows": [
+          [
+            "**Jogurtti-sriracha**",
+            "Kanatortillat, kebab",
+            "150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola",
+            "~90 kcal / ~10 g prot"
+          ],
+          [
+            "**Lime-persilja-jogurtti**",
+            "Bataattibowl",
+            "120 g jogurtti 3 % + oliiviöljy + lime + persilja + sinappi (blenderoi)",
+            "—"
+          ],
+          [
+            "**Hot Honey glaze**",
+            "Kanariisivuoka, pizza, pasta",
+            "0,5 dl hunaja, 2 rkl sriracha, 1 rkl omenaviinietikka, 1 rkl soija, 1 tl savupaprika",
+            "~254 kcal / ~1 g prot (koko erä)"
+          ],
+          [
+            "**Teriyaki-seesami glaze**",
+            "Jauhelihaperunavuoka",
+            "50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri",
+            "~215–254 kcal (koko erä)"
+          ],
+          [
+            "**Lime-jogurttisoosi**",
+            "Jauhelihaperunavuoka (muhennos)",
+            "200 g rasvaton kreikkalainen jogurtti + puolen limen mehu + musta pippuri",
+            "~114 kcal / ~18–22 g prot"
+          ],
+          [
+            "**Sitruunainen raejuustosoosi**",
+            "Vaihtoehto yllä olevalle",
+            "150 g raejuustoa + sitruuna/limemehu + pippuri + vesi ohentamaan",
+            "~124 kcal / ~22 g prot"
+          ]
+        ]
+      },
+      "raw": []
+    },
+    {
+      "id": "perusarvot",
+      "name": "Perusravintoarvot (usein käytetyt)",
+      "recipes": [],
+      "table": {
+        "headers": [
+          "Tuote",
+          "Määrä",
+          "kcal",
+          "Prot"
+        ],
+        "rows": [
+          [
+            "Tonnikala vedessä (label)",
+            "100 g",
+            "101",
+            "24 g"
+          ],
+          [
+            "Tonnikala öljyssä, valutettu (Pirkka)",
+            "150 g",
+            "232",
+            "42 g"
+          ],
+          [
+            "Raejuusto",
+            "100 g",
+            "69",
+            "13 g"
+          ],
+          [
+            "Maitorahka",
+            "100 g",
+            "69",
+            "13 g"
+          ],
+          [
+            "Rasvaton kreikkalainen jogurtti",
+            "100 g",
+            "57",
+            "10 g"
+          ],
+          [
+            "Whey-proteiinijauhe (pieni skuuppi)",
+            "30 g",
+            "113",
+            "24 g"
+          ],
+          [
+            "Huel Black Edition",
+            "90 g (2 skuuppia)",
+            "400",
+            "40 g"
+          ],
+          [
+            "Barebells-patukka",
+            "55 g",
+            "217",
+            "16 g"
+          ]
+        ]
+      },
+      "raw": [
+        "*Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*"
+      ]
+    }
+  ],
+  "index": [
+    {
+      "kind": "recipe",
+      "id": "paaruuat-0",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Mausteinen jauhelihapata",
+      "meta": "~5–6 annosta",
+      "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 k…"
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-1",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Kreikkalainen moussaka",
+      "meta": "~6 annosta",
+      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5."
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-2",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Keema",
+      "meta": "~4–5 annosta",
+      "macros": "~420 kcal / ~42 g prot per annos."
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-3",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Appelsiinikana",
+      "meta": "2 kg kanarintafileetä",
+      "macros": "6 ann: ~441 kcal / ~59 g prot"
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-4",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Hot Honey Kanariisivuoka",
+      "meta": "4 annosta, 50 min",
+      "macros": "~446 kcal / ~42 g prot per annos."
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-5",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "High Protein Creamy Beef Pasta",
+      "meta": "~3 annosta",
+      "macros": "~580 kcal / ~64 g prot per annos."
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-6",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Keltainen curry",
+      "meta": "~4–5 annosta",
+      "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 k…"
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-7",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Gluteeniton makaroonilaatikko (munaton)",
+      "meta": "~5–6 annosta",
+      "macros": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 k…"
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-8",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Bataatti-jauhelihabowl",
+      "meta": "~5 annosta",
+      "macros": "~482 kcal / ~43 g prot per annos."
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-9",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Kanatortillat",
+      "meta": "~4 annosta",
+      "macros": "~543 kcal / ~54 g prot per annos."
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-10",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Teriyaki-jauhelihaperunavuoka",
+      "meta": "~4–5 annosta",
+      "macros": ""
+    },
+    {
+      "kind": "recipe",
+      "id": "pizzat-0",
+      "sectionId": "pizzat",
+      "section": "Pizzat",
+      "title": "Rahkapohja-pizza",
+      "meta": "koko pizza",
+      "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g ka…"
+    },
+    {
+      "kind": "recipe",
+      "id": "pizzat-1",
+      "sectionId": "pizzat",
+      "section": "Pizzat",
+      "title": "Kanapohjapizza",
+      "meta": "~6 siivua",
+      "macros": "~175 kcal / ~19 g prot per siivu."
+    },
+    {
+      "kind": "recipe",
+      "id": "liha-erikoisuudet-0",
+      "sectionId": "liha-erikoisuudet",
+      "section": "Liha-erikoisuudet",
+      "title": "TikTok-kebab",
+      "meta": "ohut versio",
+      "macros": ""
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-0",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Brownie",
+      "meta": "jauhoton, proteiinipohjainen",
+      "macros": "koko satsi ~979 kcal / ~58 g prot"
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-1",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Proteiini-bataattikakku",
+      "meta": "8 palaa",
+      "macros": "~254 kcal / ~11,5 g prot per pala."
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-2",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Proteiini-porkkanakakku",
+      "meta": "1 annos",
+      "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 k…"
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-3",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Raejuusto-vadelmajäätelö",
+      "meta": "~1,5–2 litraa",
+      "macros": "~762 kcal / ~108 g prot — poikkeuksellisen pr…"
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-4",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Vadelmapirtelö",
+      "meta": "nopea versio",
+      "macros": "~324 kcal / ~49,2 g prot."
+    },
+    {
+      "kind": "recipe",
+      "id": "rahkakakku-0",
+      "sectionId": "rahkakakku",
+      "section": "Rahkakakku",
+      "title": "Mikin rahkakakku",
+      "meta": "~4 annosta",
+      "macros": "~309 kcal / ~34 g prot per annos."
+    },
+    {
+      "kind": "table",
+      "sectionId": "kastikkeet",
+      "section": "Kastikkeet ja soosit",
+      "title": "Kastikkeet ja soosit",
+      "meta": "6 riviä",
+      "id": "kastikkeet"
+    },
+    {
+      "kind": "table",
+      "sectionId": "perusarvot",
+      "section": "Perusravintoarvot (usein käytetyt)",
+      "title": "Perusravintoarvot (usein käytetyt)",
+      "meta": "8 riviä",
+      "id": "perusarvot"
+    }
+  ]
+}
