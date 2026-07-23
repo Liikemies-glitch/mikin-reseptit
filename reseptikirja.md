@@ -367,7 +367,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Aamupalat
 
 ### Mikin köyhä aamusmoothie
-*1 annos*
+*1 annos · 8/10*
 
 **Ainekset:**
 - 80 g mustikoita

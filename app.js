@@ -261,7 +261,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=63");
+  const res = await fetch("./recipes.json?v=64");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
