@@ -119,12 +119,12 @@ def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | No
             continue
         if raw.startswith("*") and raw.endswith("*") and not raw.startswith("**"):
             meta_text = raw.strip("*").strip()
-            if "Mikin suosikki" in meta_text:
+            if "Mikki suosittelee" in meta_text:
                 favorite = True
-                badge = "Mikin suosikki"
+                badge = "Mikki suosittelee"
                 # may also include portion info before/after
-                other = re.sub(r"\s*[·|]\s*Mikin suosikki\s*", " ", meta_text, flags=re.I)
-                other = re.sub(r"Mikin suosikki", "", other, flags=re.I).strip(" ·|-")
+                other = re.sub(r"\s*[·|]\s*Mikki suosittelee\s*", " ", meta_text, flags=re.I)
+                other = re.sub(r"Mikki suosittelee", "", other, flags=re.I).strip(" ·|-")
                 if other and not meta:
                     meta = other
             elif not meta:
@@ -133,7 +133,7 @@ def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | No
             continue
         if raw.lower().startswith("mikin suosikki") or "**mikin suosikki**" in raw.lower():
             favorite = True
-            badge = "Mikin suosikki"
+            badge = "Mikki suosittelee"
             i += 1
             continue
         break
@@ -160,11 +160,11 @@ def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | No
             continue
 
         # Favorite badge inline in body
-        if re.search(r"Mikin suosikki", stripped, re.I):
+        if re.search(r"Mikki suosittelee", stripped, re.I):
             favorite = True
-            badge = "Mikin suosikki"
+            badge = "Mikki suosittelee"
             # keep line if it has other content after removing badge markers
-            cleaned = re.sub(r"\*?Mikin suosikki\*?", "", stripped, flags=re.I).strip(" ·|-")
+            cleaned = re.sub(r"\*?Mikki suosittelee\*?", "", stripped, flags=re.I).strip(" ·|-")
             if not cleaned:
                 continue
             stripped = cleaned
@@ -255,11 +255,11 @@ def parse_markdown(text: str) -> dict:
                 rbody = "\n".join(rlines[1:])
                 meta, blocks, favorite, badge = parse_recipe_body(rbody)
                 # Detect favorite in meta italic that includes it
-                if meta and "Mikin suosikki" in meta:
+                if meta and "Mikki suosittelee" in meta:
                     favorite = True
-                    badge = "Mikin suosikki"
-                    meta = re.sub(r"\s*[·|]\s*Mikin suosikki", "", meta, flags=re.I).strip()
-                    meta = re.sub(r"Mikin suosikki", "", meta, flags=re.I).strip(" ·|-") or None
+                    badge = "Mikki suosittelee"
+                    meta = re.sub(r"\s*[·|]\s*Mikki suosittelee", "", meta, flags=re.I).strip()
+                    meta = re.sub(r"Mikki suosittelee", "", meta, flags=re.I).strip(" ·|-") or None
                 recipes.append(
                     {
                         "title": rtitle,

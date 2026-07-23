@@ -57,7 +57,7 @@
             }
           ],
           "favorite": true,
-          "badge": "Mikin suosikki",
+          "badge": "Mikki suosittelee",
           "id": "paaruuat-0"
         },
         {
@@ -131,7 +131,7 @@
             }
           ],
           "favorite": true,
-          "badge": "Mikin suosikki",
+          "badge": "Mikki suosittelee",
           "id": "paaruuat-2"
         },
         {
@@ -176,7 +176,7 @@
             }
           ],
           "favorite": true,
-          "badge": "Mikin suosikki",
+          "badge": "Mikki suosittelee",
           "id": "paaruuat-3"
         },
         {
@@ -215,7 +215,7 @@
             }
           ],
           "favorite": true,
-          "badge": "Mikin suosikki",
+          "badge": "Mikki suosittelee",
           "id": "paaruuat-4"
         },
         {
@@ -1194,7 +1194,7 @@
       "meta": "~5–6 annosta",
       "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41…",
       "favorite": true,
-      "badge": "Mikin suosikki"
+      "badge": "Mikki suosittelee"
     },
     {
       "kind": "recipe",
@@ -1216,7 +1216,7 @@
       "meta": "~4–5 annosta",
       "macros": "~420 kcal / ~42 g prot per annos.",
       "favorite": true,
-      "badge": "Mikin suosikki"
+      "badge": "Mikki suosittelee"
     },
     {
       "kind": "recipe",
@@ -1227,7 +1227,7 @@
       "meta": "2 kg kanarintafileetä",
       "macros": "6 ann: ~441 kcal / ~59 g prot",
       "favorite": true,
-      "badge": "Mikin suosikki"
+      "badge": "Mikki suosittelee"
     },
     {
       "kind": "recipe",
@@ -1238,7 +1238,7 @@
       "meta": "4 annosta, 50 min",
       "macros": "~446 kcal / ~42 g prot per annos.",
       "favorite": true,
-      "badge": "Mikin suosikki"
+      "badge": "Mikki suosittelee"
     },
     {
       "kind": "recipe",

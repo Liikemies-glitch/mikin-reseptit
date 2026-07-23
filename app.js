@@ -66,7 +66,7 @@ function sortedIndexRows(query) {
 
 function renderRecipeRow(row) {
   const favorite = row.favorite
-    ? escapeHtml(row.badge || "Mikin suosikki")
+    ? escapeHtml(row.badge || "Mikki suosittelee")
     : "—";
   return `
       <button
