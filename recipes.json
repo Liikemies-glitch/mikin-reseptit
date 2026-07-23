@@ -595,6 +595,40 @@
           ],
           "rating": 10,
           "id": "paaruuat-12"
+        },
+        {
+          "title": "Tonnikalamelt ruisleipä",
+          "meta": "4 viipaletta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "4 viipaletta ruisleipää",
+                "185 g tonnikalaa (valutettu)",
+                "100 g raejuustoa",
+                "20 g juustoraastetta",
+                "Pieni sipuli tai kevätsipuli silputtuna",
+                "Mustapippuri, paprikajauhe, ripaus sitruunaa",
+                "Oivariinia"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita tonnikala + raejuusto + sipuli + mausteet kulhossa. Sipaise oivariini leiville. Levitä täyte leiville. Ripottele juustoraaste päälle. Uuni 200°C 5–8 min kunnes juusto on sulanut ja kullanruskea.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~700 kcal / ~43 g prot (4 viipaletta).",
+              "items": []
+            }
+          ],
+          "rating": 8,
+          "id": "paaruuat-13"
         }
       ],
       "table": null,
@@ -1258,6 +1292,16 @@
       "meta": "4–6 annosta",
       "macros": null,
       "rating": 10
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-13",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Tonnikalamelt ruisleipä",
+      "meta": "4 viipaletta",
+      "macros": "~700 kcal / ~43 g prot (4 viipaletta).",
+      "rating": 8
     },
     {
       "kind": "recipe",
