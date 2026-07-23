@@ -310,6 +310,24 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
+### Tonnikalamelt ruisleipä
+*4 viipaletta · 8/10*
+
+**Ainekset:**
+- 4 viipaletta ruisleipää
+- 185 g tonnikalaa (valutettu)
+- 100 g raejuustoa
+- 20 g juustoraastetta
+- Pieni sipuli tai kevätsipuli silputtuna
+- Mustapippuri, paprikajauhe, ripaus sitruunaa
+- Oivariinia
+
+**Valmistus:** Sekoita tonnikala + raejuusto + sipuli + mausteet kulhossa. Sipaise oivariini leiville. Levitä täyte leiville. Ripottele juustoraaste päälle. Uuni 200°C 5–8 min kunnes juusto on sulanut ja kullanruskea.
+
+**Makrot:** ~700 kcal / ~43 g prot (4 viipaletta).
+
+---
+
 ## Jälkiruoat
 
 ### Brownie
