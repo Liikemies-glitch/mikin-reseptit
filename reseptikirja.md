@@ -313,7 +313,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Jälkiruoat
 
 ### Brownie
-*jauhoton, proteiinipohjainen · 9/10*
+*2–6 annosta · 9/10*
 
 **Ainekset:**
 - 2 banaania (soseutettuna)

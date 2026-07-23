@@ -606,7 +606,7 @@
       "recipes": [
         {
           "title": "Brownie",
-          "meta": "jauhoton, proteiinipohjainen",
+          "meta": "2–6 annosta",
           "blocks": [
             {
               "type": "section",
@@ -1259,7 +1259,7 @@
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Brownie",
-      "meta": "jauhoton, proteiinipohjainen",
+      "meta": "2–6 annosta",
       "macros": "koko satsi ~979 kcal / ~58 g prot · 1/2 = ~490 kcal / ~…",
       "rating": 9
     },
