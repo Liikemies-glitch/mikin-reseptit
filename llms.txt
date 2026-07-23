@@ -1,0 +1,23 @@
+# Mikin Reseptikirja
+
+> Proteiinipainotteinen reseptikirja (fat loss): korkea proteiini, kontrolloidut kalorit. Kaikki annoskoot ja makrot ovat arvioita.
+
+Tämä tiedosto on koneellisesti luettava sisällysluettelo AI-agenteille. Hae alla olevat lähteet HTTP GET -pyynnöllä (ei kirjautumista).
+
+## Ensisijaiset lähteet
+
+- [Koko reseptikirja Markdownina](https://liikemies-glitch.github.io/mikin-reseptit/reseptikirja.md): ihmisen lukema lähde; ainekset, valmistus, makrot
+- [Reseptit JSONina](https://liikemies-glitch.github.io/mikin-reseptit/recipes.json): strukturoitu data suodatukseen ja suosituksiin
+- [Agenttiohje](https://liikemies-glitch.github.io/mikin-reseptit/AGENTS.md): miten suositella reseptejä ja antaa valmistusohjeita
+
+## Sivusto
+
+- [Käyttöliittymä](https://liikemies-glitch.github.io/mikin-reseptit/): hakemisto ihmisille
+- [GitHub-repo](https://github.com/Liikemies-glitch/mikin-reseptit): lähdekoodi
+
+## Käyttöohje agentille (lyhyt)
+
+1. Lue `reseptikirja.md` tai `recipes.json`.
+2. Suosittele reseptejä käyttäjän tavoitteen mukaan (proteiini, kcal, aika, ainesosat, restriktiot).
+3. Anna valmistusohjeet suomeksi lähteen `Valmistus`-kentästä; älä keksi puuttuvia vaiheita.
+4. Mainitse makrot jos ne on annettu; kerro että arvot ovat arvioita.

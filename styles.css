@@ -303,6 +303,11 @@ td:last-child {
   padding-top: 24px;
 }
 
+.footer-note a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Motion — presence without breaking flat system */
 .reveal {
   opacity: 0;

@@ -1,33 +1,37 @@
 # Mikin Reseptikirja
 
-Proteiinipainotteinen reseptikirja verkossa. Visuaalinen kieli: Refero **19–86** (`DESIGN.md`).
+Proteiinipainotteinen reseptikirja verkossa.
+
+**Sivusto:** https://liikemies-glitch.github.io/mikin-reseptit/
+
+## Anna agentille tämä URL
+
+```text
+https://liikemies-glitch.github.io/mikin-reseptit/llms.txt
+```
+
+Agentti lukee sieltä Markdown/JSON-lähteet, suosittelee reseptejä ja antaa valmistusohjeet. Katso myös [AGENTS.md](./AGENTS.md).
+
+### Esimerkki Cursorille / ChatGPT:lle / Claudelle
+
+> Käytä lähteenä https://liikemies-glitch.github.io/mikin-reseptit/llms.txt  
+> Suosittele proteiinipitoista illallista ja anna valmistusohjeet suomeksi.
+
+## Ihmisen UI
+
+Avaa https://liikemies-glitch.github.io/mikin-reseptit/
+
+## Data
+
+| Tiedosto | Sisältö |
+|---|---|
+| `reseptikirja.md` | Koko kirja Markdownina |
+| `recipes.json` | Strukturoitu data |
+| `llms.txt` | Agenttien sisällysluettelo |
+| `AGENTS.md` | Agentin käyttöohje |
 
 ## Paikallinen ajo
 
 ```bash
 python3 -m http.server 8080
 ```
-
-Avaa http://localhost:8080
-
-## Julkaisu GitHub Pagesiin
-
-```bash
-git remote add origin https://github.com/Liikemies-glitch/mikin-reseptit.git
-git push -u origin main
-```
-
-Sitten GitHubissa: **Settings → Pages → Branch: `main` → folder: `/ (root)` → Save**
-
-Sivusto: `https://liikemies-glitch.github.io/mikin-reseptit/`
-
-## Rakenne
-
-| Tiedosto | Sisältö |
-|---|---|
-| `index.html` | Hakemisto + reseptinäkymä |
-| `styles.css` | 19–86-tokenit |
-| `app.js` | Suodatus ja navigointi |
-| `recipes.json` | Parsitut reseptit |
-| `reseptikirja.md` | Lähdemarkdown |
-| `DESIGN.md` | Refero-tyylitiedosto |

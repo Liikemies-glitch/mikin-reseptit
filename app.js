@@ -213,7 +213,11 @@ async function init() {
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
-  els.footerNote.textContent = state.data.footer || state.data.intro || "";
+  const footerBits = [state.data.footer || state.data.intro || ""].filter(Boolean);
+  footerBits.push(
+    'Agentit: <a href="./llms.txt">llms.txt</a>'
+  );
+  els.footerNote.innerHTML = footerBits.join("<br>");
 
   // Migrate old #id links into history-friendly ?r=id URLs
   if (!new URLSearchParams(location.search).get("r") && location.hash.length > 1) {
