@@ -481,7 +481,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Teriyaki-seesami glaze
-*Jauhelihaperunavuoka · 7/10*
+*Jauhelihaperunavuoka · 9/10*
 
 **Soveltuu:** Teriyaki-jauhelihaperunavuokaan — makea-suolainen wokkimainen glaze.
 
