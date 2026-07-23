@@ -103,15 +103,32 @@ def flush_block(blocks: list[dict], label: str | None, content_lines: list[str],
     blocks.append(block)
 
 
-def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | None]:
+RATING_RE = re.compile(r"(?:^|\s|[·|])\s*(\d{1,2})\s*/\s*10\b", re.I)
+
+
+def extract_rating(text: str | None) -> tuple[str | None, int | None]:
+    """Pull N/10 out of meta text; return cleaned meta and rating 0–10."""
+    if not text:
+        return None, None
+    match = RATING_RE.search(text)
+    if not match:
+        return text.strip() or None, None
+    value = int(match.group(1))
+    if value < 0 or value > 10:
+        value = max(0, min(10, value))
+    cleaned = (text[: match.start()] + text[match.end() :]).strip(" ·|-")
+    cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
+    return cleaned or None, value
+
+
+def parse_recipe_body(body: str) -> tuple[str | None, list[dict], int | None]:
     lines = body.strip().splitlines()
     meta = None
-    favorite = False
-    badge = None
+    rating = None
     blocks: list[dict] = []
 
     i = 0
-    # Leading italic meta lines and favorite markers
+    # Leading italic meta lines (annos · N/10)
     while i < len(lines):
         raw = lines[i].strip()
         if not raw:
@@ -119,21 +136,13 @@ def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | No
             continue
         if raw.startswith("*") and raw.endswith("*") and not raw.startswith("**"):
             meta_text = raw.strip("*").strip()
-            if "Mikki suosittelee" in meta_text:
-                favorite = True
-                badge = "Mikki suosittelee"
-                # may also include portion info before/after
-                other = re.sub(r"\s*[·|]\s*Mikki suosittelee\s*", " ", meta_text, flags=re.I)
-                other = re.sub(r"Mikki suosittelee", "", other, flags=re.I).strip(" ·|-")
-                if other and not meta:
-                    meta = other
-            elif not meta:
+            cleaned, found = extract_rating(meta_text)
+            if found is not None:
+                rating = found
+            if cleaned and not meta:
+                meta = cleaned
+            elif not meta and cleaned is None and found is None:
                 meta = meta_text
-            i += 1
-            continue
-        if raw.lower().startswith("mikin suosikki") or "**mikin suosikki**" in raw.lower():
-            favorite = True
-            badge = "Mikki suosittelee"
             i += 1
             continue
         break
@@ -159,19 +168,15 @@ def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | No
         if stripped == "---":
             continue
 
-        # Favorite badge inline in body
-        if re.search(r"Mikki suosittelee", stripped, re.I):
-            favorite = True
-            badge = "Mikki suosittelee"
-            # keep line if it has other content after removing badge markers
-            cleaned = re.sub(r"\*?Mikki suosittelee\*?", "", stripped, flags=re.I).strip(" ·|-")
-            if not cleaned:
-                continue
-            stripped = cleaned
-
         bold = re.match(r"^\*\*(.+?):\*\*\s*(.*)$", stripped)
         if bold:
             lab, rest = bold.group(1).strip(), bold.group(2).strip()
+            if lab.lower() == "arvosana":
+                try:
+                    rating = int(re.search(r"\d{1,2}", rest).group(0))
+                except Exception:
+                    pass
+                continue
             start_label(lab)
             if rest:
                 content_lines.append(rest)
@@ -206,7 +211,7 @@ def parse_recipe_body(body: str) -> tuple[str | None, list[dict], bool, str | No
         if b.get("content") or b.get("items") or b.get("steps") or b.get("label")
     ]
 
-    return meta, blocks, favorite, badge
+    return meta, blocks, rating
 
 
 def parse_markdown(text: str) -> dict:
@@ -225,7 +230,6 @@ def parse_markdown(text: str) -> dict:
     intro = " ".join(intro_lines[:2]) if intro_lines else ""
 
     sections = []
-    footer = None
 
     for part in parts[1:]:
         lines = part.splitlines()
@@ -237,13 +241,12 @@ def parse_markdown(text: str) -> dict:
         if name.lower().startswith("sisällys"):
             continue
 
-        # Footer italic after last section handled separately
         section_id = slugify(name)
         recipes = []
         table = None
         raw = []
 
-        # Split recipes on ### 
+        # Split recipes on ###
         if "### " in body or body.lstrip().startswith("### "):
             recipe_parts = re.split(r"^### ", body, flags=re.M)
             preamble = recipe_parts[0].strip()
@@ -253,20 +256,13 @@ def parse_markdown(text: str) -> dict:
                 rlines = rp.splitlines()
                 rtitle = rlines[0].strip()
                 rbody = "\n".join(rlines[1:])
-                meta, blocks, favorite, badge = parse_recipe_body(rbody)
-                # Detect favorite in meta italic that includes it
-                if meta and "Mikki suosittelee" in meta:
-                    favorite = True
-                    badge = "Mikki suosittelee"
-                    meta = re.sub(r"\s*[·|]\s*Mikki suosittelee", "", meta, flags=re.I).strip()
-                    meta = re.sub(r"Mikki suosittelee", "", meta, flags=re.I).strip(" ·|-") or None
+                meta, blocks, rating = parse_recipe_body(rbody)
                 recipes.append(
                     {
                         "title": rtitle,
                         "meta": meta,
                         "blocks": blocks,
-                        "favorite": favorite,
-                        "badge": badge,
+                        "rating": rating,
                     }
                 )
         else:
@@ -274,7 +270,6 @@ def parse_markdown(text: str) -> dict:
             if not table:
                 raw = [l for l in body.splitlines() if l.strip() and l.strip() != "---"]
 
-        # Trailing footer note in last section? Check whole doc end
         sections.append(
             {
                 "id": section_id,
@@ -290,9 +285,6 @@ def parse_markdown(text: str) -> dict:
         for idx, recipe in enumerate(section["recipes"]):
             recipe["id"] = f"{section['id']}-{idx}"
 
-    # Footer from trailing italic
-    foot_m = re.search(r"^\*(.+)\*\s*$", text, re.M)
-    # Prefer last italic line that looks like footer
     footers = re.findall(r"^\*(Kokoelma.+)\*\s*$", text, re.M)
     footer = footers[-1] if footers else None
 
@@ -311,8 +303,7 @@ def parse_markdown(text: str) -> dict:
                     "title": recipe["title"],
                     "meta": recipe.get("meta"),
                     "macros": extract_macros(recipe.get("blocks") or []),
-                    "favorite": bool(recipe.get("favorite")),
-                    "badge": recipe.get("badge"),
+                    "rating": recipe.get("rating"),
                 }
             )
 

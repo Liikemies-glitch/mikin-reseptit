@@ -59,23 +59,24 @@ function sortedIndexRows(query) {
     .sort((a, b) => {
       const bySection = sectionRank(a.sectionId) - sectionRank(b.sectionId);
       if (bySection !== 0) return bySection;
-      if (a.favorite !== b.favorite) return a.favorite ? -1 : 1;
+      const ra = typeof a.rating === "number" ? a.rating : -1;
+      const rb = typeof b.rating === "number" ? b.rating : -1;
+      if (ra !== rb) return rb - ra;
       return 0;
     });
 }
 
 function renderRecipeRow(row) {
-  const favorite = row.favorite
-    ? escapeHtml(row.badge || "Mikki suosittelee")
-    : "—";
+  const rating =
+    typeof row.rating === "number" ? String(row.rating) : "—";
   return `
       <button
-        class="index__row${row.favorite ? " index__row--favorite" : ""}"
+        class="index__row"
         type="button"
         data-id="${escapeHtml(row.id)}"
         aria-label="${escapeHtml(row.title)}"
       >
-        <div class="cell cell--favorite">${favorite}</div>
+        <div class="cell cell--rating">${rating}</div>
         <div class="cell cell__title">${escapeHtml(row.title)}</div>
         <div class="cell">${escapeHtml(row.meta || "—")}</div>
         <div class="cell">${escapeHtml(row.macros || "—")}</div>
@@ -173,11 +174,12 @@ function renderBlock(block) {
 
 function renderRecipe(section, recipe) {
   const blocks = (recipe.blocks || []).map(renderBlock).join("");
-  const badge = recipe.badge
-    ? `<p class="detail__badge">${escapeHtml(recipe.badge)}</p>`
-    : "";
+  const rating =
+    typeof recipe.rating === "number"
+      ? `<p class="detail__rating">Arvosana ${recipe.rating}/10</p>`
+      : "";
   return `
-    ${badge}
+    ${rating}
     <h1 class="detail__title">${escapeHtml(recipe.title)}</h1>
     ${blocks}`;
 }

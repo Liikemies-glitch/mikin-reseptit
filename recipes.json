@@ -56,8 +56,7 @@
               "items": []
             }
           ],
-          "favorite": true,
-          "badge": "Mikki suosittelee",
+          "rating": 9,
           "id": "paaruuat-0"
         },
         {
@@ -90,8 +89,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "paaruuat-1"
         },
         {
@@ -130,8 +128,7 @@
               "items": []
             }
           ],
-          "favorite": true,
-          "badge": "Mikki suosittelee",
+          "rating": 9,
           "id": "paaruuat-2"
         },
         {
@@ -175,8 +172,7 @@
               "items": []
             }
           ],
-          "favorite": true,
-          "badge": "Mikki suosittelee",
+          "rating": 10,
           "id": "paaruuat-3"
         },
         {
@@ -214,8 +210,7 @@
               "items": []
             }
           ],
-          "favorite": true,
-          "badge": "Mikki suosittelee",
+          "rating": 9,
           "id": "paaruuat-4"
         },
         {
@@ -251,8 +246,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "paaruuat-5"
         },
         {
@@ -287,8 +281,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "paaruuat-6"
         },
         {
@@ -350,8 +343,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "paaruuat-7"
         },
         {
@@ -387,8 +379,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "paaruuat-8"
         },
         {
@@ -424,8 +415,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "paaruuat-9"
         },
         {
@@ -492,8 +482,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "paaruuat-10"
         },
         {
@@ -531,8 +520,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "paaruuat-11"
         },
         {
@@ -575,8 +563,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 5,
           "id": "paaruuat-12"
         },
         {
@@ -602,8 +589,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 6,
           "id": "paaruuat-13"
         }
       ],
@@ -674,8 +660,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "jalkiruoat-0"
         },
         {
@@ -715,8 +700,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 6,
           "id": "jalkiruoat-1"
         },
         {
@@ -789,8 +773,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "jalkiruoat-2"
         },
         {
@@ -838,8 +821,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "jalkiruoat-3"
         },
         {
@@ -870,8 +852,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "jalkiruoat-4"
         },
         {
@@ -905,8 +886,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "jalkiruoat-5"
         }
       ],
@@ -946,8 +926,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "kastikkeet-0"
         },
         {
@@ -979,8 +958,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "kastikkeet-1"
         },
         {
@@ -1012,8 +990,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 8,
           "id": "kastikkeet-2"
         },
         {
@@ -1045,8 +1022,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "kastikkeet-3"
         },
         {
@@ -1078,8 +1054,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 7,
           "id": "kastikkeet-4"
         },
         {
@@ -1111,8 +1086,7 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "rating": 6,
           "id": "kastikkeet-5"
         }
       ],
@@ -1193,8 +1167,7 @@
       "title": "Mausteinen jauhelihapata",
       "meta": "~5–6 annosta",
       "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41…",
-      "favorite": true,
-      "badge": "Mikki suosittelee"
+      "rating": 9
     },
     {
       "kind": "recipe",
@@ -1204,8 +1177,7 @@
       "title": "Kreikkalainen moussaka",
       "meta": "~6 annosta",
       "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1215,8 +1187,7 @@
       "title": "Intialainen jauhelihakeema",
       "meta": "~4–5 annosta",
       "macros": "~420 kcal / ~42 g prot per annos.",
-      "favorite": true,
-      "badge": "Mikki suosittelee"
+      "rating": 9
     },
     {
       "kind": "recipe",
@@ -1226,8 +1197,7 @@
       "title": "Appelsiinikana",
       "meta": "2 kg kanarintafileetä",
       "macros": "6 ann: ~441 kcal / ~59 g prot",
-      "favorite": true,
-      "badge": "Mikki suosittelee"
+      "rating": 10
     },
     {
       "kind": "recipe",
@@ -1237,8 +1207,7 @@
       "title": "Hot Honey Kanariisivuoka",
       "meta": "4 annosta, 50 min",
       "macros": "~446 kcal / ~42 g prot per annos.",
-      "favorite": true,
-      "badge": "Mikki suosittelee"
+      "rating": 9
     },
     {
       "kind": "recipe",
@@ -1248,8 +1217,7 @@
       "title": "Creamy Beef Pasta",
       "meta": "~3 annosta",
       "macros": "~580 kcal / ~64 g prot per annos.",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1259,8 +1227,7 @@
       "title": "Keltainen curry",
       "meta": "~4–5 annosta",
       "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 kcal / ~46…",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1270,8 +1237,7 @@
       "title": "Gluteeniton makaroonilaatikko (munaton)",
       "meta": "~5–6 annosta",
       "macros": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 kcal / ~54…",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1281,8 +1247,7 @@
       "title": "Bataatti-jauhelihabowl",
       "meta": "~5 annosta",
       "macros": "~482 kcal / ~43 g prot per annos.",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1292,8 +1257,7 @@
       "title": "Kanatortillat",
       "meta": "~4 annosta",
       "macros": "~543 kcal / ~54 g prot per annos.",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1303,8 +1267,7 @@
       "title": "Teriyaki-jauhelihaperunavuoka",
       "meta": "~4–5 annosta",
       "macros": "Ilman papuja, 4 ann: ~496 kcal / ~42 g prot · Papujen k…",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1314,8 +1277,7 @@
       "title": "Rahkapohja-pizza",
       "meta": "koko pizza",
       "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameet…",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1325,8 +1287,7 @@
       "title": "Kanapohjapizza",
       "meta": "~6 siivua",
       "macros": "~175 kcal / ~19 g prot per siivu.",
-      "favorite": false,
-      "badge": null
+      "rating": 5
     },
     {
       "kind": "recipe",
@@ -1336,8 +1297,7 @@
       "title": "TikTok-kebab",
       "meta": "ohut versio",
       "macros": null,
-      "favorite": false,
-      "badge": null
+      "rating": 6
     },
     {
       "kind": "recipe",
@@ -1347,8 +1307,7 @@
       "title": "Brownie",
       "meta": "jauhoton, proteiinipohjainen",
       "macros": "koko satsi ~979 kcal / ~58 g prot · 1/2 = ~490 kcal / ~…",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1358,8 +1317,7 @@
       "title": "Proteiini-bataattikakku",
       "meta": "8 palaa",
       "macros": "~254 kcal / ~11,5 g prot per pala.",
-      "favorite": false,
-      "badge": null
+      "rating": 6
     },
     {
       "kind": "recipe",
@@ -1369,8 +1327,7 @@
       "title": "Proteiini-porkkanakakku",
       "meta": "1 annos",
       "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 kcal / ~15,…",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1380,8 +1337,7 @@
       "title": "Raejuusto-vadelmajäätelö",
       "meta": "~1,5–2 litraa",
       "macros": null,
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1391,8 +1347,7 @@
       "title": "Vadelmapirtelö",
       "meta": "nopea versio",
       "macros": "~324 kcal / ~49,2 g prot.",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1402,8 +1357,7 @@
       "title": "Mikin rahkakakku",
       "meta": "~4 annosta",
       "macros": "~309 kcal / ~34 g prot per annos.",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1413,8 +1367,7 @@
       "title": "Jogurtti-sriracha",
       "meta": "Kanatortillat, kebab",
       "macros": "~90 kcal / ~10 g prot",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1424,8 +1377,7 @@
       "title": "Lime-persilja-jogurtti",
       "meta": "Bataattibowl",
       "macros": "—",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1435,8 +1387,7 @@
       "title": "Hot Honey glaze",
       "meta": "Kanariisivuoka, pizza, pasta",
       "macros": "~254 kcal / ~1 g prot (koko erä)",
-      "favorite": false,
-      "badge": null
+      "rating": 8
     },
     {
       "kind": "recipe",
@@ -1446,8 +1397,7 @@
       "title": "Teriyaki-seesami glaze",
       "meta": "Jauhelihaperunavuoka",
       "macros": "~215–254 kcal (koko erä)",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1457,8 +1407,7 @@
       "title": "Lime-jogurttisoosi",
       "meta": "Jauhelihaperunavuoka (muhennos)",
       "macros": "~114 kcal / ~18–22 g prot",
-      "favorite": false,
-      "badge": null
+      "rating": 7
     },
     {
       "kind": "recipe",
@@ -1468,8 +1417,7 @@
       "title": "Sitruunainen raejuustosoosi",
       "meta": "Vaihtoehto lime-jogurttisoosille",
       "macros": "~124 kcal / ~22 g prot",
-      "favorite": false,
-      "badge": null
+      "rating": 6
     }
   ]
 }

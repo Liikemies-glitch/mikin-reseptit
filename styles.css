@@ -154,7 +154,7 @@ strong {
 .index__row {
   display: grid;
   grid-template-columns:
-    minmax(110px, 1.1fr)
+    minmax(72px, 0.55fr)
     minmax(160px, 2fr)
     minmax(100px, 1fr)
     minmax(0, 1.3fr)
@@ -214,24 +214,20 @@ strong {
   margin: 0;
 }
 
-.cell--favorite {
-  white-space: normal;
+.cell--rating {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
-.badge,
-.detail__badge {
-  margin: 4px 0 0;
+.detail__rating {
+  margin: 24px 0 0;
   font-size: var(--text-body);
   font-weight: var(--font-weight-regular);
   letter-spacing: var(--tracking-body);
   line-height: var(--leading-body);
 }
 
-.detail__badge {
-  margin: 24px 0 0;
-}
-
-.detail__badge + .detail__title {
+.detail__rating + .detail__title {
   margin-top: 8px;
 }
 
@@ -383,22 +379,18 @@ td:last-child {
   .index__row {
     grid-template-columns: 1fr 30px;
     grid-template-areas:
-      "favorite dot"
+      "rating dot"
       "title dot"
       "meta meta"
       "macros macros";
     gap: 0 24px;
   }
 
-  .index__row .cell:nth-child(1) { grid-area: favorite; }
+  .index__row .cell:nth-child(1) { grid-area: rating; opacity: 0.7; }
   .index__row .cell:nth-child(2) { grid-area: title; }
   .index__row .cell:nth-child(3) { grid-area: meta; opacity: 0.7; }
   .index__row .cell:nth-child(4) { grid-area: macros; opacity: 0.7; }
   .index__row .cell:nth-child(5) { grid-area: dot; }
-
-  .index__row:not(.index__row--favorite) .cell--favorite {
-    display: none;
-  }
 
   .index__section {
     padding-inline: 16px;
