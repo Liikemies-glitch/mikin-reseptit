@@ -508,14 +508,20 @@
             },
             {
               "type": "section",
-              "label": "Täytteet (vakio)",
-              "content": "70 g kalkkunan pepperoni + 75 g Kadett-juusto 12 % + 2 valkosipulinkynttä + 1 tl öljy + loraus valkosipulimajoneesia",
+              "label": "Täytteet (voi olla mitä vaan)",
+              "content": "Oma suosikki: 70 g kalkkunan pepperoni + hot honey glaze. Glazea lisätään kun pizza menee uuniin sekä puolessa välissä paistoa. Glazea kannattaa tehdä vain puolet normaalista määrästä — tai varastoida loput ja käyttää muualla (nostaa kaloreita).",
               "items": []
             },
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Sekoita pohjan ainekset, painele levyksi. Levitä polpa ja täytteet. Paista 225°C ~10 min.",
+              "content": "Sekoita pohjan ainekset, painele levyksi. Levitä polpa ja täytteet. Paista 225°C ~10 min; jos käytät hot honey glazea, lorauta sitä pinnalle uuniin laittaessa ja uudestaan puolessa välissä.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Vinkki",
+              "content": "Kannattaa tehdä isompi pohja — esim. 1,5× tai 2× pohjan ainekset — jotta saat koko uunipellin käyttöön. Näin saat pinta-alaa ja nostat herkullisilla mutta vähäkalorisilla / proteiinipitoisilla täytteillä aterian makrot ihanteellisiksi. Esimerkki: tonnikala + kalkkunan pepperoni + hot honey glaze — kaksi aikuista syö. Aivan hidden gem.",
               "items": []
             },
             {
