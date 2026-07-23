@@ -328,6 +328,41 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
+### Marokkolainen kanapata
+*~6 annosta · 8/10*
+
+**Ainekset:**
+- ~800 g kanarintafileetä
+- 2 perunaa tai bataattia (~400 g)
+- 2 sipulia
+- 2 tomaattia
+- 100 g inkivääriä
+- 6 dl kanalientä
+- 2 rkl punaviinietikkaa
+- 2 rkl tummaa ruokosokeria
+- 2 rkl öljyä
+
+**Mausteet:**
+- 1 tl kanelia
+- 1 tl juustokuminaa
+- 1 tl korianteria
+- 1 tl kurkumaa
+- Suola, mustapippuri
+
+**Valmistus:**
+1. Ota kana huoneenlämpöön 30 min ennen valmistusta.
+2. Mausta fileet suolalla ja pippurilla, paloittele ~1–2 cm viipaleiksi.
+3. Ruskista kana öljyssä padassa pari min, nosta sivuun.
+4. Soseuta sipulit, tomaatit, inkivääri ja kuivamausteet tehosekoittimessa tasaiseksi tahnaksi.
+5. Kuullota tahna samassa padassa pari min.
+6. Lisää kana + peruna/bataatti isohkoina paloina + kanaliemi + etikka + sokeri.
+7. Hauduta miedolla lämmöllä ~30 min.
+8. Tarjoa kvinoan/riisin ja jogurtin kanssa.
+
+**Makrot:** ~275 kcal / ~31 g prot per annos (6 annosta).
+
+---
+
 ## Jälkiruoat
 
 ### Brownie
