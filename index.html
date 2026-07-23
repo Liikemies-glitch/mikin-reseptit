@@ -7,7 +7,7 @@
       name="description"
       content="Mikin proteiinipainotteinen reseptikirja — korkea proteiini, kontrolloidut kalorit."
     />
-    <title>Mikin Reseptikirja</title>
+    <title>Mikin reseptit</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,26 +18,25 @@
   </head>
   <body>
     <div class="page">
-      <div class="watermark" aria-hidden="true">
-        <p class="watermark__text">MIKKI</p>
-      </div>
-
       <div class="content">
-        <header class="topbar reveal">
-          <div class="topbar__brand">Mikin Reseptikirja</div>
+        <header class="hero" id="hero">
+          <h1 class="hero__title reveal">Mikin reseptit</h1>
+        </header>
+
+        <div class="topbar reveal reveal-delay-1">
           <div class="topbar__actions">
             <button class="back" id="backBtn" type="button" hidden>← Hakemisto</button>
             <input
-              class="filter reveal-delay-1"
+              class="filter"
               id="filter"
               type="search"
               placeholder="Suodata"
               autocomplete="off"
               spellcheck="false"
             />
-            <div class="topbar__meta reveal-delay-2" id="count"></div>
+            <div class="topbar__meta" id="count"></div>
           </div>
-        </header>
+        </div>
 
         <main>
           <section class="index reveal reveal-delay-2" id="indexView" aria-label="Reseptihakemisto">

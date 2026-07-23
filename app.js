@@ -13,6 +13,7 @@ const els = {
   emptyState: document.getElementById("emptyState"),
   footerNote: document.getElementById("footerNote"),
   backBtn: document.getElementById("backBtn"),
+  hero: document.getElementById("hero"),
 };
 
 function escapeHtml(value) {
@@ -143,6 +144,8 @@ function showIndex() {
   els.detailView.innerHTML = "";
   els.backBtn.hidden = true;
   els.filter.hidden = false;
+  els.count.hidden = false;
+  if (els.hero) els.hero.hidden = false;
   history.replaceState(null, "", location.pathname);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -159,6 +162,8 @@ function showDetail(id) {
   els.detailView.hidden = false;
   els.backBtn.hidden = false;
   els.filter.hidden = true;
+  els.count.hidden = true;
+  if (els.hero) els.hero.hidden = true;
 
   els.detailView.innerHTML =
     found.type === "table"
@@ -179,7 +184,7 @@ async function init() {
   const res = await fetch("./recipes.json");
   state.data = await res.json();
 
-  document.title = state.data.brand || state.data.title;
+  document.title = "Mikin reseptit";
   els.footerNote.textContent = state.data.footer || state.data.intro || "";
 
   renderIndex();

@@ -7,7 +7,7 @@
   --text-body: 24px;
   --leading-body: 1.2;
   --tracking-body: -0.02em;
-  --text-display: clamp(120px, 28vw, 490px);
+  --text-display: clamp(48px, 12vw, 120px);
   --leading-display: 1;
   --tracking-display: -0.02em;
 
@@ -76,42 +76,34 @@ strong {
   font-weight: var(--font-weight-regular);
 }
 
-/* Shell */
 .page {
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-.watermark {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  display: grid;
-  place-items: center;
-  pointer-events: none;
-  user-select: none;
-  overflow: hidden;
-}
-
-.watermark__text {
-  margin: 0;
-  font-size: clamp(180px, 42vw, 490px);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--leading-display);
-  letter-spacing: var(--tracking-display);
-  white-space: nowrap;
-  color: var(--color-ink);
-  /* Soft stamp: readable index text must win over the mark */
-  --watermark-opacity: 0.06;
-  opacity: var(--watermark-opacity);
-  transform: translateY(-8vh);
-}
-
 .content {
   position: relative;
   z-index: 1;
   padding: 24px 0 72px;
+}
+
+/* Front-page title */
+.hero {
+  padding: 24px 24px 8px;
+  background: var(--color-paper);
+}
+
+.hero[hidden] {
+  display: none;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: var(--text-display);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
 }
 
 /* Top bar */
@@ -128,7 +120,6 @@ strong {
   z-index: 2;
 }
 
-.topbar__brand,
 .topbar__meta,
 .filter,
 .back {
@@ -143,10 +134,12 @@ strong {
   flex-wrap: wrap;
   gap: 24px;
   align-items: baseline;
+  width: 100%;
 }
 
 .filter {
   min-width: min(100%, 280px);
+  flex: 1 1 auto;
   border-bottom: 1px solid var(--color-ink);
   padding: 0 0 2px;
   outline: none;
@@ -290,7 +283,6 @@ strong {
   margin-top: 8px;
 }
 
-/* Tables in detail/index sections */
 .table-wrap {
   width: 100%;
   overflow-x: auto;
@@ -330,7 +322,6 @@ td:last-child {
   padding-top: 24px;
 }
 
-/* Motion — presence without breaking flat system */
 .reveal {
   opacity: 0;
   transform: translateY(10px);
@@ -348,30 +339,14 @@ td:last-child {
   }
 }
 
-.watermark__text {
-  animation: watermark-in 1.2s ease 0.05s both;
-}
-
-@keyframes watermark-in {
-  from {
-    opacity: 0;
-    transform: translateY(-4vh) scale(0.98);
-  }
-  to {
-    opacity: var(--watermark-opacity);
-    transform: translateY(-8vh) scale(1);
-  }
-}
-
 @media (max-width: 900px) {
   :root {
     --text-body: 18px;
+    --text-display: clamp(40px, 14vw, 72px);
   }
 
-  .watermark__text {
-    --watermark-opacity: 0.045;
-    font-size: clamp(160px, 55vw, 320px);
-    transform: translateY(-18vh);
+  .hero {
+    padding: 16px 16px 8px;
   }
 
   .index__header {
@@ -438,10 +413,5 @@ td:last-child {
     animation: none;
     opacity: 1;
     transform: none;
-  }
-  .watermark__text {
-    animation: none;
-    opacity: var(--watermark-opacity);
-    transform: translateY(-8vh);
   }
 }
