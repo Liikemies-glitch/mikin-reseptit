@@ -434,7 +434,7 @@
               "items": []
             }
           ],
-          "rating": 7,
+          "rating": 10,
           "id": "paaruuat-9"
         },
         {
@@ -1221,7 +1221,7 @@
       "title": "Kanatortillat",
       "meta": "~4 annosta",
       "macros": "~590 kcal / ~57 g prot per annos.",
-      "rating": 7
+      "rating": 10
     },
     {
       "kind": "recipe",

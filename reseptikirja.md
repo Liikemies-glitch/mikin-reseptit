@@ -206,7 +206,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Kanatortillat
-*~4 annosta · 7/10*
+*~4 annosta · 10/10*
 
 **Ainekset:**
 - 650 g kanarintafileetä
