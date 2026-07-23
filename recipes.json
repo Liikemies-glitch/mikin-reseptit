@@ -34,6 +34,12 @@
             },
             {
               "type": "section",
+              "label": "Valmistus",
+              "content": "Kuullota sipuli, valkosipuli, paprika ja chili. Lisää jauheliha, ruskista ja mausta. Kaada tomaattimurska + kastikkeet, lisää maissi ja pavut. Hauduta ~20–30 min. Keitä riisi erikseen. Tarjoile fetan ja kirsikkatomaattien kanssa.",
+              "items": []
+            },
+            {
+              "type": "section",
               "label": "Makrot",
               "content": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41 g prot",
               "items": []
@@ -61,7 +67,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Suolaa munakoiso 15 min, kuivaa, paista öljyssä ennen ladontaa. Uuni 200°C 25–30 min.",
+              "content": "Suolaa munakoiso 15 min, kuivaa, paista öljyssä. Kuullota sipuli + valkosipuli, ruskista jauheliha, lisää tomaattimurska ja mausteet, hauduta hetki. Lado vuokaan munakoiso + jauhelihaseos kerroksittain, levitä jogurtti päälle. Uuni 200°C 25–30 min.",
               "items": []
             },
             {
@@ -93,7 +99,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Hauduta kunnes neste haihtunut.",
+              "content": "Kuullota sipuli, valkosipuli ja inkivääri öljyssä. Lisää jauheliha ja mausteet, ruskista. Lisää tomaatti/murska, hauduta kunnes neste haihtunut. Sekoita herneet lopuksi.",
               "items": []
             },
             {
@@ -124,7 +130,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Kana uuniin 200°C ~26 min → kastike kiehuvaksi + suurustus → yhdistä. Seesaminsiemenet + kevätsipuli päälle.",
+              "content": "Paista kanafileet uunissa 200°C ~26 min. Keitä kastike kasaan, lisää suurustus ja anna sakeutua. Yhdistä kana kastikkeeseen. Ripottele seesaminsiemenet + kevätsipuli päälle.",
               "items": []
             },
             {
@@ -161,7 +167,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Puolet kastikkeesta vuokaan, folio 200°C 30 min → folio pois, loput kastikkeesta, 10–15 min.",
+              "content": "Sekoita kastike. Laita vuokaan riisi, paprika, sipuli, kana ja vesi + liemikuutio. Kaada puolet kastikkeesta päälle, peitä foliolla. Uuni 200°C 30 min → folio pois, loput kastikkeesta, vielä 10–15 min.",
               "items": []
             },
             {
@@ -196,7 +202,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Blenderoi raejuusto + valkosipuli + yrtit + lihaliemi → kaada jauhelihaan matalalla lämmöllä.",
+              "content": "Keitä pasta. Ruskista sipuli + jauheliha, lisää tomaattipyree ja Mexican seasoning. Blenderoi raejuusto + valkosipuli + yrtit + lihaliemi tasaiseksi. Kaada soosi jauhelihaan matalalla lämmöllä, sekoita pasta joukkoon.",
               "items": []
             },
             {
@@ -224,6 +230,12 @@
                 "Tomaattimurska, ananasmurska, oliiviöljyä",
                 "Mausteet: keltainen currytahna 2–3 rkl, kurkuma 1 tl, juustokumina 1 tl, korianteri 1 tl"
               ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Kuullota sipuli, valkosipuli, inkivääri ja paprika. Paista kanaa hetki, lisää currytahna + mausteet. Kaada kookosmaito, kevytmaito, tomaattimurska ja ananas. Hauduta kunnes kana on kypsää. Lisää herneet lopuksi.",
+              "items": []
             },
             {
               "type": "section",
@@ -257,7 +269,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Uuni 200°C 35–40 min.",
+              "content": "Keitä makaroni melkein kypsäksi. Ruskista sipuli, valkosipuli ja kanajauheliha, mausta. Sekoita raejuusto, maito, riisijauho, sinappi ja tomaatit. Yhdistä pasta + jauheliha + seos vuokaan, ripottele juusto päälle. Uuni 200°C 35–40 min.",
               "items": []
             },
             {
@@ -297,6 +309,12 @@
             },
             {
               "type": "section",
+              "label": "Valmistus",
+              "content": "Paista bataatit öljyssä uunissa kypsiksi. Ruskista sipuli + valkosipuli + jauheliha, lisää tomaattipyree ja mausteet. Sekoita juustoraaste lopuksi. Blenderoi kastike. Kokoa bowl: bataatti, jauheliha, kastike päälle.",
+              "items": []
+            },
+            {
+              "type": "section",
               "label": "Makrot",
               "content": "~482 kcal / ~43 g prot per annos.",
               "items": []
@@ -322,6 +340,12 @@
               "type": "section",
               "label": "Kastike",
               "content": "150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Mausta kana ja paista kypsäksi, suikaloi. Kuullota sipuli + paprika. Sekoita kastike. Lämmitä tortillat, täytä kanalla, kasviksilla, juustolla, tomaatilla ja korianterilla. Lisää kastike.",
               "items": []
             },
             {
@@ -493,8 +517,16 @@
           "meta": "ohut versio",
           "blocks": [
             {
-              "type": "paragraph",
-              "content": "Jauheliha kaulitaan ohueksi levyksi ja rullataan tiiviisti leivinpaperiin (~120 g lihaa per leivinpaperi). Mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri."
+              "type": "section",
+              "label": "Ainekset",
+              "content": "jauheliha (~120 g per rulla), mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita mausteet jauhelihaan. Kauli ohueksi levyksi ja rullaa tiiviisti leivinpaperiin. Paista uunissa ~15 min (ohut versio — paksumpi rulla tarvitsee 45–50 min). Viipaloi ja tarjoile.",
+              "items": []
             },
             {
               "type": "section",
@@ -602,7 +634,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Uuni 180°C, tikkutesti.",
+              "content": "Kypsennä ja soseuta bataatit. Sekoita soseeseen rahka, kookosöljy, siirappi, munat, jauhot, proteiinijauhe ja suklaahiput. Kaada vuokaan. Uuni 180°C, tikkutesti.",
               "items": []
             },
             {
@@ -646,6 +678,12 @@
               "type": "section",
               "label": "Vinkki",
               "content": "märät ainekset (paitsi porkkana) helpoin sekoittaa blenderissä — porkkanaraaste ei mene blenderiin, lisää se sellaisenaan blendattujen joukkoon.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Jauha kaurat, sekoita kuivat. Blenderoi märät (ilman porkkanaa), lisää porkkanaraaste ja kuivat. Kaada vuokaan. Uuni 180–200°C, 12–20 min (tikkutesti). Jäähdytä ~15–20 min kannen alla, sitten jääkaappiin. Levitä frosting vasta kylmälle kakulle.",
               "items": []
             },
             {
@@ -786,7 +824,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Sekoita, jääkaappiin jähmettymään.",
+              "content": "Survo banaani, sekoita rahka, hera, kaura, maito ja hienonnetut munat. Lisää marjat. Siirrä astiaan ja jähmetä jääkaapissa.",
               "items": []
             },
             {
@@ -1108,7 +1146,8 @@
       "section": "Kastikkeet ja soosit",
       "title": "Kastikkeet ja soosit",
       "meta": "6 riviä",
-      "id": "kastikkeet"
+      "id": "kastikkeet",
+      "macros": ""
     },
     {
       "kind": "table",
@@ -1116,7 +1155,8 @@
       "section": "Perusravintoarvot (usein käytetyt)",
       "title": "Perusravintoarvot (usein käytetyt)",
       "meta": "8 riviä",
-      "id": "perusarvot"
+      "id": "perusarvot",
+      "macros": ""
     }
   ]
 }

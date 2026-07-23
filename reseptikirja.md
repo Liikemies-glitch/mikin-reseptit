@@ -35,6 +35,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - Mausteet: paprika, savupaprika, juustokumina, kurkuma, suola, pippuri
 - Riisi keitetään erikseen
 
+**Valmistus:** Kuullota sipuli, valkosipuli, paprika ja chili. Lisää jauheliha, ruskista ja mausta. Kaada tomaattimurska + kastikkeet, lisää maissi ja pavut. Hauduta ~20–30 min. Keitä riisi erikseen. Tarjoile fetan ja kirsikkatomaattien kanssa.
+
 **Makrot:** 5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41 g prot
 
 ---
@@ -50,7 +52,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - 1 sipuli, 1 valkosipuli
 - Mausteet: kaneli, oregano, suola, pippuri
 
-**Valmistus:** Suolaa munakoiso 15 min, kuivaa, paista öljyssä ennen ladontaa. Uuni 200°C 25–30 min.
+**Valmistus:** Suolaa munakoiso 15 min, kuivaa, paista öljyssä. Kuullota sipuli + valkosipuli, ruskista jauheliha, lisää tomaattimurska ja mausteet, hauduta hetki. Lado vuokaan munakoiso + jauhelihaseos kerroksittain, levitä jogurtti päälle. Uuni 200°C 25–30 min.
 
 **Makrot:** ~370 kcal / ~28 g prot per annos. Maku 5/5.
 
@@ -67,7 +69,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - Oliiviöljyä
 - Mausteet: garam masala 2 tl, kurkuma 1 tl, juustokumina 1 tl, korianteri 1 tl, chili, suola
 
-**Valmistus:** Hauduta kunnes neste haihtunut.
+**Valmistus:** Kuullota sipuli, valkosipuli ja inkivääri öljyssä. Lisää jauheliha ja mausteet, ruskista. Lisää tomaatti/murska, hauduta kunnes neste haihtunut. Sekoita herneet lopuksi.
 
 **Makrot:** ~420 kcal / ~42 g prot per annos.
 
@@ -80,7 +82,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Suurustus:** 3 rkl maissitärkkelystä kylmään veteen
 
-**Valmistus:** Kana uuniin 200°C ~26 min → kastike kiehuvaksi + suurustus → yhdistä. Seesaminsiemenet + kevätsipuli päälle.
+**Valmistus:** Paista kanafileet uunissa 200°C ~26 min. Keitä kastike kasaan, lisää suurustus ja anna sakeutua. Yhdistä kana kastikkeeseen. Ripottele seesaminsiemenet + kevätsipuli päälle.
 
 **Makrot:** 6 ann: ~441 kcal / ~59 g prot
 
@@ -98,7 +100,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Kastike:** 0,5 dl hunajaa, 2 rkl sriracha, 1 rkl omenaviinietikkaa, 1 rkl soijaa, 1 tl savupaprikaa
 
-**Valmistus:** Puolet kastikkeesta vuokaan, folio 200°C 30 min → folio pois, loput kastikkeesta, 10–15 min.
+**Valmistus:** Sekoita kastike. Laita vuokaan riisi, paprika, sipuli, kana ja vesi + liemikuutio. Kaada puolet kastikkeesta päälle, peitä foliolla. Uuni 200°C 30 min → folio pois, loput kastikkeesta, vielä 10–15 min.
 
 **Makrot:** ~446 kcal / ~42 g prot per annos.
 
@@ -118,7 +120,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - Mixed herbs / oregano
 - 12 g Mexican seasoning
 
-**Valmistus:** Blenderoi raejuusto + valkosipuli + yrtit + lihaliemi → kaada jauhelihaan matalalla lämmöllä.
+**Valmistus:** Keitä pasta. Ruskista sipuli + jauheliha, lisää tomaattipyree ja Mexican seasoning. Blenderoi raejuusto + valkosipuli + yrtit + lihaliemi tasaiseksi. Kaada soosi jauhelihaan matalalla lämmöllä, sekoita pasta joukkoon.
 
 **Makrot:** ~580 kcal / ~64 g prot per annos.
 
@@ -134,6 +136,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - 200 g pakasteherneitä
 - Tomaattimurska, ananasmurska, oliiviöljyä
 - Mausteet: keltainen currytahna 2–3 rkl, kurkuma 1 tl, juustokumina 1 tl, korianteri 1 tl
+
+**Valmistus:** Kuullota sipuli, valkosipuli, inkivääri ja paprika. Paista kanaa hetki, lisää currytahna + mausteet. Kaada kookosmaito, kevytmaito, tomaattimurska ja ananas. Hauduta kunnes kana on kypsää. Lisää herneet lopuksi.
 
 **Makrot:** 5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 kcal / ~46 g prot
 
@@ -153,7 +157,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - Oliiviöljyä
 - Mausteet: suola, pippuri, paprika, oregano, sinappi
 
-**Valmistus:** Uuni 200°C 35–40 min.
+**Valmistus:** Keitä makaroni melkein kypsäksi. Ruskista sipuli, valkosipuli ja kanajauheliha, mausta. Sekoita raejuusto, maito, riisijauho, sinappi ja tomaatit. Yhdistä pasta + jauheliha + seos vuokaan, ripottele juusto päälle. Uuni 200°C 35–40 min.
 
 **Makrot:** 5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 kcal / ~54 g prot
 
@@ -171,6 +175,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Kastike:** 120 g jogurttia 3 % + oliiviöljy + lime + persilja + sinappi → blenderi
 
+**Valmistus:** Paista bataatit öljyssä uunissa kypsiksi. Ruskista sipuli + valkosipuli + jauheliha, lisää tomaattipyree ja mausteet. Sekoita juustoraaste lopuksi. Blenderoi kastike. Kokoa bowl: bataatti, jauheliha, kastike päälle.
+
 **Makrot:** ~482 kcal / ~43 g prot per annos.
 
 ---
@@ -184,6 +190,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - Täytteet: 150 g juustoraastetta 17 % + tomaatti + korianteri + 4 tortillaa
 
 **Kastike:** 150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola
+
+**Valmistus:** Mausta kana ja paista kypsäksi, suikaloi. Kuullota sipuli + paprika. Sekoita kastike. Lämmitä tortillat, täytä kanalla, kasviksilla, juustolla, tomaatilla ja korianterilla. Lisää kastike.
 
 **Makrot:** ~543 kcal / ~54 g prot per annos.
 
@@ -232,7 +240,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Täytteet (vakio):** 70 g kalkkunan pepperoni + 75 g Kadett-juusto 12 % + 2 valkosipulinkynttä + 1 tl öljy + loraus valkosipulimajoneesia
 
-**Valmistus:** Kaikki kerralla 225°C ~10 min.
+**Valmistus:** Sekoita pohjan ainekset, painele levyksi. Levitä polpa ja täytteet. Paista 225°C ~10 min.
 
 **Makrot:** ~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameetvursti + 50 g Valio 17 %: ~563 kcal / ~52 g prot)
 
@@ -260,7 +268,9 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ### TikTok-kebab
 *ohut versio*
 
-Jauheliha kaulitaan ohueksi levyksi ja rullataan tiiviisti leivinpaperiin (~120 g lihaa per leivinpaperi). Mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri.
+**Ainekset:** jauheliha (~120 g per rulla), mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri.
+
+**Valmistus:** Sekoita mausteet jauhelihaan. Kauli ohueksi levyksi ja rullaa tiiviisti leivinpaperiin. Paista uunissa ~15 min (ohut versio — paksumpi rulla tarvitsee 45–50 min). Viipaloi ja tarjoile.
 
 **Kypsennys:** 15 min riittää ohuena versiona (ei 45–50 min kuten paksummassa rullaversiossa).
 
@@ -311,7 +321,7 @@ Jauheliha kaulitaan ohueksi levyksi ja rullataan tiiviisti leivinpaperiin (~120 
 
 **Huom:** proteiinijauhe kuivattaa taikinaa — lisää tarvittaessa maitoa.
 
-**Valmistus:** Uuni 180°C, tikkutesti.
+**Valmistus:** Kypsennä ja soseuta bataatit. Sekoita soseeseen rahka, kookosöljy, siirappi, munat, jauhot, proteiinijauhe ja suklaahiput. Kaada vuokaan. Uuni 180°C, tikkutesti.
 
 **Makrot:** ~254 kcal / ~11,5 g prot per pala.
 
@@ -335,6 +345,8 @@ Jauheliha kaulitaan ohueksi levyksi ja rullataan tiiviisti leivinpaperiin (~120 
 - 60 g raastettua porkkanaa (~1 keskikokoinen)
 
 **Vinkki:** märät ainekset (paitsi porkkana) helpoin sekoittaa blenderissä — porkkanaraaste ei mene blenderiin, lisää se sellaisenaan blendattujen joukkoon.
+
+**Valmistus:** Jauha kaurat, sekoita kuivat. Blenderoi märät (ilman porkkanaa), lisää porkkanaraaste ja kuivat. Kaada vuokaan. Uuni 180–200°C, 12–20 min (tikkutesti). Jäähdytä ~15–20 min kannen alla, sitten jääkaappiin. Levitä frosting vasta kylmälle kakulle.
 
 **Frosting:**
 - 100 g vaniljaskyriä (kuohkea versio levittyy paremmin kuin tiivis rahka)
@@ -409,7 +421,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 - 3 keitettyä munaa
 - 0,15 dl kevytmaitoa
 
-**Valmistus:** Sekoita, jääkaappiin jähmettymään.
+**Valmistus:** Survo banaani, sekoita rahka, hera, kaura, maito ja hienonnetut munat. Lisää marjat. Siirrä astiaan ja jähmetä jääkaapissa.
 
 **Makrot:** ~309 kcal / ~34 g prot per annos.
 
