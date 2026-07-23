@@ -7,11 +7,8 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Sisällys
 
 1. [Pääruoat](#pääruoat)
-2. [Pizzat](#pizzat)
-3. [Liha-erikoisuudet](#liha-erikoisuudet)
-4. [Jälkiruoat](#jälkiruoat)
-5. [Rahkakakku](#rahkakakku)
-6. [Kastikkeet ja soosit](#kastikkeet-ja-soosit)
+2. [Jälkiruoat](#jälkiruoat)
+3. [Kastikkeet ja soosit](#kastikkeet-ja-soosit)
 
 ---
 
@@ -254,8 +251,6 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
-## Pizzat
-
 ### Rahkapohja-pizza
 *koko pizza*
 
@@ -289,8 +284,6 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 **Vinkki:** raejuusto mozzarellan sekaan nostaa proteiinia.
 
 ---
-
-## Liha-erikoisuudet
 
 ### TikTok-kebab
 *ohut versio*
@@ -433,8 +426,6 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 **Makrot:** ~324 kcal / ~49,2 g prot.
 
 ---
-
-## Rahkakakku
 
 ### Mikin rahkakakku
 *~4 annosta*

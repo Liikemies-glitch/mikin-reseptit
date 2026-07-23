@@ -21,7 +21,7 @@ Käytä tätä, kun käyttäjä pyytää reseptisuosituksia tai valmistusohjeita
 
 ## JSON-rakenne (tiivis)
 
-- `sections[].name` — kategoria (Pääruoat, Pizzat, …)
+- `sections[].name` — kategoria (Pääruoat, Jälkiruoat, Kastikkeet ja soosit)
 - `sections[].recipes[].title` — reseptin nimi
 - `sections[].recipes[].meta` — annoskoko / kesto
 - `sections[].recipes[].id` — URL-id (`?r=`)

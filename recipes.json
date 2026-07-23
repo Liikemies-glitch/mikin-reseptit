@@ -495,15 +495,7 @@
           "favorite": false,
           "badge": null,
           "id": "paaruuat-10"
-        }
-      ],
-      "table": null,
-      "raw": []
-    },
-    {
-      "id": "pizzat",
-      "name": "Pizzat",
-      "recipes": [
+        },
         {
           "title": "Rahkapohja-pizza",
           "meta": "koko pizza",
@@ -541,7 +533,7 @@
           ],
           "favorite": false,
           "badge": null,
-          "id": "pizzat-0"
+          "id": "paaruuat-11"
         },
         {
           "title": "Kanapohjapizza",
@@ -585,16 +577,8 @@
           ],
           "favorite": false,
           "badge": null,
-          "id": "pizzat-1"
-        }
-      ],
-      "table": null,
-      "raw": []
-    },
-    {
-      "id": "liha-erikoisuudet",
-      "name": "Liha-erikoisuudet",
-      "recipes": [
+          "id": "paaruuat-12"
+        },
         {
           "title": "TikTok-kebab",
           "meta": "ohut versio",
@@ -620,7 +604,7 @@
           ],
           "favorite": false,
           "badge": null,
-          "id": "liha-erikoisuudet-0"
+          "id": "paaruuat-13"
         }
       ],
       "table": null,
@@ -889,15 +873,7 @@
           "favorite": false,
           "badge": null,
           "id": "jalkiruoat-4"
-        }
-      ],
-      "table": null,
-      "raw": []
-    },
-    {
-      "id": "rahkakakku",
-      "name": "Rahkakakku",
-      "recipes": [
+        },
         {
           "title": "Mikin rahkakakku",
           "meta": "~4 annosta",
@@ -931,7 +907,7 @@
           ],
           "favorite": false,
           "badge": null,
-          "id": "rahkakakku-0"
+          "id": "jalkiruoat-5"
         }
       ],
       "table": null,
@@ -1205,9 +1181,7 @@
           ]
         ]
       },
-      "raw": [
-        "*Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*"
-      ]
+      "raw": []
     }
   ],
   "index": [
@@ -1218,9 +1192,20 @@
       "section": "Pääruoat",
       "title": "Mausteinen jauhelihapata",
       "meta": "~5–6 annosta",
-      "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 k…",
+      "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41…",
       "favorite": true,
       "badge": "Mikin suosikki"
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-1",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Kreikkalainen moussaka",
+      "meta": "~6 annosta",
+      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1257,17 +1242,6 @@
     },
     {
       "kind": "recipe",
-      "id": "paaruuat-1",
-      "sectionId": "paaruuat",
-      "section": "Pääruoat",
-      "title": "Kreikkalainen moussaka",
-      "meta": "~6 annosta",
-      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
-      "favorite": false,
-      "badge": null
-    },
-    {
-      "kind": "recipe",
       "id": "paaruuat-5",
       "sectionId": "paaruuat",
       "section": "Pääruoat",
@@ -1284,7 +1258,7 @@
       "section": "Pääruoat",
       "title": "Keltainen curry",
       "meta": "~4–5 annosta",
-      "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 k…",
+      "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 kcal / ~46…",
       "favorite": false,
       "badge": null
     },
@@ -1295,7 +1269,7 @@
       "section": "Pääruoat",
       "title": "Gluteeniton makaroonilaatikko (munaton)",
       "meta": "~5–6 annosta",
-      "macros": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 k…",
+      "macros": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 kcal / ~54…",
       "favorite": false,
       "badge": null
     },
@@ -1328,26 +1302,26 @@
       "section": "Pääruoat",
       "title": "Teriyaki-jauhelihaperunavuoka",
       "meta": "~4–5 annosta",
-      "macros": "",
+      "macros": "Ilman papuja, 4 ann: ~496 kcal / ~42 g prot · Papujen k…",
       "favorite": false,
       "badge": null
     },
     {
       "kind": "recipe",
-      "id": "pizzat-0",
-      "sectionId": "pizzat",
-      "section": "Pizzat",
+      "id": "paaruuat-11",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
       "title": "Rahkapohja-pizza",
       "meta": "koko pizza",
-      "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g ka…",
+      "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameet…",
       "favorite": false,
       "badge": null
     },
     {
       "kind": "recipe",
-      "id": "pizzat-1",
-      "sectionId": "pizzat",
-      "section": "Pizzat",
+      "id": "paaruuat-12",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
       "title": "Kanapohjapizza",
       "meta": "~6 siivua",
       "macros": "~175 kcal / ~19 g prot per siivu.",
@@ -1356,12 +1330,12 @@
     },
     {
       "kind": "recipe",
-      "id": "liha-erikoisuudet-0",
-      "sectionId": "liha-erikoisuudet",
-      "section": "Liha-erikoisuudet",
+      "id": "paaruuat-13",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
       "title": "TikTok-kebab",
       "meta": "ohut versio",
-      "macros": "",
+      "macros": null,
       "favorite": false,
       "badge": null
     },
@@ -1372,7 +1346,7 @@
       "section": "Jälkiruoat",
       "title": "Brownie",
       "meta": "jauhoton, proteiinipohjainen",
-      "macros": "koko satsi ~979 kcal / ~58 g prot",
+      "macros": "koko satsi ~979 kcal / ~58 g prot · 1/2 = ~490 kcal / ~…",
       "favorite": false,
       "badge": null
     },
@@ -1394,7 +1368,7 @@
       "section": "Jälkiruoat",
       "title": "Proteiini-porkkanakakku",
       "meta": "1 annos",
-      "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 k…",
+      "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 kcal / ~15,…",
       "favorite": false,
       "badge": null
     },
@@ -1405,7 +1379,7 @@
       "section": "Jälkiruoat",
       "title": "Raejuusto-vadelmajäätelö",
       "meta": "~1,5–2 litraa",
-      "macros": "~762 kcal / ~108 g prot — poikkeuksellisen pr…",
+      "macros": null,
       "favorite": false,
       "badge": null
     },
@@ -1422,9 +1396,9 @@
     },
     {
       "kind": "recipe",
-      "id": "rahkakakku-0",
-      "sectionId": "rahkakakku",
-      "section": "Rahkakakku",
+      "id": "jalkiruoat-5",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
       "title": "Mikin rahkakakku",
       "meta": "~4 annosta",
       "macros": "~309 kcal / ~34 g prot per annos.",
