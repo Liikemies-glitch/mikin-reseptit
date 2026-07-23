@@ -507,7 +507,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Sitruunainen raejuustosoosi
-*Vaihtoehto lime-jogurttisoosille · 6/10*
+*Vaihtoehto lime-jogurttisoosille · 8/10*
 
 **Soveltuu:** Vaihtoehto lime-jogurttisoosille — proteiinipitoisempi, sitruunainen.
 
