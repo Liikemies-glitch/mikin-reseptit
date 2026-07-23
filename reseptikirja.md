@@ -341,26 +341,6 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
-### Proteiini-bataattikakku
-*8 palaa · 6/10*
-
-**Ainekset:**
-- 2 keskikokoista bataattia (~400 g, kypsennä + soseuta)
-- 100 g rahkaa
-- 36 g kookosöljyä
-- ~110 g vaahterasiirappia
-- 2 kananmunaa
-- ~125 g itsestäänkohoavaa jauhoa + ~40 g proteiinijauhetta
-- ~50 g suklaahippuja
-
-**Huom:** proteiinijauhe kuivattaa taikinaa — lisää tarvittaessa maitoa.
-
-**Valmistus:** Kypsennä ja soseuta bataatit. Sekoita soseeseen rahka, kookosöljy, siirappi, munat, jauhot, proteiinijauhe ja suklaahiput. Kaada vuokaan. Uuni 180°C, tikkutesti.
-
-**Makrot:** ~254 kcal / ~11,5 g prot per pala.
-
----
-
 ### Proteiini-porkkanakakku
 *1 annos · 8/10*
 

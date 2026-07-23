@@ -668,46 +668,6 @@
           "id": "jalkiruoat-0"
         },
         {
-          "title": "Proteiini-bataattikakku",
-          "meta": "8 palaa",
-          "blocks": [
-            {
-              "type": "section",
-              "label": "Ainekset",
-              "content": "",
-              "items": [
-                "2 keskikokoista bataattia (~400 g, kypsennä + soseuta)",
-                "100 g rahkaa",
-                "36 g kookosöljyä",
-                "~110 g vaahterasiirappia",
-                "2 kananmunaa",
-                "~125 g itsestäänkohoavaa jauhoa + ~40 g proteiinijauhetta",
-                "~50 g suklaahippuja"
-              ]
-            },
-            {
-              "type": "section",
-              "label": "Huom",
-              "content": "proteiinijauhe kuivattaa taikinaa — lisää tarvittaessa maitoa.",
-              "items": []
-            },
-            {
-              "type": "section",
-              "label": "Valmistus",
-              "content": "Kypsennä ja soseuta bataatit. Sekoita soseeseen rahka, kookosöljy, siirappi, munat, jauhot, proteiinijauhe ja suklaahiput. Kaada vuokaan. Uuni 180°C, tikkutesti.",
-              "items": []
-            },
-            {
-              "type": "section",
-              "label": "Makrot",
-              "content": "~254 kcal / ~11,5 g prot per pala.",
-              "items": []
-            }
-          ],
-          "rating": 6,
-          "id": "jalkiruoat-1"
-        },
-        {
           "title": "Proteiini-porkkanakakku",
           "meta": "1 annos",
           "blocks": [
@@ -778,7 +738,7 @@
             }
           ],
           "rating": 8,
-          "id": "jalkiruoat-2"
+          "id": "jalkiruoat-1"
         },
         {
           "title": "Raejuusto-vadelmajäätelö",
@@ -826,7 +786,7 @@
             }
           ],
           "rating": 8,
-          "id": "jalkiruoat-3"
+          "id": "jalkiruoat-2"
         },
         {
           "title": "Vadelmapirtelö",
@@ -857,7 +817,7 @@
             }
           ],
           "rating": 10,
-          "id": "jalkiruoat-4"
+          "id": "jalkiruoat-3"
         },
         {
           "title": "Mikin rahkakakku",
@@ -891,7 +851,7 @@
             }
           ],
           "rating": 6,
-          "id": "jalkiruoat-5"
+          "id": "jalkiruoat-4"
         }
       ],
       "table": null,
@@ -1308,16 +1268,6 @@
       "id": "jalkiruoat-1",
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
-      "title": "Proteiini-bataattikakku",
-      "meta": "8 palaa",
-      "macros": "~254 kcal / ~11,5 g prot per pala.",
-      "rating": 6
-    },
-    {
-      "kind": "recipe",
-      "id": "jalkiruoat-2",
-      "sectionId": "jalkiruoat",
-      "section": "Jälkiruoat",
       "title": "Proteiini-porkkanakakku",
       "meta": "1 annos",
       "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 kcal / ~15,…",
@@ -1325,7 +1275,7 @@
     },
     {
       "kind": "recipe",
-      "id": "jalkiruoat-3",
+      "id": "jalkiruoat-2",
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Raejuusto-vadelmajäätelö",
@@ -1335,7 +1285,7 @@
     },
     {
       "kind": "recipe",
-      "id": "jalkiruoat-4",
+      "id": "jalkiruoat-3",
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Vadelmapirtelö",
@@ -1345,7 +1295,7 @@
     },
     {
       "kind": "recipe",
-      "id": "jalkiruoat-5",
+      "id": "jalkiruoat-4",
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Mikin rahkakakku",
