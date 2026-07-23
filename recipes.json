@@ -790,7 +790,7 @@
         },
         {
           "title": "Vadelmapirtelö",
-          "meta": "nopea versio",
+          "meta": "1 annos",
           "blocks": [
             {
               "type": "section",
@@ -1289,7 +1289,7 @@
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Vadelmapirtelö",
-      "meta": "nopea versio",
+      "meta": "1 annos",
       "macros": "~324 kcal / ~49,2 g prot.",
       "rating": 10
     },
