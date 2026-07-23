@@ -14,6 +14,7 @@ OUT_PATH = ROOT / "recipes.json"
 
 SECTION_IDS = {
     "Pääruoat": "paaruuat",
+    "Aamupalat": "aamupalat",
     "Jälkiruoat": "jalkiruoat",
     "Kastikkeet ja soosit": "kastikkeet",
     "Perusravintoarvot (usein käytetyt)": "perusarvot",

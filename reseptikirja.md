@@ -7,8 +7,9 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Sisällys
 
 1. [Pääruoat](#pääruoat)
-2. [Jälkiruoat](#jälkiruoat)
-3. [Kastikkeet ja soosit](#kastikkeet-ja-soosit)
+2. [Aamupalat](#aamupalat)
+3. [Jälkiruoat](#jälkiruoat)
+4. [Kastikkeet ja soosit](#kastikkeet-ja-soosit)
 
 ---
 
@@ -363,6 +364,39 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
+## Aamupalat
+
+### Mikin köyhä aamusmoothie
+*1 annos*
+
+**Ainekset:**
+- 80 g mustikoita
+- 1 scoop heraa (30 g) — SportLife Whey100
+- Puolikas banaani (~50 g)
+- 1 dl kaurahiutaleita (~60 g)
+
+**Valmistus:** Blenderoi kaikki yhteen. Valmis!
+
+**Makrot:** ~416 kcal / ~31 g prot.
+
+---
+
+### Mikin rikkaampi aamusmoothie
+*1 annos · 10/10*
+
+**Ainekset:**
+- 1 dl kaurahiutaleita
+- 200 g maitorahkaa
+- 0,5 dl kevytmaitoa
+- 1 skuuppi heraproteiinijauhetta (30 g)
+- Pensasmustikat (~100 g)
+
+**Valmistus:** Blenderoi kaikki yhteen. Valmis!
+
+**Makrot:** ~532 kcal / ~59,4 g prot.
+
+---
+
 ## Jälkiruoat
 
 ### Brownie
@@ -471,37 +505,6 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 **Valmistus:** Blenderoi kaikki tasaiseksi.
 
 **Makrot:** ~324 kcal / ~49,2 g prot.
-
----
-
-### Mikin köyhä aamusmoothie
-*1 annos*
-
-**Ainekset:**
-- 80 g mustikoita
-- 1 scoop heraa (30 g) — SportLife Whey100
-- Puolikas banaani (~50 g)
-- 1 dl kaurahiutaleita (~60 g)
-
-**Valmistus:** Blenderoi kaikki yhteen. Valmis!
-
-**Makrot:** ~416 kcal / ~31 g prot.
-
----
-
-### Mikin rikkaampi aamusmoothie
-*1 annos · 10/10*
-
-**Ainekset:**
-- 1 dl kaurahiutaleita
-- 200 g maitorahkaa
-- 0,5 dl kevytmaitoa
-- 1 skuuppi heraproteiinijauhetta (30 g)
-- Pensasmustikat (~100 g)
-
-**Valmistus:** Blenderoi kaikki yhteen. Valmis!
-
-**Makrot:** ~532 kcal / ~59,4 g prot.
 
 ---
 

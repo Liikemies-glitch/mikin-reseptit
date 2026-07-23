@@ -16,7 +16,7 @@ const els = {
   agentCopyBtn: document.getElementById("agentCopyBtn"),
 };
 
-const SECTION_ORDER = ["paaruuat", "jalkiruoat", "kastikkeet"];
+const SECTION_ORDER = ["paaruuat", "aamupalat", "jalkiruoat", "kastikkeet"];
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -261,7 +261,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=61");
+  const res = await fetch("./recipes.json?v=62");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
