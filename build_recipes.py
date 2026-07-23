@@ -487,7 +487,9 @@ def parse_markdown(text: str) -> dict:
 
     attach_recipe_images(sections)
 
-    footers = re.findall(r"^\*(Kokoelma.+)\*\s*$", text, re.M)
+    footers = re.findall(
+        r"^\*((?:Kaikki reseptit|Kokoelma).+)\*\s*$", text, re.M
+    )
     footer = footers[-1] if footers else None
 
     # Build index

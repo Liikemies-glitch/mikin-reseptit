@@ -315,7 +315,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=65");
+  const res = await fetch("./recipes.json?v=66");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
@@ -323,6 +323,7 @@ async function init() {
   const intro = state.data.footer || state.data.intro || "";
   if (intro && els.footerNote) {
     const introEl = document.createElement("p");
+    introEl.className = "footer-note__trust";
     introEl.textContent = intro;
     els.footerNote.prepend(introEl);
   }

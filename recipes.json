@@ -2,7 +2,7 @@
   "title": "Mikin Proteiinipainotteinen Reseptikirja",
   "brand": "Mikin Reseptikirja",
   "intro": "Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloidut kalorit, hyvä maku. Kaikki annoskoot ja makrot ovat arvioita — tarkkuus vaihtelee sen mukaan onko käytetty pakkausmerkintöjä vai yleisarvioita.",
-  "footer": "Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.",
+  "footer": "Kaikki reseptit on testattu ja aktiivisesti rotaatiossa. Ne on helppoja tehdä, niihin ei tarvita erikoisia kodinkoneita, ja ne on pääosin erittäin edullisia — niin hyviä, että teen niitä itse uudestaan ja uudestaan. Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.",
   "sections": [
     {
       "id": "paaruuat",
@@ -1269,7 +1269,7 @@
             {
               "type": "section",
               "label": "Makrot",
-              "content": "~124 kcal / ~22 g prot\n\n*Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*",
+              "content": "~124 kcal / ~22 g prot\n\n*Kaikki reseptit on testattu ja aktiivisesti rotaatiossa. Ne on helppoja tehdä, niihin ei tarvita erikoisia kodinkoneita, ja ne on pääosin erittäin edullisia — niin hyviä, että teen niitä itse uudestaan ja uudestaan. Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*",
               "items": []
             }
           ],
@@ -1615,7 +1615,7 @@
       "section": "Kastikkeet ja soosit",
       "title": "Sitruunainen raejuustosoosi",
       "meta": "Vaihtoehto lime-jogurttisoosille",
-      "macros": "~124 kcal / ~22 g prot *Kokoelma päivittyy sitä mukaa k…",
+      "macros": "~124 kcal / ~22 g prot *Kaikki reseptit on testattu ja…",
       "rating": 8,
       "image": null,
       "images": []
