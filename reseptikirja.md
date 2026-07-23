@@ -442,7 +442,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ## Kastikkeet ja soosit
 
 ### Jogurtti-sriracha
-*Kanatortillat, kebab · 8/10*
+*Kanatortillat, kebab · 10/10*
 
 **Soveltuu:** Parhaimmillaan kanatortilloissa ja kebabin kanssa — tuore, tulinen ja hapokas viimeistely.
 
@@ -455,7 +455,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Lime-persilja-jogurtti
-*Bataattibowl · 7/10*
+*Bataattibowl · 10/10*
 
 **Soveltuu:** Bataatti-jauhelihabowliin — raikas, rasvaton ja yrttinen kastike.
 

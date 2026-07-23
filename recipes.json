@@ -890,7 +890,7 @@
               "items": []
             }
           ],
-          "rating": 8,
+          "rating": 10,
           "id": "kastikkeet-0"
         },
         {
@@ -922,7 +922,7 @@
               "items": []
             }
           ],
-          "rating": 7,
+          "rating": 10,
           "id": "kastikkeet-1"
         },
         {
@@ -1311,7 +1311,7 @@
       "title": "Jogurtti-sriracha",
       "meta": "Kanatortillat, kebab",
       "macros": "~90 kcal / ~10 g prot",
-      "rating": 8
+      "rating": 10
     },
     {
       "kind": "recipe",
@@ -1321,7 +1321,7 @@
       "title": "Lime-persilja-jogurtti",
       "meta": "Bataattibowl",
       "macros": "—",
-      "rating": 7
+      "rating": 10
     },
     {
       "kind": "recipe",
