@@ -1287,17 +1287,6 @@
       "macros": "",
       "favorite": false,
       "badge": null
-    },
-    {
-      "kind": "table",
-      "sectionId": "perusarvot",
-      "section": "Perusravintoarvot (usein käytetyt)",
-      "title": "Perusravintoarvot (usein käytetyt)",
-      "meta": "8 riviä",
-      "id": "perusarvot",
-      "macros": "",
-      "favorite": false,
-      "badge": null
     }
   ]
 }
