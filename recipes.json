@@ -301,20 +301,40 @@
               "content": "",
               "items": [
                 "800 g kanajauhelihaa",
-                "200 g gluteeniton makaroni",
+                "200 g gluteeniton makaroni (kuivapaino)",
                 "500 g raejuustoa",
                 "4 dl kevytmaitoa",
-                "3 tomaattia, 2 sipulia, 3 valkosipulinkynttä",
+                "3 tomaattia",
+                "2 sipulia",
+                "3 valkosipulinkynttä",
                 "150 g juustoraastetta",
                 "2 rkl riisijauhoa (munan korvike)",
-                "Oliiviöljyä",
-                "Mausteet: suola, pippuri, paprika, oregano, sinappi"
+                "Oliiviöljyä paistoon",
+                "Mausteet jauhelihaan: suola, pippuri, savupaprika (päämauste)",
+                "Valinnaiset: oregano, sinappi, paprika"
               ]
             },
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Keitä makaroni melkein kypsäksi. Ruskista sipuli, valkosipuli ja kanajauheliha, mausta. Sekoita raejuusto, maito, riisijauho, sinappi ja tomaatit. Yhdistä pasta + jauheliha + seos vuokaan, ripottele juusto päälle. Uuni 200°C 35–40 min.",
+              "content": "",
+              "items": [],
+              "steps": [
+                "Uuni 200°C.",
+                "Keitä makaroni al denteksi (hieman raaka) suolatussa vedessä, valuta.",
+                "Kuullota sipuli ja valkosipuli oliiviöljyssä.",
+                "Lisää kanajauheliha, paista kypsäksi. Mausta suolalla, pippurilla ja savupaprikalla.",
+                "Sekoita kulhossa raejuusto + kevytmaito + riisijauho tasaiseksi (riisijauho kannattaa vatkaa maidon joukkoon huolella — muuten jää paakuiksi). Halutessa sinappi/mausteita sekaan.",
+                "Kuutioi tomaatit.",
+                "Yhdistä vuokaan makaroni + jauhelihaseos + tomaatit + raejuustoseos, sekoita.",
+                "Ripottele juustoraaste päälle.",
+                "Paista 200°C 35–40 min kunnes pinta on kullanruskea. Anna vetäytyä ~5 min."
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Vinkki",
+              "content": "Oreganoa ja sinappia ei ole pakko käyttää — savupaprika jauhelihassa riittää hyvin.",
               "items": []
             },
             {

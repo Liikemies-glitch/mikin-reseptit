@@ -159,16 +159,30 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Ainekset:**
 - 800 g kanajauhelihaa
-- 200 g gluteeniton makaroni
+- 200 g gluteeniton makaroni (kuivapaino)
 - 500 g raejuustoa
 - 4 dl kevytmaitoa
-- 3 tomaattia, 2 sipulia, 3 valkosipulinkynttä
+- 3 tomaattia
+- 2 sipulia
+- 3 valkosipulinkynttä
 - 150 g juustoraastetta
 - 2 rkl riisijauhoa (munan korvike)
-- Oliiviöljyä
-- Mausteet: suola, pippuri, paprika, oregano, sinappi
+- Oliiviöljyä paistoon
+- Mausteet jauhelihaan: suola, pippuri, savupaprika (päämauste)
+- Valinnaiset: oregano, sinappi, paprika
 
-**Valmistus:** Keitä makaroni melkein kypsäksi. Ruskista sipuli, valkosipuli ja kanajauheliha, mausta. Sekoita raejuusto, maito, riisijauho, sinappi ja tomaatit. Yhdistä pasta + jauheliha + seos vuokaan, ripottele juusto päälle. Uuni 200°C 35–40 min.
+**Valmistus:**
+1. Uuni 200°C.
+2. Keitä makaroni al denteksi (hieman raaka) suolatussa vedessä, valuta.
+3. Kuullota sipuli ja valkosipuli oliiviöljyssä.
+4. Lisää kanajauheliha, paista kypsäksi. Mausta suolalla, pippurilla ja savupaprikalla.
+5. Sekoita kulhossa raejuusto + kevytmaito + riisijauho tasaiseksi (riisijauho kannattaa vatkaa maidon joukkoon huolella — muuten jää paakuiksi). Halutessa sinappi/mausteita sekaan.
+6. Kuutioi tomaatit.
+7. Yhdistä vuokaan makaroni + jauhelihaseos + tomaatit + raejuustoseos, sekoita.
+8. Ripottele juustoraaste päälle.
+9. Paista 200°C 35–40 min kunnes pinta on kullanruskea. Anna vetäytyä ~5 min.
+
+**Vinkki:** Oreganoa ja sinappia ei ole pakko käyttää — savupaprika jauhelihassa riittää hyvin.
 
 **Makrot:** 5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 kcal / ~54 g prot
 
