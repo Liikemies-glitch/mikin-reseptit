@@ -13,6 +13,7 @@ const els = {
   emptyState: document.getElementById("emptyState"),
   footerNote: document.getElementById("footerNote"),
   backBtn: document.getElementById("backBtn"),
+  agentCopyBtn: document.getElementById("agentCopyBtn"),
 };
 
 const SECTION_ORDER = ["paaruuat", "jalkiruoat", "kastikkeet"];
@@ -260,7 +261,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=54");
+  const res = await fetch("./recipes.json?v=55");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
@@ -296,6 +297,25 @@ async function init() {
 
   els.backBtn.addEventListener("click", goBackToIndex);
   window.addEventListener("popstate", applyRoute);
+
+  if (els.agentCopyBtn) {
+    const idleLabel = "Kopioi URL agentille";
+    els.agentCopyBtn.addEventListener("click", async () => {
+      const url = new URL("./llms.txt", location.href).href;
+      try {
+        await navigator.clipboard.writeText(url);
+      } catch {
+        window.prompt("Kopioi tämä URL agentille (ChatGPT / Claude):", url);
+        return;
+      }
+      els.agentCopyBtn.textContent = "Kopioitu — liitä ChatGPT:lle / Claudelle";
+      els.agentCopyBtn.classList.add("is-copied");
+      window.setTimeout(() => {
+        els.agentCopyBtn.textContent = idleLabel;
+        els.agentCopyBtn.classList.remove("is-copied");
+      }, 2600);
+    });
+  }
 }
 
 init();
