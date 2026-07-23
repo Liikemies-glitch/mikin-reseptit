@@ -260,7 +260,7 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=38");
+  const res = await fetch("./recipes.json?v=39");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;

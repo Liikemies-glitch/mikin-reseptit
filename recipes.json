@@ -1050,7 +1050,7 @@
               "items": []
             }
           ],
-          "rating": 6,
+          "rating": 8,
           "id": "kastikkeet-5"
         }
       ],
@@ -1361,7 +1361,7 @@
       "title": "Sitruunainen raejuustosoosi",
       "meta": "Vaihtoehto lime-jogurttisoosille",
       "macros": "~124 kcal / ~22 g prot",
-      "rating": 6
+      "rating": 8
     }
   ]
 }
