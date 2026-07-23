@@ -342,7 +342,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Proteiini-porkkanakakku
-*1 annos · 8/10*
+*1 annos · 9/10*
 
 **Kuivat:**
 - 40 g kaurahiutaleita (~0,7 dl, jauha hienoksi)
