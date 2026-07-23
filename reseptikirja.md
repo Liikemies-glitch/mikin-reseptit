@@ -306,7 +306,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 6. Avaa rullat ja revi kebab oikean kebun näköiseksi.
 7. Tee molemmat soosit (jogurtti-sriracha + lime-persilja-jogurtti).
 8. Kokoa vehnätortillaan: salaatti, vihannekset, cocktailkurkut, molemmat soosit ja kebab. Rullaa.
-9. Tarjoile raejuuston ja Bon Appétitin kanssa. Satsista saa esim. 6 annosta.
+9. Tarjoile raejuuston ja Bon Appétitin kanssa. Satsista saa esim. 4–6 annosta.
 
 ---
 
