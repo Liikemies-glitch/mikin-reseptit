@@ -226,7 +226,8 @@ strong {
 
 .detail__meta {
   margin: 0;
-  padding-bottom: 20px;
+  padding-top: 24px;
+  padding-bottom: 8px;
   border-bottom: 1px solid var(--color-ink);
 }
 
