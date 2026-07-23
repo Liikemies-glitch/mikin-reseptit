@@ -15,7 +15,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Pääruoat
 
 ### Mausteinen jauhelihapata
-*~5–6 annosta · Mikin suosikki*
+*~5–6 annosta · Mikki suosittelee*
 
 **Ainekset:**
 - 1 kg jauheliha 20 % (nauta/sika)
@@ -59,7 +59,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Intialainen jauhelihakeema
-*~4–5 annosta · Mikin suosikki*
+*~4–5 annosta · Mikki suosittelee*
 
 **Ainekset:**
 - 600 g jauhelihaa
@@ -78,7 +78,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Appelsiinikana
-*2 kg kanarintafileetä · Mikin suosikki*
+*2 kg kanarintafileetä · Mikki suosittelee*
 
 **Kastike:** 250 ml appelsiinimehua, 200 ml soijaa, 9 valkosipulinkynttä, ~25 g inkivääriä, 36 g tumma ruokosokeri, 4 rkl omenaviinietikkaa, 1 rkl chilijauhetta
 
@@ -95,7 +95,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Hot Honey Kanariisivuoka
-*4 annosta, 50 min · Mikin suosikki*
+*4 annosta, 50 min · Mikki suosittelee*
 
 **Ainekset:**
 - 700 g broilerin paistileikettä
