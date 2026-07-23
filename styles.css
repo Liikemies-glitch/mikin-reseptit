@@ -106,7 +106,13 @@ strong {
   z-index: 2;
 }
 
-.topbar__brand,
+.topbar__brand {
+  font-size: clamp(36px, 7vw, 56px);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.05;
+  letter-spacing: var(--tracking-body);
+}
+
 .topbar__meta,
 .filter,
 .back {
