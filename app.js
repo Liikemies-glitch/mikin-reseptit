@@ -67,7 +67,12 @@ function sortedIndexRows(query) {
     });
 }
 
-function renderThumb(src, title) {
+function datasetHasImages() {
+  return (state.data?.index || []).some((row) => row.image);
+}
+
+function renderThumb(src, showColumn) {
+  if (!showColumn) return "";
   if (!src) {
     return `<div class="cell cell--thumb" aria-hidden="true"></div>`;
   }
@@ -118,7 +123,7 @@ function renderGallery(images, title) {
     </figure>`;
 }
 
-function renderRecipeRow(row) {
+function renderRecipeRow(row, showThumbs) {
   const rating =
     typeof row.rating === "number" ? String(row.rating) : "—";
   return `
@@ -128,7 +133,7 @@ function renderRecipeRow(row) {
         data-id="${escapeHtml(row.id)}"
         aria-label="${escapeHtml(row.title)}"
       >
-        ${renderThumb(row.image, row.title)}
+        ${renderThumb(row.image, showThumbs)}
         <div class="cell cell--rating">${rating}</div>
         <div class="cell cell__title">${escapeHtml(row.title)}</div>
         <div class="cell">${escapeHtml(row.meta || "—")}</div>
@@ -140,7 +145,11 @@ function renderRecipeRow(row) {
 function renderIndexList() {
   const query = state.query.trim().toLocaleLowerCase("fi");
   const rows = sortedIndexRows(query);
+  const showThumbs = datasetHasImages();
 
+  els.indexView.classList.toggle("index--has-images", showThumbs);
+  const thumbHeader = els.indexView.querySelector(".index__header .cell--thumb");
+  if (thumbHeader) thumbHeader.hidden = !showThumbs;
   els.count.textContent = `${rows.length} / ${state.data.index.length}`;
   els.emptyState.hidden = rows.length > 0;
 
@@ -164,7 +173,7 @@ function renderIndexList() {
       <div class="index__section" role="presentation">
         <h2 class="index__section-title">${escapeHtml(group.section)}</h2>
       </div>`;
-      return heading + group.rows.map(renderRecipeRow).join("");
+      return heading + group.rows.map((row) => renderRecipeRow(row, showThumbs)).join("");
     })
     .join("");
 }
