@@ -420,6 +420,11 @@ td:last-child {
 .footer-note {
   margin: 24px;
   padding-top: 24px;
+  border-top: 1px solid var(--color-ink);
+}
+
+.footer-note__trust {
+  max-width: 42em;
 }
 
 .footer-note a,

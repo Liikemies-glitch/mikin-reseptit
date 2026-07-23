@@ -608,4 +608,4 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 ---
 
-*Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*
+*Kaikki reseptit on testattu ja aktiivisesti rotaatiossa. Ne on helppoja tehdä, niihin ei tarvita erikoisia kodinkoneita, ja ne on pääosin erittäin edullisia — niin hyviä, että teen niitä itse uudestaan ja uudestaan. Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*
