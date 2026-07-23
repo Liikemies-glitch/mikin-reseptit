@@ -117,7 +117,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Ainekset:**
 - 600 g naudanjauheliha extra lean
-- 210 g kikhernepastakierteitä
+- Pastaa
 - 200 g raejuustoa (blenderoidaan, korvaa tuorejuuston)
 - 90 g sipulia
 - 12 g tomaattipyreetä
