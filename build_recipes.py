@@ -25,11 +25,13 @@ SECTION_IDS = {
 # Short / casual filenames → recipe title slug
 FILENAME_ALIASES = {
     "pizza": "rahkapohja-pizza",
+    "pizza2": "rahkapohja-pizza",
     "piz": "rahkapohja-pizza",
     "joku-piz": "rahkapohja-pizza",
     "joku-pizza": "rahkapohja-pizza",
     "rahkapohja": "rahkapohja-pizza",
     "kebab": "rullakebab",
+    "kebabbia": "rullakebab",
     "rullakebab": "rullakebab",
     "moussaka": "kreikkalainen-moussaka",
     "munakoiso": "kreikkalainen-moussaka",
@@ -37,6 +39,7 @@ FILENAME_ALIASES = {
     "tortilla": "kanatortillat",
     "kanatortilla": "kanatortillat",
     "kanatortillat": "kanatortillat",
+    "taytteet": "kanatortillat",
     "jauhelihapata": "mausteinen-jauhelihapata",
     "keema": "intialainen-jauhelihakeema",
     "jauhelihakeema": "intialainen-jauhelihakeema",
@@ -44,11 +47,23 @@ FILENAME_ALIASES = {
     "makaroonilaatikko": "gluteeniton-makaroonilaatikko-munaton",
     "porkkana": "proteiini-porkkanakakku",
     "porkkanakakku": "proteiini-porkkanakakku",
+    "appelsiinikana": "appelsiinikana",
     "mikin-maukas-matto": "intialainen-jauhelihakeema",
     "mikin-maukas-matto-2": "intialainen-jauhelihakeema",
     "mustikka": "brownie",
     "mustikkabrownie": "brownie",
 }
+
+# Filename hints that should sort after the main plated shot
+IMAGE_SECONDARY_HINTS = (
+    "ladonta",
+    "taytteet",
+    "tayte",
+    "ilman",
+    "frosting",
+    "prep",
+    "vaihe",
+)
 
 KNOWN_LABELS = (
     "Ainekset",
@@ -167,7 +182,7 @@ def load_manifest() -> dict[str, list[str]]:
 def stem_match_keys(stem: str) -> list[str]:
     """Possible recipe slugs a filename stem could belong to."""
     base = slugify(stem)
-    trimmed = re.sub(r"[-_]\d+$", "", base)
+    trimmed = re.sub(r"[-_]?\d+$", "", base).strip("-")
     keys: list[str] = []
 
     def push(k: str):
@@ -180,14 +195,54 @@ def stem_match_keys(stem: str) -> list[str]:
         push(FILENAME_ALIASES[trimmed])
     if base in FILENAME_ALIASES:
         push(FILENAME_ALIASES[base])
-    # progressive suffix pieces (joku-piz → piz)
-    parts = trimmed.split("-") if trimmed else []
+
+    parts = [p for p in trimmed.split("-") if p]
+    for part in parts:
+        push(part)
+        if part in FILENAME_ALIASES:
+            push(FILENAME_ALIASES[part])
+        # soft contains (kebabbia → kebab)
+        for alias, target in FILENAME_ALIASES.items():
+            if len(alias) >= 4 and alias in part:
+                push(alias)
+                push(target)
+
     for i in range(len(parts)):
         piece = "-".join(parts[i:])
         push(piece)
         if piece in FILENAME_ALIASES:
             push(FILENAME_ALIASES[piece])
     return keys
+
+
+def resolve_stem_to_slug(stem: str, known_slugs: set[str]) -> str | None:
+    candidates = stem_match_keys(stem)
+    for key in candidates:
+        if key in known_slugs:
+            return key
+    for key in candidates:
+        target = FILENAME_ALIASES.get(key)
+        if target and target in known_slugs:
+            return target
+    # token overlap with known recipe slugs (porkkanakakku → proteiini-porkkanakakku)
+    tokens = [t for t in slugify(stem).split("-") if len(t) >= 5]
+    for slug in known_slugs:
+        for token in tokens:
+            if token in slug or slug in token:
+                return slug
+    return candidates[0] if candidates else None
+
+
+def image_rank(path: str) -> tuple[int, str]:
+    """Prefer plated/finished shots before prep / component photos."""
+    name = slugify(Path(path).stem)
+    secondary = any(hint in name for hint in IMAGE_SECONDARY_HINTS)
+    plated = any(h in name for h in ("ateria", "whole-meal", "wholemeal", "lautanen"))
+    if secondary:
+        return (2, path)
+    if plated:
+        return (1, path)
+    return (0, path)
 
 
 def discover_images_by_slug(known_slugs: set[str] | None = None) -> dict[str, list[str]]:
@@ -217,21 +272,16 @@ def discover_images_by_slug(known_slugs: set[str] | None = None) -> dict[str, li
         rel = path.relative_to(IMAGES_DIR)
         # images/<slug>/file.jpg
         if len(rel.parts) >= 2:
-            folder_slug = slugify(rel.parts[0])
+            folder_slug = resolve_stem_to_slug(rel.parts[0], known) or slugify(rel.parts[0])
             folder_slug = FILENAME_ALIASES.get(folder_slug, folder_slug)
             add(folder_slug, path)
             continue
-        # Prefer a key that matches a known recipe slug, else first key / alias target
-        candidates = stem_match_keys(path.stem)
-        chosen = next((k for k in candidates if k in known), None)
-        if not chosen:
-            chosen = next(
-                (FILENAME_ALIASES[k] for k in candidates if k in FILENAME_ALIASES),
-                candidates[0] if candidates else None,
-            )
+        chosen = resolve_stem_to_slug(path.stem, known)
         if chosen:
             add(chosen, path)
 
+    for slug, paths in by_slug.items():
+        by_slug[slug] = sorted(paths, key=image_rank)
     return by_slug
 
 
@@ -250,6 +300,7 @@ def attach_recipe_images(sections: list[dict]) -> None:
                 for path in src:
                     if path not in images:
                         images.append(path)
+            images.sort(key=image_rank)
             recipe["images"] = images
             recipe["image"] = images[0] if images else None
 
