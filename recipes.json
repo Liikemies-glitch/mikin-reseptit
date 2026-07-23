@@ -629,6 +629,64 @@
           ],
           "rating": 8,
           "id": "paaruuat-13"
+        },
+        {
+          "title": "Marokkolainen kanapata",
+          "meta": "~6 annosta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "~800 g kanarintafileetä",
+                "2 perunaa tai bataattia (~400 g)",
+                "2 sipulia",
+                "2 tomaattia",
+                "100 g inkivääriä",
+                "6 dl kanalientä",
+                "2 rkl punaviinietikkaa",
+                "2 rkl tummaa ruokosokeria",
+                "2 rkl öljyä"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Mausteet",
+              "content": "",
+              "items": [
+                "1 tl kanelia",
+                "1 tl juustokuminaa",
+                "1 tl korianteria",
+                "1 tl kurkumaa",
+                "Suola, mustapippuri"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "",
+              "items": [],
+              "steps": [
+                "Ota kana huoneenlämpöön 30 min ennen valmistusta.",
+                "Mausta fileet suolalla ja pippurilla, paloittele ~1–2 cm viipaleiksi.",
+                "Ruskista kana öljyssä padassa pari min, nosta sivuun.",
+                "Soseuta sipulit, tomaatit, inkivääri ja kuivamausteet tehosekoittimessa tasaiseksi tahnaksi.",
+                "Kuullota tahna samassa padassa pari min.",
+                "Lisää kana + peruna/bataatti isohkoina paloina + kanaliemi + etikka + sokeri.",
+                "Hauduta miedolla lämmöllä ~30 min.",
+                "Tarjoa kvinoan/riisin ja jogurtin kanssa."
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~275 kcal / ~31 g prot per annos (6 annosta).",
+              "items": []
+            }
+          ],
+          "rating": 8,
+          "id": "paaruuat-14"
         }
       ],
       "table": null,
@@ -1301,6 +1359,16 @@
       "title": "Tonnikalamelt ruisleipä",
       "meta": "4 viipaletta",
       "macros": "~700 kcal / ~43 g prot (4 viipaletta).",
+      "rating": 8
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-14",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Marokkolainen kanapata",
+      "meta": "~6 annosta",
+      "macros": "~275 kcal / ~31 g prot per annos (6 annosta).",
       "rating": 8
     },
     {
