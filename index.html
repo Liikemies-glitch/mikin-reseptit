@@ -5,16 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Mikin proteiinipainotteinen reseptikirja — korkea proteiini, kontrolloidut kalorit."
+      content="Mikin proteiinipainotteinen reseptikirja — korkea proteiini, kontrolloidut kalorit. AI-agentit: lue llms.txt tai reseptikirja.md (ei tätä HTML-kuorta)."
     />
     <title>Mikin Reseptikirja</title>
+    <!-- AI agents: do not scrape this HTML shell. Full recipes are static files below. -->
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="./llms.txt"
+      title="AI agent index (llms.txt)"
+    />
+    <link
+      rel="alternate"
+      type="text/markdown"
+      href="./reseptikirja.md"
+      title="Full recipe book (Markdown)"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="./recipes.json"
+      title="Recipes (JSON)"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=14" />
+    <link rel="stylesheet" href="./styles.css?v=15" />
   </head>
   <body>
     <div class="page">
@@ -51,10 +70,40 @@
           <section class="detail" id="detailView" hidden aria-live="polite"></section>
         </main>
 
-        <footer class="footer-note reveal reveal-delay-3" id="footerNote"></footer>
+        <!-- Static: visible without JS so crawlers/agents see the real data URLs -->
+        <footer class="footer-note reveal reveal-delay-3" id="footerNote">
+          <p>
+            Tämä sivu lataa reseptit JavaScriptillä. AI-agentit: älä luota tähän HTML-kuoreen —
+            hae staattiset lähteet:
+            <a href="./llms.txt">llms.txt</a>,
+            <a href="./reseptikirja.md">reseptikirja.md</a>,
+            <a href="./recipes.json">recipes.json</a>,
+            <a href="./AGENTS.md">AGENTS.md</a>.
+          </p>
+          <p>
+            Suora URL agenteille:
+            <a href="https://liikemies-glitch.github.io/mikin-reseptit/llms.txt"
+              >https://liikemies-glitch.github.io/mikin-reseptit/llms.txt</a
+            >
+          </p>
+        </footer>
+
+        <noscript>
+          <section class="footer-note">
+            <h2>Reseptisisältö (ilman JavaScriptiä)</h2>
+            <p>
+              Lue koko kirja:
+              <a href="./reseptikirja.md">reseptikirja.md</a>
+              · agentti-indeksi:
+              <a href="./llms.txt">llms.txt</a>
+              · JSON:
+              <a href="./recipes.json">recipes.json</a>
+            </p>
+          </section>
+        </noscript>
       </div>
     </div>
 
-    <script src="./app.js?v=53" type="module"></script>
+    <script src="./app.js?v=54" type="module"></script>
   </body>
 </html>

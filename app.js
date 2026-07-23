@@ -260,15 +260,17 @@ function goBackToIndex() {
 }
 
 async function init() {
-  const res = await fetch("./recipes.json?v=53");
+  const res = await fetch("./recipes.json?v=54");
   state.data = await res.json();
 
   document.title = state.data.brand || state.data.title;
-  const footerBits = [state.data.footer || state.data.intro || ""].filter(Boolean);
-  footerBits.push(
-    'Agentit: <a href="./llms.txt">llms.txt</a>'
-  );
-  els.footerNote.innerHTML = footerBits.join("<br>");
+  // Keep static agent URLs in the HTML; only prepend book footer/intro above them.
+  const intro = state.data.footer || state.data.intro || "";
+  if (intro && els.footerNote) {
+    const introEl = document.createElement("p");
+    introEl.textContent = intro;
+    els.footerNote.prepend(introEl);
+  }
 
   // Migrate old #id links into history-friendly ?r=id URLs
   if (!new URLSearchParams(location.search).get("r") && location.hash.length > 1) {

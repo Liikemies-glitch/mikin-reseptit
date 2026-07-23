@@ -1,0 +1,6 @@
+# Human UI is JS-rendered. Prefer static recipe sources for bots/agents.
+User-agent: *
+Allow: /
+
+# Preferred entry for AI agents
+# https://liikemies-glitch.github.io/mikin-reseptit/llms.txt
