@@ -18,7 +18,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Pääruoat
 
 ### Mausteinen jauhelihapata
-*~5–6 annosta*
+*~5–6 annosta · Mikin suosikki*
 
 **Ainekset:**
 - 1 kg jauheliha 20 % (nauta/sika)
@@ -31,11 +31,14 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - 200 g fetaa (lautaselle erikseen)
 - Kirsikkatomaatteja
 - Tuore chili
-- Salsa de chipotle + Poppamiehen The Awesome -kastike
-- Mausteet: paprika, savupaprika, juustokumina, kurkuma, suola, pippuri
+- Maustaminen (valitse yksi linja — kahta soosia ei tarvita): salsa de chipotle (Santa Maria -tyylinen) tai muu soosi, joka antaa pataan makua ja tulisuutta — TAI kuivat mausteet (paprika, savupaprika, juustokumina, kurkuma, suola, pippuri); kuivamaustamiseen suositus: hieman nestettä + lihalientä tms. mukaan
 - Riisi keitetään erikseen
 
-**Valmistus:** Kuullota sipuli, valkosipuli, paprika ja chili. Lisää jauheliha, ruskista ja mausta. Kaada tomaattimurska + kastikkeet, lisää maissi ja pavut. Hauduta ~20–30 min. Keitä riisi erikseen. Tarjoile fetan ja kirsikkatomaattien kanssa.
+**Valmistus:** Kuullota sipuli, valkosipuli, paprika ja chili. Lisää jauheliha, ruskista ja mausta (soosilla tai kuivilla mausteilla + neste/lihaliemi). Kaada tomaattimurska, lisää maissi ja pavut. Hauduta ~20–30 min. Keitä riisi erikseen. Tarjoile fetan ja kirsikkatomaattien kanssa.
+
+**Vinkki:** Tätä ruokaa voi syödä sellaisenaan. Jos alkaa kyllästyttää, tunge kovaan tacokuoreen, pistä päälle hieman juustoraastetta ja laita uuniin lämpiämään.
+
+**Ultimatesuositus:** Lisää kuuman tacon päälle pikkasen Santa Marian valkosipulimajoneesia ja pineapple salsaa — todella maukas.
 
 **Makrot:** 5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 kcal / ~41 g prot
 

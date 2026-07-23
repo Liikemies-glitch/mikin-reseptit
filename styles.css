@@ -190,6 +190,27 @@ strong {
   overflow-wrap: anywhere;
 }
 
+.cell__title {
+  margin: 0;
+}
+
+.badge,
+.detail__badge {
+  margin: 4px 0 0;
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--tracking-body);
+  line-height: var(--leading-body);
+}
+
+.detail__badge {
+  margin: 24px 0 0;
+}
+
+.detail__badge + .detail__title {
+  margin-top: 8px;
+}
+
 .dot {
   width: 6px;
   height: 6px;

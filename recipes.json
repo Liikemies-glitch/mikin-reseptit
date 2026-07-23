@@ -27,15 +27,26 @@
                 "200 g fetaa (lautaselle erikseen)",
                 "Kirsikkatomaatteja",
                 "Tuore chili",
-                "Salsa de chipotle + Poppamiehen The Awesome -kastike",
-                "Mausteet: paprika, savupaprika, juustokumina, kurkuma, suola, pippuri",
+                "Maustaminen (valitse yksi linja — kahta soosia ei tarvita): salsa de chipotle (Santa Maria -tyylinen) tai muu soosi, joka antaa pataan makua ja tulisuutta — TAI kuivat mausteet (paprika, savupaprika, juustokumina, kurkuma, suola, pippuri); kuivamaustamiseen suositus: hieman nestettä + lihalientä tms. mukaan",
                 "Riisi keitetään erikseen"
               ]
             },
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Kuullota sipuli, valkosipuli, paprika ja chili. Lisää jauheliha, ruskista ja mausta. Kaada tomaattimurska + kastikkeet, lisää maissi ja pavut. Hauduta ~20–30 min. Keitä riisi erikseen. Tarjoile fetan ja kirsikkatomaattien kanssa.",
+              "content": "Kuullota sipuli, valkosipuli, paprika ja chili. Lisää jauheliha, ruskista ja mausta (soosilla tai kuivilla mausteilla + neste/lihaliemi). Kaada tomaattimurska, lisää maissi ja pavut. Hauduta ~20–30 min. Keitä riisi erikseen. Tarjoile fetan ja kirsikkatomaattien kanssa.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Vinkki",
+              "content": "Tätä ruokaa voi syödä sellaisenaan. Jos alkaa kyllästyttää, tunge kovaan tacokuoreen, pistä päälle hieman juustoraastetta ja laita uuniin lämpiämään.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ultimatesuositus",
+              "content": "Lisää kuuman tacon päälle pikkasen Santa Marian valkosipulimajoneesia ja pineapple salsaa — todella maukas.",
               "items": []
             },
             {
@@ -45,6 +56,8 @@
               "items": []
             }
           ],
+          "favorite": true,
+          "badge": "Mikin suosikki",
           "id": "paaruuat-0"
         },
         {
@@ -77,6 +90,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-1"
         },
         {
@@ -109,6 +124,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-2"
         },
         {
@@ -140,6 +157,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-3"
         },
         {
@@ -177,6 +196,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-4"
         },
         {
@@ -212,6 +233,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-5"
         },
         {
@@ -244,6 +267,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-6"
         },
         {
@@ -285,6 +310,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-7"
         },
         {
@@ -320,6 +347,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-8"
         },
         {
@@ -355,6 +384,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-9"
         },
         {
@@ -421,6 +452,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "paaruuat-10"
         }
       ],
@@ -466,6 +499,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "pizzat-0"
         },
         {
@@ -502,6 +537,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "pizzat-1"
         }
       ],
@@ -535,6 +572,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "liha-erikoisuudet-0"
         }
       ],
@@ -605,6 +644,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "jalkiruoat-0"
         },
         {
@@ -644,6 +685,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "jalkiruoat-1"
         },
         {
@@ -716,6 +759,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "jalkiruoat-2"
         },
         {
@@ -763,6 +808,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "jalkiruoat-3"
         },
         {
@@ -793,6 +840,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "jalkiruoat-4"
         }
       ],
@@ -834,6 +883,8 @@
               "items": []
             }
           ],
+          "favorite": false,
+          "badge": null,
           "id": "rahkakakku-0"
         }
       ],
@@ -967,7 +1018,9 @@
       "section": "Pääruoat",
       "title": "Mausteinen jauhelihapata",
       "meta": "~5–6 annosta",
-      "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 k…"
+      "macros": "5 ann: ~638 kcal / ~50 g prot · 6 ann: ~532 k…",
+      "favorite": true,
+      "badge": "Mikin suosikki"
     },
     {
       "kind": "recipe",
@@ -976,7 +1029,9 @@
       "section": "Pääruoat",
       "title": "Kreikkalainen moussaka",
       "meta": "~6 annosta",
-      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5."
+      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -985,7 +1040,9 @@
       "section": "Pääruoat",
       "title": "Keema",
       "meta": "~4–5 annosta",
-      "macros": "~420 kcal / ~42 g prot per annos."
+      "macros": "~420 kcal / ~42 g prot per annos.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -994,7 +1051,9 @@
       "section": "Pääruoat",
       "title": "Appelsiinikana",
       "meta": "2 kg kanarintafileetä",
-      "macros": "6 ann: ~441 kcal / ~59 g prot"
+      "macros": "6 ann: ~441 kcal / ~59 g prot",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1003,7 +1062,9 @@
       "section": "Pääruoat",
       "title": "Hot Honey Kanariisivuoka",
       "meta": "4 annosta, 50 min",
-      "macros": "~446 kcal / ~42 g prot per annos."
+      "macros": "~446 kcal / ~42 g prot per annos.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1012,7 +1073,9 @@
       "section": "Pääruoat",
       "title": "High Protein Creamy Beef Pasta",
       "meta": "~3 annosta",
-      "macros": "~580 kcal / ~64 g prot per annos."
+      "macros": "~580 kcal / ~64 g prot per annos.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1021,7 +1084,9 @@
       "section": "Pääruoat",
       "title": "Keltainen curry",
       "meta": "~4–5 annosta",
-      "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 k…"
+      "macros": "5 ann: ~358 kcal / ~37 g prot · 4 ann: ~448 k…",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1030,7 +1095,9 @@
       "section": "Pääruoat",
       "title": "Gluteeniton makaroonilaatikko (munaton)",
       "meta": "~5–6 annosta",
-      "macros": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 k…"
+      "macros": "5 ann: ~612 kcal / ~65 g prot · 6 ann: ~510 k…",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1039,7 +1106,9 @@
       "section": "Pääruoat",
       "title": "Bataatti-jauhelihabowl",
       "meta": "~5 annosta",
-      "macros": "~482 kcal / ~43 g prot per annos."
+      "macros": "~482 kcal / ~43 g prot per annos.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1048,7 +1117,9 @@
       "section": "Pääruoat",
       "title": "Kanatortillat",
       "meta": "~4 annosta",
-      "macros": "~543 kcal / ~54 g prot per annos."
+      "macros": "~543 kcal / ~54 g prot per annos.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1057,7 +1128,9 @@
       "section": "Pääruoat",
       "title": "Teriyaki-jauhelihaperunavuoka",
       "meta": "~4–5 annosta",
-      "macros": ""
+      "macros": "",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1066,7 +1139,9 @@
       "section": "Pizzat",
       "title": "Rahkapohja-pizza",
       "meta": "koko pizza",
-      "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g ka…"
+      "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g ka…",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1075,7 +1150,9 @@
       "section": "Pizzat",
       "title": "Kanapohjapizza",
       "meta": "~6 siivua",
-      "macros": "~175 kcal / ~19 g prot per siivu."
+      "macros": "~175 kcal / ~19 g prot per siivu.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1084,7 +1161,9 @@
       "section": "Liha-erikoisuudet",
       "title": "TikTok-kebab",
       "meta": "ohut versio",
-      "macros": ""
+      "macros": "",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1093,7 +1172,9 @@
       "section": "Jälkiruoat",
       "title": "Brownie",
       "meta": "jauhoton, proteiinipohjainen",
-      "macros": "koko satsi ~979 kcal / ~58 g prot"
+      "macros": "koko satsi ~979 kcal / ~58 g prot",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1102,7 +1183,9 @@
       "section": "Jälkiruoat",
       "title": "Proteiini-bataattikakku",
       "meta": "8 palaa",
-      "macros": "~254 kcal / ~11,5 g prot per pala."
+      "macros": "~254 kcal / ~11,5 g prot per pala.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1111,7 +1194,9 @@
       "section": "Jälkiruoat",
       "title": "Proteiini-porkkanakakku",
       "meta": "1 annos",
-      "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 k…"
+      "macros": "kakku ~421 kcal / ~48 g prot, frosting ~112 k…",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1120,7 +1205,9 @@
       "section": "Jälkiruoat",
       "title": "Raejuusto-vadelmajäätelö",
       "meta": "~1,5–2 litraa",
-      "macros": "~762 kcal / ~108 g prot — poikkeuksellisen pr…"
+      "macros": "~762 kcal / ~108 g prot — poikkeuksellisen pr…",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1129,7 +1216,9 @@
       "section": "Jälkiruoat",
       "title": "Vadelmapirtelö",
       "meta": "nopea versio",
-      "macros": "~324 kcal / ~49,2 g prot."
+      "macros": "~324 kcal / ~49,2 g prot.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "recipe",
@@ -1138,7 +1227,9 @@
       "section": "Rahkakakku",
       "title": "Mikin rahkakakku",
       "meta": "~4 annosta",
-      "macros": "~309 kcal / ~34 g prot per annos."
+      "macros": "~309 kcal / ~34 g prot per annos.",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "table",
@@ -1147,7 +1238,9 @@
       "title": "Kastikkeet ja soosit",
       "meta": "6 riviä",
       "id": "kastikkeet",
-      "macros": ""
+      "macros": "",
+      "favorite": false,
+      "badge": null
     },
     {
       "kind": "table",
@@ -1156,7 +1249,9 @@
       "title": "Perusravintoarvot (usein käytetyt)",
       "meta": "8 riviä",
       "id": "perusarvot",
-      "macros": ""
+      "macros": "",
+      "favorite": false,
+      "badge": null
     }
   ]
 }
