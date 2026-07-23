@@ -474,6 +474,21 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 ---
 
+### Mikin köyhä aamusmoothie
+*1 annos*
+
+**Ainekset:**
+- 80 g mustikoita
+- 1 scoop heraa (30 g) — SportLife Whey100
+- Puolikas banaani (~50 g)
+- 1 dl kaurahiutaleita (~60 g)
+
+**Valmistus:** Blenderoi kaikki yhteen. Valmis!
+
+**Makrot:** ~416 kcal / ~31 g prot.
+
+---
+
 ### Mikin rahkakakku
 *~4 annosta · WIP · 6/10*
 

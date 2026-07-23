@@ -912,6 +912,37 @@
           "id": "jalkiruoat-3"
         },
         {
+          "title": "Mikin köyhä aamusmoothie",
+          "meta": "1 annos",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "80 g mustikoita",
+                "1 scoop heraa (30 g) — SportLife Whey100",
+                "Puolikas banaani (~50 g)",
+                "1 dl kaurahiutaleita (~60 g)"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi kaikki yhteen. Valmis!",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~416 kcal / ~31 g prot.",
+              "items": []
+            }
+          ],
+          "rating": null,
+          "id": "jalkiruoat-4"
+        },
+        {
           "title": "Mikin rahkakakku",
           "meta": "~4 annosta · WIP",
           "blocks": [
@@ -949,7 +980,7 @@
             }
           ],
           "rating": 6,
-          "id": "jalkiruoat-4"
+          "id": "jalkiruoat-5"
         }
       ],
       "table": null,
@@ -1414,6 +1445,16 @@
     {
       "kind": "recipe",
       "id": "jalkiruoat-4",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Mikin köyhä aamusmoothie",
+      "meta": "1 annos",
+      "macros": "~416 kcal / ~31 g prot.",
+      "rating": null
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-5",
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Mikin rahkakakku",
