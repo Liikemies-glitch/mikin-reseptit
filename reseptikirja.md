@@ -233,7 +233,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Teriyaki-jauhelihaperunavuoka
-*~4 annosta · 8/10*
+*~4 annosta · 9/10*
 
 **Ainekset:**
 - 600 g jauhelihaa
