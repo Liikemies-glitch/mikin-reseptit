@@ -489,6 +489,22 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 ---
 
+### Mikin rikkaampi aamusmoothie
+*1 annos · 10/10*
+
+**Ainekset:**
+- 1 dl kaurahiutaleita
+- 200 g maitorahkaa
+- 0,5 dl kevytmaitoa
+- 1 skuuppi heraproteiinijauhetta (30 g)
+- Pensasmustikat (~100 g)
+
+**Valmistus:** Blenderoi kaikki yhteen. Valmis!
+
+**Makrot:** ~532 kcal / ~59,4 g prot.
+
+---
+
 ### Mikin rahkakakku
 *~4 annosta · WIP · 6/10*
 
