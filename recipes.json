@@ -664,7 +664,7 @@
               "items": []
             }
           ],
-          "rating": 8,
+          "rating": 9,
           "id": "jalkiruoat-0"
         },
         {
@@ -1301,7 +1301,7 @@
       "title": "Brownie",
       "meta": "jauhoton, proteiinipohjainen",
       "macros": "koko satsi ~979 kcal / ~58 g prot · 1/2 = ~490 kcal / ~…",
-      "rating": 8
+      "rating": 9
     },
     {
       "kind": "recipe",
