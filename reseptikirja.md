@@ -266,9 +266,11 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Kastike:** Polpa ~70 ml
 
-**Täytteet (vakio):** 70 g kalkkunan pepperoni + 75 g Kadett-juusto 12 % + 2 valkosipulinkynttä + 1 tl öljy + loraus valkosipulimajoneesia
+**Täytteet (voi olla mitä vaan):** Oma suosikki: 70 g kalkkunan pepperoni + hot honey glaze. Glazea lisätään kun pizza menee uuniin sekä puolessa välissä paistoa. Glazea kannattaa tehdä vain puolet normaalista määrästä — tai varastoida loput ja käyttää muualla (nostaa kaloreita).
 
-**Valmistus:** Sekoita pohjan ainekset, painele levyksi. Levitä polpa ja täytteet. Paista 225°C ~10 min.
+**Valmistus:** Sekoita pohjan ainekset, painele levyksi. Levitä polpa ja täytteet. Paista 225°C ~10 min; jos käytät hot honey glazea, lorauta sitä pinnalle uuniin laittaessa ja uudestaan puolessa välissä.
+
+**Vinkki:** Kannattaa tehdä isompi pohja — esim. 1,5× tai 2× pohjan ainekset — jotta saat koko uunipellin käyttöön. Näin saat pinta-alaa ja nostat herkullisilla mutta vähäkalorisilla / proteiinipitoisilla täytteillä aterian makrot ihanteellisiksi. Esimerkki: tonnikala + kalkkunan pepperoni + hot honey glaze — kaksi aikuista syö. Aivan hidden gem.
 
 **Makrot:** ~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameetvursti + 50 g Valio 17 %: ~563 kcal / ~52 g prot)
 
