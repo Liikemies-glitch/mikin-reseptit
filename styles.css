@@ -217,7 +217,7 @@ strong {
 
 .detail__title {
   margin: 0 0 24px;
-  padding-top: 40px;
+  padding-top: 24px;
   font-size: clamp(40px, 8vw, 96px);
   font-weight: var(--font-weight-regular);
   line-height: 1;
@@ -226,7 +226,7 @@ strong {
 
 .detail__meta {
   margin: 0;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
   border-bottom: 1px solid var(--color-ink);
 }
 
