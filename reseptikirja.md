@@ -91,7 +91,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 **Vinkki:** Maku 100/100 (5/5), mutta sokeritonta appelsiinimehua ei välttämättä kannata käyttää — maku heikkenee tosi nopeasti. Normi appelsiinimehu toimii todennäköisesti paremmin.
 
-**Liha:** Voi käyttää myös kanan rintafilettä. Sniiduilla kanan paistileike on halvinta, mutta siitä pitää trimmata rasva pois jos haluaa yhtä hyvät makrot. Suositus: kanan rintafile, jos budjetti kestää.
+**Liha:** Suositus kanan rintafile, jos budjetti kestää. Sniiduilla kanan paistileike on halvinta, mutta siitä pitää trimmata rasva pois jos haluaa yhtä hyvät makrot.
 
 **Makrot:** 6 ann: ~441 kcal / ~59 g prot
 
