@@ -17,7 +17,6 @@ SECTION_IDS = {
     "Aamupalat": "aamupalat",
     "Jälkiruoat": "jalkiruoat",
     "Kastikkeet ja soosit": "kastikkeet",
-    "Perusravintoarvot (usein käytetyt)": "perusarvot",
 }
 
 KNOWN_LABELS = (
