@@ -15,7 +15,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Pääruoat
 
 ### Mausteinen jauhelihapata
-*~5–6 annosta · Mikki suosittelee*
+*~5–6 annosta · 9/10*
 
 **Ainekset:**
 - 1 kg jauheliha 20 % (nauta/sika)
@@ -42,7 +42,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Kreikkalainen moussaka
-*~6 annosta*
+*~6 annosta · 8/10*
 
 **Ainekset:**
 - 650 g jauhelihaa
@@ -59,7 +59,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Intialainen jauhelihakeema
-*~4–5 annosta · Mikki suosittelee*
+*~4–5 annosta · 9/10*
 
 **Ainekset:**
 - 600 g jauhelihaa
@@ -78,7 +78,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Appelsiinikana
-*2 kg kanarintafileetä · Mikki suosittelee*
+*2 kg kanarintafileetä · 10/10*
 
 **Kastike:** 250 ml appelsiinimehua, 200 ml soijaa, 9 valkosipulinkynttä, ~25 g inkivääriä, 36 g tumma ruokosokeri, 4 rkl omenaviinietikkaa, 1 rkl chilijauhetta
 
@@ -95,7 +95,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Hot Honey Kanariisivuoka
-*4 annosta, 50 min · Mikki suosittelee*
+*4 annosta, 50 min · 9/10*
 
 **Ainekset:**
 - 700 g broilerin paistileikettä
@@ -113,7 +113,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Creamy Beef Pasta
-*~3 annosta*
+*~3 annosta · 7/10*
 
 **Ainekset:**
 - 600 g naudanjauheliha extra lean
@@ -133,7 +133,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Keltainen curry
-*~4–5 annosta*
+*~4–5 annosta · 7/10*
 
 **Ainekset:**
 - 800 g kanafileetä
@@ -152,7 +152,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Gluteeniton makaroonilaatikko (munaton)
-*~5–6 annosta*
+*~5–6 annosta · 8/10*
 
 **Ainekset:**
 - 800 g kanajauhelihaa
@@ -188,7 +188,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Bataatti-jauhelihabowl
-*~5 annosta*
+*~5 annosta · 7/10*
 
 **Ainekset:**
 - 900 g bataattia + oliiviöljyä uuniin
@@ -204,7 +204,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Kanatortillat
-*~4 annosta*
+*~4 annosta · 7/10*
 
 **Ainekset:**
 - 650 g kanarintafileetä + oliiviöljy + suola + valkosipulijauhe + fajitamauste + limemehu
@@ -220,7 +220,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Teriyaki-jauhelihaperunavuoka
-*~4–5 annosta*
+*~4–5 annosta · 8/10*
 
 **Runko:**
 - 700 g jauhelihaa (Atria kevyt nauta-sika 9,5 %)
@@ -252,7 +252,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Rahkapohja-pizza
-*koko pizza*
+*koko pizza · 7/10*
 
 **Pohja:** 100 g maitorahkaa, 1,2 dl vehnäjauhot, 1 tl leivinjauhe, ½ tl suola, oregano, sipulijauhe
 
@@ -267,7 +267,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Kanapohjapizza
-*~6 siivua*
+*~6 siivua · 5/10*
 
 **Huom:** En ole itse testannut, mutta muut ovat suositelleet.
 
@@ -286,7 +286,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### TikTok-kebab
-*ohut versio*
+*ohut versio · 6/10*
 
 **Ainekset:** jauheliha (~120 g per rulla), mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri.
 
@@ -299,7 +299,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Jälkiruoat
 
 ### Brownie
-*jauhoton, proteiinipohjainen*
+*jauhoton, proteiinipohjainen · 8/10*
 
 **Ainekset:**
 - 2 banaania (soseutettuna)
@@ -328,7 +328,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Proteiini-bataattikakku
-*8 palaa*
+*8 palaa · 6/10*
 
 **Ainekset:**
 - 2 keskikokoista bataattia (~400 g, kypsennä + soseuta)
@@ -348,7 +348,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Proteiini-porkkanakakku
-*1 annos*
+*1 annos · 7/10*
 
 **Kuivat:**
 - 40 g kaurahiutaleita (~0,7 dl, jauha hienoksi)
@@ -387,7 +387,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Raejuusto-vadelmajäätelö
-*~1,5–2 litraa*
+*~1,5–2 litraa · 8/10*
 
 **Ainekset:**
 - 300 g raejuustoa
@@ -413,7 +413,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Vadelmapirtelö
-*nopea versio*
+*nopea versio · 7/10*
 
 **Ainekset:**
 - 120 g vadelmia
@@ -428,7 +428,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Mikin rahkakakku
-*~4 annosta*
+*~4 annosta · 8/10*
 
 **Ainekset:**
 - 375 g maitorahkaa
@@ -448,7 +448,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ## Kastikkeet ja soosit
 
 ### Jogurtti-sriracha
-*Kanatortillat, kebab*
+*Kanatortillat, kebab · 8/10*
 
 **Soveltuu:** Parhaimmillaan kanatortilloissa ja kebabin kanssa — tuore, tulinen ja hapokas viimeistely.
 
@@ -461,7 +461,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Lime-persilja-jogurtti
-*Bataattibowl*
+*Bataattibowl · 7/10*
 
 **Soveltuu:** Bataatti-jauhelihabowliin — raikas, rasvaton ja yrttinen kastike.
 
@@ -474,7 +474,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Hot Honey glaze
-*Kanariisivuoka, pizza, pasta*
+*Kanariisivuoka, pizza, pasta · 8/10*
 
 **Soveltuu:** Hot Honey -kanariisivuokaan, pizzaan ja pastaan — makean tulinen glaze.
 
@@ -487,7 +487,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Teriyaki-seesami glaze
-*Jauhelihaperunavuoka*
+*Jauhelihaperunavuoka · 7/10*
 
 **Soveltuu:** Teriyaki-jauhelihaperunavuokaan — makea-suolainen wokkimainen glaze.
 
@@ -500,7 +500,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Lime-jogurttisoosi
-*Jauhelihaperunavuoka (muhennos)*
+*Jauhelihaperunavuoka (muhennos) · 7/10*
 
 **Soveltuu:** Jauhelihaperunavuokaan muhennosversioksi — kaada kuuman vuoan päälle heti uunista.
 
@@ -513,7 +513,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Sitruunainen raejuustosoosi
-*Vaihtoehto lime-jogurttisoosille*
+*Vaihtoehto lime-jogurttisoosille · 6/10*
 
 **Soveltuu:** Vaihtoehto lime-jogurttisoosille — proteiinipitoisempi, sitruunainen.
 
