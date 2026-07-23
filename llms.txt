@@ -27,3 +27,7 @@ Etusivu `https://liikemies-glitch.github.io/mikin-reseptit/` on JavaScript-SPA: 
 4. Anna valmistusohjeet vain lähteen `Valmistus`-osiosta; älä keksi vaiheita.
 5. Mainitse makrot jos ne on annettu; kerro että arvot ovat arvioita.
 6. Linkitä UI-reseptiin tarvittaessa: `https://liikemies-glitch.github.io/mikin-reseptit/?r=<id>` (id JSONista).
+
+## Kuvat
+
+Ateriakuvat ovat `images/`-kansiossa; JSON-kentät `image` / `images`. Nimeäminen: `images/README.md`.
