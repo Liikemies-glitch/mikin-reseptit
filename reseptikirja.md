@@ -276,25 +276,6 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
-### Kanapohjapizza
-*~6 siivua · 5/10*
-
-**Huom:** En ole itse testannut, mutta muut ovat suositelleet.
-
-**Ainekset:**
-- 500 g kanajauhelihaa
-- 50 g parmesan
-- 1 muna
-- Valkosipulijauhe, italian seasoning
-
-**Valmistus:** Levitä 0,5 cm leivinpaperille, 200°C 20–25 min, valuta neste, lisää tomaattikastike + mozzarella, vielä 8–10 min.
-
-**Makrot:** ~175 kcal / ~19 g prot per siivu.
-
-**Vinkki:** raejuusto mozzarellan sekaan nostaa proteiinia.
-
----
-
 ### Rullakebab
 *~6 annosta · 6/10*
 

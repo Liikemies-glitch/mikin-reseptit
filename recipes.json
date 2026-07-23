@@ -535,49 +535,6 @@
           "id": "paaruuat-11"
         },
         {
-          "title": "Kanapohjapizza",
-          "meta": "~6 siivua",
-          "blocks": [
-            {
-              "type": "section",
-              "label": "Huom",
-              "content": "En ole itse testannut, mutta muut ovat suositelleet.",
-              "items": []
-            },
-            {
-              "type": "section",
-              "label": "Ainekset",
-              "content": "",
-              "items": [
-                "500 g kanajauhelihaa",
-                "50 g parmesan",
-                "1 muna",
-                "Valkosipulijauhe, italian seasoning"
-              ]
-            },
-            {
-              "type": "section",
-              "label": "Valmistus",
-              "content": "Levitä 0,5 cm leivinpaperille, 200°C 20–25 min, valuta neste, lisää tomaattikastike + mozzarella, vielä 8–10 min.",
-              "items": []
-            },
-            {
-              "type": "section",
-              "label": "Makrot",
-              "content": "~175 kcal / ~19 g prot per siivu.",
-              "items": []
-            },
-            {
-              "type": "section",
-              "label": "Vinkki",
-              "content": "raejuusto mozzarellan sekaan nostaa proteiinia.",
-              "items": []
-            }
-          ],
-          "rating": 5,
-          "id": "paaruuat-12"
-        },
-        {
           "title": "Rullakebab",
           "meta": "~6 annosta",
           "blocks": [
@@ -637,7 +594,7 @@
             }
           ],
           "rating": 6,
-          "id": "paaruuat-13"
+          "id": "paaruuat-12"
         }
       ],
       "table": null,
@@ -1329,16 +1286,6 @@
     {
       "kind": "recipe",
       "id": "paaruuat-12",
-      "sectionId": "paaruuat",
-      "section": "Pääruoat",
-      "title": "Kanapohjapizza",
-      "meta": "~6 siivua",
-      "macros": "~175 kcal / ~19 g prot per siivu.",
-      "rating": 5
-    },
-    {
-      "kind": "recipe",
-      "id": "paaruuat-13",
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Rullakebab",
