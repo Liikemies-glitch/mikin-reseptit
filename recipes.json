@@ -1215,7 +1215,7 @@
             {
               "type": "section",
               "label": "Makrot",
-              "content": "~124 kcal / ~22 g prot",
+              "content": "~124 kcal / ~22 g prot\n\n*Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*",
               "items": []
             }
           ],
@@ -1224,70 +1224,6 @@
         }
       ],
       "table": null,
-      "raw": []
-    },
-    {
-      "id": "perusarvot",
-      "name": "Perusravintoarvot (usein käytetyt)",
-      "recipes": [],
-      "table": {
-        "headers": [
-          "Tuote",
-          "Määrä",
-          "kcal",
-          "Prot"
-        ],
-        "rows": [
-          [
-            "Tonnikala vedessä (label)",
-            "100 g",
-            "101",
-            "24 g"
-          ],
-          [
-            "Tonnikala öljyssä, valutettu (Pirkka)",
-            "150 g",
-            "232",
-            "42 g"
-          ],
-          [
-            "Raejuusto",
-            "100 g",
-            "69",
-            "13 g"
-          ],
-          [
-            "Maitorahka",
-            "100 g",
-            "69",
-            "13 g"
-          ],
-          [
-            "Rasvaton kreikkalainen jogurtti",
-            "100 g",
-            "57",
-            "10 g"
-          ],
-          [
-            "Whey-proteiinijauhe (pieni skuuppi)",
-            "30 g",
-            "113",
-            "24 g"
-          ],
-          [
-            "Huel Black Edition",
-            "90 g (2 skuuppia)",
-            "400",
-            "40 g"
-          ],
-          [
-            "Barebells-patukka",
-            "55 g",
-            "217",
-            "16 g"
-          ]
-        ]
-      },
       "raw": []
     }
   ],
@@ -1569,7 +1505,7 @@
       "section": "Kastikkeet ja soosit",
       "title": "Sitruunainen raejuustosoosi",
       "meta": "Vaihtoehto lime-jogurttisoosille",
-      "macros": "~124 kcal / ~22 g prot",
+      "macros": "~124 kcal / ~22 g prot *Kokoelma päivittyy sitä mukaa k…",
       "rating": 8
     }
   ]

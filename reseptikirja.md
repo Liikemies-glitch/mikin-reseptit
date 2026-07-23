@@ -608,19 +608,4 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 ---
 
-## Perusravintoarvot (usein käytetyt)
-
-| Tuote | Määrä | kcal | Prot |
-|---|---|---|---|
-| Tonnikala vedessä (label) | 100 g | 101 | 24 g |
-| Tonnikala öljyssä, valutettu (Pirkka) | 150 g | 232 | 42 g |
-| Raejuusto | 100 g | 69 | 13 g |
-| Maitorahka | 100 g | 69 | 13 g |
-| Rasvaton kreikkalainen jogurtti | 100 g | 57 | 10 g |
-| Whey-proteiinijauhe (pieni skuuppi) | 30 g | 113 | 24 g |
-| Huel Black Edition | 90 g (2 skuuppia) | 400 | 40 g |
-| Barebells-patukka | 55 g | 217 | 16 g |
-
----
-
 *Kokoelma päivittyy sitä mukaa kun uusia reseptejä testataan ja hiotaan.*
