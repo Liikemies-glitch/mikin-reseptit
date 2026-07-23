@@ -422,7 +422,9 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Mikin rahkakakku
-*~4 annosta · 6/10*
+*~4 annosta · WIP · 6/10*
+
+**Huom:** Work in progress. Suosittelen vain luoville kokeille. Ei tällä reseptillä hyydy kakun muotoon vaan jää lusikoitavaksi — mutta tässä on potentiaalia.
 
 **Ainekset:**
 - 375 g maitorahkaa
@@ -433,7 +435,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 - 3 keitettyä munaa
 - 0,15 dl kevytmaitoa
 
-**Valmistus:** Survo banaani, sekoita rahka, hera, kaura, maito ja hienonnetut munat. Lisää marjat. Siirrä astiaan ja jähmetä jääkaapissa.
+**Valmistus:** Survo banaani, sekoita rahka, hera, kaura, maito ja hienonnetut munat. Lisää marjat. Siirrä astiaan ja jähmetä jääkaapissa (tulee lusikoitava, ei leikattava kakku).
 
 **Makrot:** ~309 kcal / ~34 g prot per annos.
 
