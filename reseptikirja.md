@@ -15,7 +15,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ## Pääruoat
 
 ### Mausteinen jauhelihapata
-*~5–6 annosta · 9/10*
+*~5–6 annosta · 10/10*
 
 **Ainekset:**
 - 1 kg jauheliha 20 % (nauta/sika)
