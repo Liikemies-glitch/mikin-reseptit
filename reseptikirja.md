@@ -385,7 +385,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 **Ainekset:**
 - 300 g raejuustoa
-- 300 g vadelmia (puolet blenderoituna, puolet survottuna karkeaksi soseeksi swirl-marmorointiin)
+- 400 g vadelmia yhteensä (300 g blenderoidaan massaan + 100 g marmorointiin)
 - 3 munanvalkuaista (~100 g), vaahdotettuna pehmeäksi vaahdoksi (soft peak — kärki taipuu hieman, ei täysi kova marenki)
 - 2 skuuppia vaniljaheraa (60 g)
 - 2 tl vaniljauutetta
@@ -395,14 +395,14 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 **Valmistus:**
 1. Vatkaa valkuaiset pehmeäksi vaahdoksi
-2. Blenderoi raejuusto + puolet vadelmista + hera + vanilja + makeutus + lime + maito tasaiseksi (huolellisesti ja pitkään — raejuuston rakenne pitää hajottaa täysin)
+2. Blenderoi raejuusto + 300 g vadelmia + hera + vanilja + makeutus + lime + maito tasaiseksi (huolellisesti ja pitkään — raejuuston rakenne pitää hajottaa täysin)
 3. Käännä valkuaisvaahto varovasti sekaan (nostava, taittava liike — ei sekoiteta voimakkaasti)
-4. Survo loput vadelmat karkeaksi soseeksi, kaada massan päälle ja vedä haarukalla 2–3 kertaa läpi kevyeksi swirliksi (ei sekoiteta tasaiseksi)
+4. Survo loput 100 g vadelmia karkeaksi soseeksi, kaada massan päälle ja vedä haarukalla 2–3 kertaa läpi kevyeksi swirliksi (ei sekoiteta tasaiseksi)
 5. Pakasta 4–6 h tai yön yli
 
 **Rakennevinkki:** ota massa pakastimesta 30–45 min välein ensimmäisen 2–3 tunnin aikana ja vatkaa/sekoita voimakkaasti — tämä rikkoo muodostuvat jääkiteet ja estää liiallista kiteisyyttä (no-churn-tekniikka).
 
-**Makrot (koko erä):** ~762 kcal / ~108 g prot — poikkeuksellisen proteiinitehokas jäätelö.
+**Makrot (koko erä):** ~814 kcal / ~109 g prot — poikkeuksellisen proteiinitehokas jäätelö.
 
 ---
 

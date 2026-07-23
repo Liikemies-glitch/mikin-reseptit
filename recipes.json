@@ -750,7 +750,7 @@
               "content": "",
               "items": [
                 "300 g raejuustoa",
-                "300 g vadelmia (puolet blenderoituna, puolet survottuna karkeaksi soseeksi swirl-marmorointiin)",
+                "400 g vadelmia yhteensä (300 g blenderoidaan massaan + 100 g marmorointiin)",
                 "3 munanvalkuaista (~100 g), vaahdotettuna pehmeäksi vaahdoksi (soft peak — kärki taipuu hieman, ei täysi kova marenki)",
                 "2 skuuppia vaniljaheraa (60 g)",
                 "2 tl vaniljauutetta",
@@ -766,9 +766,9 @@
               "items": [],
               "steps": [
                 "Vatkaa valkuaiset pehmeäksi vaahdoksi",
-                "Blenderoi raejuusto + puolet vadelmista + hera + vanilja + makeutus + lime + maito tasaiseksi (huolellisesti ja pitkään — raejuuston rakenne pitää hajottaa täysin)",
+                "Blenderoi raejuusto + 300 g vadelmia + hera + vanilja + makeutus + lime + maito tasaiseksi (huolellisesti ja pitkään — raejuuston rakenne pitää hajottaa täysin)",
                 "Käännä valkuaisvaahto varovasti sekaan (nostava, taittava liike — ei sekoiteta voimakkaasti)",
-                "Survo loput vadelmat karkeaksi soseeksi, kaada massan päälle ja vedä haarukalla 2–3 kertaa läpi kevyeksi swirliksi (ei sekoiteta tasaiseksi)",
+                "Survo loput 100 g vadelmia karkeaksi soseeksi, kaada massan päälle ja vedä haarukalla 2–3 kertaa läpi kevyeksi swirliksi (ei sekoiteta tasaiseksi)",
                 "Pakasta 4–6 h tai yön yli"
               ]
             },
@@ -781,7 +781,7 @@
             {
               "type": "section",
               "label": "Makrot (koko erä)",
-              "content": "~762 kcal / ~108 g prot — poikkeuksellisen proteiinitehokas jäätelö.",
+              "content": "~814 kcal / ~109 g prot — poikkeuksellisen proteiinitehokas jäätelö.",
               "items": []
             }
           ],
