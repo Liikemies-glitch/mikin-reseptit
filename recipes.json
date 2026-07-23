@@ -492,7 +492,7 @@
         },
         {
           "title": "Rahkapohja-pizza",
-          "meta": "koko pizza",
+          "meta": "1–2 annosta",
           "blocks": [
             {
               "type": "section",
@@ -1239,7 +1239,7 @@
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Rahkapohja-pizza",
-      "meta": "koko pizza",
+      "meta": "1–2 annosta",
       "macros": "~700 kcal / ~47 g prot (aiempi versio 50 g kalkkunameet…",
       "rating": 10
     },

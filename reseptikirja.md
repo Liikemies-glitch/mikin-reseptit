@@ -260,7 +260,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Rahkapohja-pizza
-*koko pizza · 10/10*
+*1–2 annosta · 10/10*
 
 **Pohja:** 100 g maitorahkaa, 1,2 dl vehnäjauhot, 1 tl leivinjauhe, ½ tl suola, oregano, sipulijauhe
 
