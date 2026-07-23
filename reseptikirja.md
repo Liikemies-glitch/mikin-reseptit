@@ -494,7 +494,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Lime-jogurttisoosi
-*Jauhelihaperunavuoka (muhennos) · 7/10*
+*Jauhelihaperunavuoka (muhennos) · 9/10*
 
 **Soveltuu:** Jauhelihaperunavuokaan muhennosversioksi — kaada kuuman vuoan päälle heti uunista.
 
