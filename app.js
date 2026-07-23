@@ -15,6 +15,8 @@ const els = {
   backBtn: document.getElementById("backBtn"),
 };
 
+const SECTION_ORDER = ["paaruuat", "jalkiruoat", "kastikkeet"];
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -44,30 +46,29 @@ function matchesQuery(row, query) {
   return hay.includes(query);
 }
 
-function renderIndexList() {
-  const query = state.query.trim().toLocaleLowerCase("fi");
-  const rows = state.data.index
+function sectionRank(sectionId) {
+  const idx = SECTION_ORDER.indexOf(sectionId);
+  return idx === -1 ? SECTION_ORDER.length : idx;
+}
+
+function sortedIndexRows(query) {
+  return state.data.index
     .filter((row) => row.id !== "perusarvot" && !String(row.title || "").toLowerCase().includes("perusravinto"))
     .filter((row) => matchesQuery(row, query))
     .slice()
     .sort((a, b) => {
-      const rank = (row) => {
-        if (row.favorite) return 0;
-        if (row.sectionId === "kastikkeet" || row.section === "Kastikkeet ja soosit") return 2;
-        return 1;
-      };
-      return rank(a) - rank(b);
+      const bySection = sectionRank(a.sectionId) - sectionRank(b.sectionId);
+      if (bySection !== 0) return bySection;
+      if (a.favorite !== b.favorite) return a.favorite ? -1 : 1;
+      return 0;
     });
+}
 
-  els.count.textContent = `${rows.length} / ${state.data.index.length}`;
-  els.emptyState.hidden = rows.length > 0;
-
-  els.indexRows.innerHTML = rows
-    .map((row) => {
-      const favorite = row.favorite
-        ? escapeHtml(row.badge || "Mikin suosikki")
-        : "—";
-      return `
+function renderRecipeRow(row) {
+  const favorite = row.favorite
+    ? escapeHtml(row.badge || "Mikin suosikki")
+    : "—";
+  return `
       <button
         class="index__row${row.favorite ? " index__row--favorite" : ""}"
         type="button"
@@ -75,12 +76,41 @@ function renderIndexList() {
         aria-label="${escapeHtml(row.title)}"
       >
         <div class="cell cell--favorite">${favorite}</div>
-        <div class="cell">${escapeHtml(row.section)}</div>
         <div class="cell cell__title">${escapeHtml(row.title)}</div>
         <div class="cell">${escapeHtml(row.meta || "—")}</div>
         <div class="cell">${escapeHtml(row.macros || "—")}</div>
         <div class="cell"><span class="dot" aria-hidden="true"></span></div>
       </button>`;
+}
+
+function renderIndexList() {
+  const query = state.query.trim().toLocaleLowerCase("fi");
+  const rows = sortedIndexRows(query);
+
+  els.count.textContent = `${rows.length} / ${state.data.index.length}`;
+  els.emptyState.hidden = rows.length > 0;
+
+  const groups = [];
+  let current = null;
+  for (const row of rows) {
+    if (!current || current.sectionId !== row.sectionId) {
+      current = {
+        sectionId: row.sectionId,
+        section: row.section,
+        rows: [],
+      };
+      groups.push(current);
+    }
+    current.rows.push(row);
+  }
+
+  els.indexRows.innerHTML = groups
+    .map((group) => {
+      const heading = `
+      <div class="index__section" role="presentation">
+        <h2 class="index__section-title">${escapeHtml(group.section)}</h2>
+      </div>`;
+      return heading + group.rows.map(renderRecipeRow).join("");
     })
     .join("");
 }
