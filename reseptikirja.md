@@ -427,7 +427,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Vadelmapirtelö
-*nopea versio · 7/10*
+*nopea versio · 10/10*
 
 **Ainekset:**
 - 120 g vadelmia

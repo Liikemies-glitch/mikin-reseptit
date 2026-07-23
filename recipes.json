@@ -856,7 +856,7 @@
               "items": []
             }
           ],
-          "rating": 7,
+          "rating": 10,
           "id": "jalkiruoat-4"
         },
         {
@@ -1341,7 +1341,7 @@
       "title": "Vadelmapirtelö",
       "meta": "nopea versio",
       "macros": "~324 kcal / ~49,2 g prot.",
-      "rating": 7
+      "rating": 10
     },
     {
       "kind": "recipe",
