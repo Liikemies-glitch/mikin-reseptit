@@ -322,18 +322,11 @@ td:last-child {
   }
 }
 
-  to {
-    opacity: var(--watermark-opacity);
-    transform: translateY(-8vh) scale(1);
-  }
-}
-
 @media (max-width: 900px) {
   :root {
     --text-body: 18px;
   }
 
-  
   .index__header {
     display: none;
   }
@@ -399,4 +392,4 @@ td:last-child {
     opacity: 1;
     transform: none;
   }
-  }
+}
