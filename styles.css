@@ -115,11 +115,28 @@ strong {
 
 .topbar__meta,
 .filter,
-.back {
+.back,
+.agent-copy {
   font-size: var(--text-body);
   font-weight: var(--font-weight-regular);
   line-height: var(--leading-body);
   letter-spacing: var(--tracking-body);
+}
+
+.agent-copy {
+  border-bottom: 1px solid var(--color-ink);
+  padding: 0 0 2px;
+  white-space: nowrap;
+}
+
+.agent-copy:hover,
+.agent-copy:focus-visible {
+  outline: none;
+  opacity: 0.7;
+}
+
+.agent-copy.is-copied {
+  opacity: 1;
 }
 
 .topbar__actions {
@@ -344,7 +361,8 @@ td:last-child {
   padding-top: 24px;
 }
 
-.footer-note a {
+.footer-note strong {
+  font-weight: var(--font-weight-regular);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
