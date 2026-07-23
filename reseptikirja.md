@@ -381,7 +381,7 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 ---
 
 ### Raejuusto-vadelmajäätelö
-*~1,5–2 litraa · 8/10*
+*4–8 annosta · 8/10*
 
 **Ainekset:**
 - 300 g raejuustoa
