@@ -943,6 +943,38 @@
           "id": "jalkiruoat-4"
         },
         {
+          "title": "Mikin rikkaampi aamusmoothie",
+          "meta": "1 annos",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "",
+              "items": [
+                "1 dl kaurahiutaleita",
+                "200 g maitorahkaa",
+                "0,5 dl kevytmaitoa",
+                "1 skuuppi heraproteiinijauhetta (30 g)",
+                "Pensasmustikat (~100 g)"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi kaikki yhteen. Valmis!",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~532 kcal / ~59,4 g prot.",
+              "items": []
+            }
+          ],
+          "rating": 10,
+          "id": "jalkiruoat-5"
+        },
+        {
           "title": "Mikin rahkakakku",
           "meta": "~4 annosta · WIP",
           "blocks": [
@@ -980,7 +1012,7 @@
             }
           ],
           "rating": 6,
-          "id": "jalkiruoat-5"
+          "id": "jalkiruoat-6"
         }
       ],
       "table": null,
@@ -1455,6 +1487,16 @@
     {
       "kind": "recipe",
       "id": "jalkiruoat-5",
+      "sectionId": "jalkiruoat",
+      "section": "Jälkiruoat",
+      "title": "Mikin rikkaampi aamusmoothie",
+      "meta": "1 annos",
+      "macros": "~532 kcal / ~59,4 g prot.",
+      "rating": 10
+    },
+    {
+      "kind": "recipe",
+      "id": "jalkiruoat-6",
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Mikin rahkakakku",
