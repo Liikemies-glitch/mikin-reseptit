@@ -78,7 +78,9 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Appelsiinikana
-*2 kg kanarintafileetä · 10/10*
+*6 annosta · 10/10*
+
+**Ainekset:** 2 kg kanarintafileetä
 
 **Kastike:** 250 ml appelsiinimehua, 200 ml soijaa, 9 valkosipulinkynttä, ~25 g inkivääriä, 36 g tumma ruokosokeri, 4 rkl omenaviinietikkaa, 1 rkl chilijauhetta
 
