@@ -143,7 +143,9 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 - 250 ml täysi kookosmaito, 150 ml kevytmaito
 - 2 paprikaa, 1 sipuli, 3 valkosipulinkynttä, 2 cm inkivääri
 - 200 g pakasteherneitä
-- Tomaattimurska, ananasmurska, oliiviöljyä
+- 200–300 g tomaattimurskaa
+- 1 peltipurkki ananasmurskaa
+- Oliiviöljyä sen verran että ainekset saa kuullotettua
 - Mausteet: keltainen currytahna 2–3 rkl, kurkuma 1 tl, juustokumina 1 tl, korianteri 1 tl
 
 **Valmistus:** Kuullota sipuli, valkosipuli, inkivääri ja paprika. Paista kanaa hetki, lisää currytahna + mausteet. Kaada kookosmaito, kevytmaito, tomaattimurska ja ananas. Hauduta kunnes kana on kypsää. Lisää herneet lopuksi.
