@@ -361,6 +361,7 @@ td:last-child {
   padding-top: 24px;
 }
 
+.footer-note a,
 .footer-note strong {
   font-weight: var(--font-weight-regular);
   text-decoration: underline;
