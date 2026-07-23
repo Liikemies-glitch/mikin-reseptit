@@ -47,6 +47,7 @@ function matchesQuery(row, query) {
 function renderIndexList() {
   const query = state.query.trim().toLocaleLowerCase("fi");
   const rows = state.data.index
+    .filter((row) => row.id !== "perusarvot" && !String(row.title || "").toLowerCase().includes("perusravinto"))
     .filter((row) => matchesQuery(row, query))
     .slice()
     .sort((a, b) => Number(Boolean(b.favorite)) - Number(Boolean(a.favorite)));
