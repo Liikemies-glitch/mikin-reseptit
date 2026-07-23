@@ -130,8 +130,8 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "favorite": true,
+          "badge": "Mikin suosikki",
           "id": "paaruuat-2"
         },
         {
@@ -1036,23 +1036,23 @@
     },
     {
       "kind": "recipe",
-      "id": "paaruuat-1",
-      "sectionId": "paaruuat",
-      "section": "Pääruoat",
-      "title": "Kreikkalainen moussaka",
-      "meta": "~6 annosta",
-      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
-      "favorite": false,
-      "badge": null
-    },
-    {
-      "kind": "recipe",
       "id": "paaruuat-2",
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Intialainen jauhelihakeema",
       "meta": "~4–5 annosta",
       "macros": "~420 kcal / ~42 g prot per annos.",
+      "favorite": true,
+      "badge": "Mikin suosikki"
+    },
+    {
+      "kind": "recipe",
+      "id": "paaruuat-1",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Kreikkalainen moussaka",
+      "meta": "~6 annosta",
+      "macros": "~370 kcal / ~28 g prot per annos. Maku 5/5.",
       "favorite": false,
       "badge": null
     },

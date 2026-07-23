@@ -62,7 +62,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Intialainen jauhelihakeema
-*~4–5 annosta*
+*~4–5 annosta · Mikin suosikki*
 
 **Ainekset:**
 - 600 g jauhelihaa
