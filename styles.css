@@ -148,10 +148,11 @@ strong {
 .index__row {
   display: grid;
   grid-template-columns:
-    minmax(120px, 0.9fr)
-    minmax(180px, 2.2fr)
-    minmax(120px, 1.1fr)
-    minmax(0, 1.4fr)
+    minmax(110px, 1.1fr)
+    minmax(100px, 0.85fr)
+    minmax(160px, 2fr)
+    minmax(100px, 1fr)
+    minmax(0, 1.3fr)
     30px;
   gap: 24px;
   align-items: start;
@@ -192,6 +193,10 @@ strong {
 
 .cell__title {
   margin: 0;
+}
+
+.cell--favorite {
+  white-space: normal;
 }
 
 .badge,
@@ -359,6 +364,7 @@ td:last-child {
   .index__row {
     grid-template-columns: 1fr 30px;
     grid-template-areas:
+      "favorite dot"
       "section dot"
       "title dot"
       "meta meta"
@@ -366,11 +372,16 @@ td:last-child {
     gap: 0 24px;
   }
 
-  .index__row .cell:nth-child(1) { grid-area: section; }
-  .index__row .cell:nth-child(2) { grid-area: title; }
-  .index__row .cell:nth-child(3) { grid-area: meta; opacity: 0.7; }
-  .index__row .cell:nth-child(4) { grid-area: macros; opacity: 0.7; }
-  .index__row .cell:nth-child(5) { grid-area: dot; }
+  .index__row .cell:nth-child(1) { grid-area: favorite; }
+  .index__row .cell:nth-child(2) { grid-area: section; opacity: 0.7; }
+  .index__row .cell:nth-child(3) { grid-area: title; }
+  .index__row .cell:nth-child(4) { grid-area: meta; opacity: 0.7; }
+  .index__row .cell:nth-child(5) { grid-area: macros; opacity: 0.7; }
+  .index__row .cell:nth-child(6) { grid-area: dot; }
+
+  .index__row:not(.index__row--favorite) .cell--favorite {
+    display: none;
+  }
 
   .topbar {
     padding-inline: 16px;

@@ -46,16 +46,19 @@ function matchesQuery(row, query) {
 
 function renderIndexList() {
   const query = state.query.trim().toLocaleLowerCase("fi");
-  const rows = state.data.index.filter((row) => matchesQuery(row, query));
+  const rows = state.data.index
+    .filter((row) => matchesQuery(row, query))
+    .slice()
+    .sort((a, b) => Number(Boolean(b.favorite)) - Number(Boolean(a.favorite)));
 
   els.count.textContent = `${rows.length} / ${state.data.index.length}`;
   els.emptyState.hidden = rows.length > 0;
 
   els.indexRows.innerHTML = rows
     .map((row) => {
-      const badge = row.badge
-        ? `<div class="badge">${escapeHtml(row.badge)}</div>`
-        : "";
+      const favorite = row.favorite
+        ? escapeHtml(row.badge || "Mikin suosikki")
+        : "—";
       return `
       <button
         class="index__row${row.favorite ? " index__row--favorite" : ""}"
@@ -63,11 +66,9 @@ function renderIndexList() {
         data-id="${escapeHtml(row.id)}"
         aria-label="${escapeHtml(row.title)}"
       >
+        <div class="cell cell--favorite">${favorite}</div>
         <div class="cell">${escapeHtml(row.section)}</div>
-        <div class="cell">
-          <div class="cell__title">${escapeHtml(row.title)}</div>
-          ${badge}
-        </div>
+        <div class="cell cell__title">${escapeHtml(row.title)}</div>
         <div class="cell">${escapeHtml(row.meta || "—")}</div>
         <div class="cell">${escapeHtml(row.macros || "—")}</div>
         <div class="cell"><span class="dot" aria-hidden="true"></span></div>
