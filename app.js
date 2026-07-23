@@ -136,22 +136,26 @@ function renderRecipe(section, recipe) {
     ${blocks}`;
 }
 
-function showIndex() {
+function recipeIdFromLocation() {
+  return decodeURIComponent(location.hash.replace(/^#/, ""));
+}
+
+function paintIndex() {
   state.activeId = null;
   els.indexView.hidden = false;
   els.detailView.hidden = true;
   els.detailView.innerHTML = "";
   els.backBtn.hidden = true;
   els.filter.hidden = false;
-  history.replaceState(null, "", location.pathname);
+  els.count.hidden = false;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-function showDetail(id) {
+function paintDetail(id) {
   const found = findRecipe(id);
   if (!found) {
-    showIndex();
-    return;
+    paintIndex();
+    return false;
   }
 
   state.activeId = id;
@@ -159,20 +163,41 @@ function showDetail(id) {
   els.detailView.hidden = false;
   els.backBtn.hidden = false;
   els.filter.hidden = true;
+  els.count.hidden = true;
 
   els.detailView.innerHTML =
     found.type === "table"
       ? renderTable(found.section)
       : renderRecipe(found.section, found.recipe);
 
-  history.replaceState(null, "", `#${encodeURIComponent(id)}`);
   window.scrollTo({ top: 0, behavior: "smooth" });
+  return true;
 }
 
-function onHashChange() {
-  const id = decodeURIComponent(location.hash.replace(/^#/, ""));
-  if (id) showDetail(id);
-  else showIndex();
+function applyRoute() {
+  const id = recipeIdFromLocation();
+  if (id) paintDetail(id);
+  else paintIndex();
+}
+
+function openDetail(id) {
+  if (!findRecipe(id)) return;
+  const nextHash = `#${encodeURIComponent(id)}`;
+  if (location.hash === nextHash) {
+    applyRoute();
+    return;
+  }
+  // pushState so swipe-back / browser back can return to the index
+  history.pushState({ view: "detail", id }, "", nextHash);
+  applyRoute();
+}
+
+function goBackToIndex() {
+  if (location.hash) {
+    history.back();
+    return;
+  }
+  applyRoute();
 }
 
 async function init() {
@@ -183,6 +208,7 @@ async function init() {
   els.footerNote.textContent = state.data.footer || state.data.intro || "";
 
   renderIndex();
+  applyRoute();
 
   els.filter.addEventListener("input", () => {
     state.query = els.filter.value;
@@ -192,13 +218,11 @@ async function init() {
   els.indexRows.addEventListener("click", (event) => {
     const row = event.target.closest("[data-id]");
     if (!row) return;
-    showDetail(row.dataset.id);
+    openDetail(row.dataset.id);
   });
 
-  els.backBtn.addEventListener("click", showIndex);
-  window.addEventListener("hashchange", onHashChange);
-
-  if (location.hash) onHashChange();
+  els.backBtn.addEventListener("click", goBackToIndex);
+  window.addEventListener("popstate", applyRoute);
 }
 
 init();
