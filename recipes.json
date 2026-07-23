@@ -681,7 +681,7 @@
             {
               "type": "section",
               "label": "Makrot",
-              "content": "~413 kcal / ~47 g prot per annos (4 annosta; sama satsi kuin aiemmin 6:lla).",
+              "content": "~413 kcal / ~47 g prot per annos (4 annosta).",
               "items": []
             }
           ],
@@ -1368,7 +1368,7 @@
       "section": "Pääruoat",
       "title": "Marokkolainen kanapata",
       "meta": "~4 annosta",
-      "macros": "~413 kcal / ~47 g prot per annos (4 annosta; sama satsi…",
+      "macros": "~413 kcal / ~47 g prot per annos (4 annosta).",
       "rating": 8
     },
     {

@@ -359,7 +359,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 7. Hauduta miedolla lämmöllä ~30 min.
 8. Tarjoa kvinoan/riisin ja jogurtin kanssa.
 
-**Makrot:** ~413 kcal / ~47 g prot per annos (4 annosta; sama satsi kuin aiemmin 6:lla).
+**Makrot:** ~413 kcal / ~47 g prot per annos (4 annosta).
 
 ---
 
