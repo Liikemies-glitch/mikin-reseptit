@@ -202,8 +202,8 @@
               "items": []
             }
           ],
-          "favorite": false,
-          "badge": null,
+          "favorite": true,
+          "badge": "Mikin suosikki",
           "id": "paaruuat-4"
         },
         {
@@ -1047,6 +1047,17 @@
     },
     {
       "kind": "recipe",
+      "id": "paaruuat-4",
+      "sectionId": "paaruuat",
+      "section": "Pääruoat",
+      "title": "Hot Honey Kanariisivuoka",
+      "meta": "4 annosta, 50 min",
+      "macros": "~446 kcal / ~42 g prot per annos.",
+      "favorite": true,
+      "badge": "Mikin suosikki"
+    },
+    {
+      "kind": "recipe",
       "id": "paaruuat-1",
       "sectionId": "paaruuat",
       "section": "Pääruoat",
@@ -1064,17 +1075,6 @@
       "title": "Appelsiinikana",
       "meta": "2 kg kanarintafileetä",
       "macros": "6 ann: ~441 kcal / ~59 g prot",
-      "favorite": false,
-      "badge": null
-    },
-    {
-      "kind": "recipe",
-      "id": "paaruuat-4",
-      "sectionId": "paaruuat",
-      "section": "Pääruoat",
-      "title": "Hot Honey Kanariisivuoka",
-      "meta": "4 annosta, 50 min",
-      "macros": "~446 kcal / ~42 g prot per annos.",
       "favorite": false,
       "badge": null
     },

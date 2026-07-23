@@ -94,7 +94,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Hot Honey Kanariisivuoka
-*4 annosta, 50 min*
+*4 annosta, 50 min · Mikin suosikki*
 
 **Ainekset:**
 - 700 g broilerin paistileikettä
