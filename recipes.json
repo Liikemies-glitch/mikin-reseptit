@@ -821,8 +821,14 @@
         },
         {
           "title": "Mikin rahkakakku",
-          "meta": "~4 annosta",
+          "meta": "~4 annosta · WIP",
           "blocks": [
+            {
+              "type": "section",
+              "label": "Huom",
+              "content": "Work in progress. Suosittelen vain luoville kokeille. Ei tällä reseptillä hyydy kakun muotoon vaan jää lusikoitavaksi — mutta tässä on potentiaalia.",
+              "items": []
+            },
             {
               "type": "section",
               "label": "Ainekset",
@@ -840,7 +846,7 @@
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Survo banaani, sekoita rahka, hera, kaura, maito ja hienonnetut munat. Lisää marjat. Siirrä astiaan ja jähmetä jääkaapissa.",
+              "content": "Survo banaani, sekoita rahka, hera, kaura, maito ja hienonnetut munat. Lisää marjat. Siirrä astiaan ja jähmetä jääkaapissa (tulee lusikoitava, ei leikattava kakku).",
               "items": []
             },
             {
@@ -1299,7 +1305,7 @@
       "sectionId": "jalkiruoat",
       "section": "Jälkiruoat",
       "title": "Mikin rahkakakku",
-      "meta": "~4 annosta",
+      "meta": "~4 annosta · WIP",
       "macros": "~309 kcal / ~34 g prot per annos.",
       "rating": 6
     },
