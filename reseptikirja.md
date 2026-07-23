@@ -277,7 +277,7 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 ---
 
 ### Rullakebab
-*~6 annosta · 10/10*
+*4–6 annosta · 10/10*
 
 **Ainekset (liha):**
 - 600 g naudanjauhelihaa 10 %

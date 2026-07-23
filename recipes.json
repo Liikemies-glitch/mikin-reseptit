@@ -536,7 +536,7 @@
         },
         {
           "title": "Rullakebab",
-          "meta": "~6 annosta",
+          "meta": "4–6 annosta",
           "blocks": [
             {
               "type": "section",
@@ -1249,7 +1249,7 @@
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Rullakebab",
-      "meta": "~6 annosta",
+      "meta": "4–6 annosta",
       "macros": null,
       "rating": 10
     },
