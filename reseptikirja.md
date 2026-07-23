@@ -456,14 +456,81 @@ Proteiinitehokkain jälkiruoka varastossa: 8,4 kcal per proteiinigramma (vrt. br
 
 ## Kastikkeet ja soosit
 
-| Kastike | Käyttö | Ainekset | Makrot |
-|---|---|---|---|
-| **Jogurtti-sriracha** | Kanatortillat, kebab | 150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola | ~90 kcal / ~10 g prot |
-| **Lime-persilja-jogurtti** | Bataattibowl | 120 g jogurtti 3 % + oliiviöljy + lime + persilja + sinappi (blenderoi) | — |
-| **Hot Honey glaze** | Kanariisivuoka, pizza, pasta | 0,5 dl hunaja, 2 rkl sriracha, 1 rkl omenaviinietikka, 1 rkl soija, 1 tl savupaprika | ~254 kcal / ~1 g prot (koko erä) |
-| **Teriyaki-seesami glaze** | Jauhelihaperunavuoka | 50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri | ~215–254 kcal (koko erä) |
-| **Lime-jogurttisoosi** | Jauhelihaperunavuoka (muhennos) | 200 g rasvaton kreikkalainen jogurtti + puolen limen mehu + musta pippuri | ~114 kcal / ~18–22 g prot |
-| **Sitruunainen raejuustosoosi** | Vaihtoehto yllä olevalle | 150 g raejuustoa + sitruuna/limemehu + pippuri + vesi ohentamaan | ~124 kcal / ~22 g prot |
+### Jogurtti-sriracha
+*Kanatortillat, kebab*
+
+**Soveltuu:** Parhaimmillaan kanatortilloissa ja kebabin kanssa — tuore, tulinen ja hapokas viimeistely.
+
+**Ainekset:** 150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola
+
+**Valmistus:** Sekoita kaikki tasaiseksi.
+
+**Makrot:** ~90 kcal / ~10 g prot
+
+---
+
+### Lime-persilja-jogurtti
+*Bataattibowl*
+
+**Soveltuu:** Bataatti-jauhelihabowliin — raikas, rasvaton ja yrttinen kastike.
+
+**Ainekset:** 120 g jogurtti 3 % + oliiviöljy + lime + persilja + sinappi
+
+**Valmistus:** Blenderoi tasaiseksi.
+
+**Makrot:** —
+
+---
+
+### Hot Honey glaze
+*Kanariisivuoka, pizza, pasta*
+
+**Soveltuu:** Hot Honey -kanariisivuokaan, pizzaan ja pastaan — makean tulinen glaze.
+
+**Ainekset:** 0,5 dl hunaja, 2 rkl sriracha, 1 rkl omenaviinietikka, 1 rkl soija, 1 tl savupaprika
+
+**Valmistus:** Sekoita kaikki tasaiseksi. Käytä vuoassa / pintaan.
+
+**Makrot:** ~254 kcal / ~1 g prot (koko erä)
+
+---
+
+### Teriyaki-seesami glaze
+*Jauhelihaperunavuoka*
+
+**Soveltuu:** Teriyaki-jauhelihaperunavuokaan — makea-suolainen wokkimainen glaze.
+
+**Ainekset:** 50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri
+
+**Valmistus:** Sekoita glaze ja sekoita vuokaan ennen uunia.
+
+**Makrot:** ~215–254 kcal (koko erä)
+
+---
+
+### Lime-jogurttisoosi
+*Jauhelihaperunavuoka (muhennos)*
+
+**Soveltuu:** Jauhelihaperunavuokaan muhennosversioksi — kaada kuuman vuoan päälle heti uunista.
+
+**Ainekset:** 200 g rasvaton kreikkalainen jogurtti + puolen limen mehu + musta pippuri
+
+**Valmistus:** Blenderoi tasaiseksi, kaada kuuman vuoan päälle ja sekoita muhennokseksi.
+
+**Makrot:** ~114 kcal / ~18–22 g prot
+
+---
+
+### Sitruunainen raejuustosoosi
+*Vaihtoehto lime-jogurttisoosille*
+
+**Soveltuu:** Vaihtoehto lime-jogurttisoosille — proteiinipitoisempi, sitruunainen.
+
+**Ainekset:** 150 g raejuustoa + sitruuna/limemehu + pippuri + vesi ohentamaan
+
+**Valmistus:** Blenderoi tasaiseksi, lisää vettä kunnes notkeaa.
+
+**Makrot:** ~124 kcal / ~22 g prot
 
 ---
 

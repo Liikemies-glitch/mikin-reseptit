@@ -940,53 +940,207 @@
     {
       "id": "kastikkeet",
       "name": "Kastikkeet ja soosit",
-      "recipes": [],
-      "table": {
-        "headers": [
-          "Kastike",
-          "Käyttö",
-          "Ainekset",
-          "Makrot"
-        ],
-        "rows": [
-          [
-            "**Jogurtti-sriracha**",
-            "Kanatortillat, kebab",
-            "150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola",
-            "~90 kcal / ~10 g prot"
+      "recipes": [
+        {
+          "title": "Jogurtti-sriracha",
+          "meta": "Kanatortillat, kebab",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Soveltuu",
+              "content": "Parhaimmillaan kanatortilloissa ja kebabin kanssa — tuore, tulinen ja hapokas viimeistely.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "150 g islantilainen jogurtti 3 % + 15 g sriracha + savupaprika + suola",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita kaikki tasaiseksi.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~90 kcal / ~10 g prot",
+              "items": []
+            }
           ],
-          [
-            "**Lime-persilja-jogurtti**",
-            "Bataattibowl",
-            "120 g jogurtti 3 % + oliiviöljy + lime + persilja + sinappi (blenderoi)",
-            "—"
+          "favorite": false,
+          "badge": null,
+          "id": "kastikkeet-0"
+        },
+        {
+          "title": "Lime-persilja-jogurtti",
+          "meta": "Bataattibowl",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Soveltuu",
+              "content": "Bataatti-jauhelihabowliin — raikas, rasvaton ja yrttinen kastike.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "120 g jogurtti 3 % + oliiviöljy + lime + persilja + sinappi",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi tasaiseksi.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "—",
+              "items": []
+            }
           ],
-          [
-            "**Hot Honey glaze**",
-            "Kanariisivuoka, pizza, pasta",
-            "0,5 dl hunaja, 2 rkl sriracha, 1 rkl omenaviinietikka, 1 rkl soija, 1 tl savupaprika",
-            "~254 kcal / ~1 g prot (koko erä)"
+          "favorite": false,
+          "badge": null,
+          "id": "kastikkeet-1"
+        },
+        {
+          "title": "Hot Honey glaze",
+          "meta": "Kanariisivuoka, pizza, pasta",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Soveltuu",
+              "content": "Hot Honey -kanariisivuokaan, pizzaan ja pastaan — makean tulinen glaze.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "0,5 dl hunaja, 2 rkl sriracha, 1 rkl omenaviinietikka, 1 rkl soija, 1 tl savupaprika",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita kaikki tasaiseksi. Käytä vuoassa / pintaan.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~254 kcal / ~1 g prot (koko erä)",
+              "items": []
+            }
           ],
-          [
-            "**Teriyaki-seesami glaze**",
-            "Jauhelihaperunavuoka",
-            "50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri",
-            "~215–254 kcal (koko erä)"
+          "favorite": false,
+          "badge": null,
+          "id": "kastikkeet-2"
+        },
+        {
+          "title": "Teriyaki-seesami glaze",
+          "meta": "Jauhelihaperunavuoka",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Soveltuu",
+              "content": "Teriyaki-jauhelihaperunavuokaan — makea-suolainen wokkimainen glaze.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "50 g Teriyaki & Sesame Oil, 2–4 rkl soija, 1–2 rkl hunaja, 1–2 rkl omenaviinietikka, valkosipulijauhe, kuivattu inkivääri",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Sekoita glaze ja sekoita vuokaan ennen uunia.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~215–254 kcal (koko erä)",
+              "items": []
+            }
           ],
-          [
-            "**Lime-jogurttisoosi**",
-            "Jauhelihaperunavuoka (muhennos)",
-            "200 g rasvaton kreikkalainen jogurtti + puolen limen mehu + musta pippuri",
-            "~114 kcal / ~18–22 g prot"
+          "favorite": false,
+          "badge": null,
+          "id": "kastikkeet-3"
+        },
+        {
+          "title": "Lime-jogurttisoosi",
+          "meta": "Jauhelihaperunavuoka (muhennos)",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Soveltuu",
+              "content": "Jauhelihaperunavuokaan muhennosversioksi — kaada kuuman vuoan päälle heti uunista.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "200 g rasvaton kreikkalainen jogurtti + puolen limen mehu + musta pippuri",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi tasaiseksi, kaada kuuman vuoan päälle ja sekoita muhennokseksi.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~114 kcal / ~18–22 g prot",
+              "items": []
+            }
           ],
-          [
-            "**Sitruunainen raejuustosoosi**",
-            "Vaihtoehto yllä olevalle",
-            "150 g raejuustoa + sitruuna/limemehu + pippuri + vesi ohentamaan",
-            "~124 kcal / ~22 g prot"
-          ]
-        ]
-      },
+          "favorite": false,
+          "badge": null,
+          "id": "kastikkeet-4"
+        },
+        {
+          "title": "Sitruunainen raejuustosoosi",
+          "meta": "Vaihtoehto lime-jogurttisoosille",
+          "blocks": [
+            {
+              "type": "section",
+              "label": "Soveltuu",
+              "content": "Vaihtoehto lime-jogurttisoosille — proteiinipitoisempi, sitruunainen.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Ainekset",
+              "content": "150 g raejuustoa + sitruuna/limemehu + pippuri + vesi ohentamaan",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Valmistus",
+              "content": "Blenderoi tasaiseksi, lisää vettä kunnes notkeaa.",
+              "items": []
+            },
+            {
+              "type": "section",
+              "label": "Makrot",
+              "content": "~124 kcal / ~22 g prot",
+              "items": []
+            }
+          ],
+          "favorite": false,
+          "badge": null,
+          "id": "kastikkeet-5"
+        }
+      ],
+      "table": null,
       "raw": []
     },
     {
@@ -1278,13 +1432,68 @@
       "badge": null
     },
     {
-      "kind": "table",
+      "kind": "recipe",
+      "id": "kastikkeet-0",
       "sectionId": "kastikkeet",
       "section": "Kastikkeet ja soosit",
-      "title": "Kastikkeet ja soosit",
-      "meta": "6 riviä",
-      "id": "kastikkeet",
-      "macros": "",
+      "title": "Jogurtti-sriracha",
+      "meta": "Kanatortillat, kebab",
+      "macros": "~90 kcal / ~10 g prot",
+      "favorite": false,
+      "badge": null
+    },
+    {
+      "kind": "recipe",
+      "id": "kastikkeet-1",
+      "sectionId": "kastikkeet",
+      "section": "Kastikkeet ja soosit",
+      "title": "Lime-persilja-jogurtti",
+      "meta": "Bataattibowl",
+      "macros": "—",
+      "favorite": false,
+      "badge": null
+    },
+    {
+      "kind": "recipe",
+      "id": "kastikkeet-2",
+      "sectionId": "kastikkeet",
+      "section": "Kastikkeet ja soosit",
+      "title": "Hot Honey glaze",
+      "meta": "Kanariisivuoka, pizza, pasta",
+      "macros": "~254 kcal / ~1 g prot (koko erä)",
+      "favorite": false,
+      "badge": null
+    },
+    {
+      "kind": "recipe",
+      "id": "kastikkeet-3",
+      "sectionId": "kastikkeet",
+      "section": "Kastikkeet ja soosit",
+      "title": "Teriyaki-seesami glaze",
+      "meta": "Jauhelihaperunavuoka",
+      "macros": "~215–254 kcal (koko erä)",
+      "favorite": false,
+      "badge": null
+    },
+    {
+      "kind": "recipe",
+      "id": "kastikkeet-4",
+      "sectionId": "kastikkeet",
+      "section": "Kastikkeet ja soosit",
+      "title": "Lime-jogurttisoosi",
+      "meta": "Jauhelihaperunavuoka (muhennos)",
+      "macros": "~114 kcal / ~18–22 g prot",
+      "favorite": false,
+      "badge": null
+    },
+    {
+      "kind": "recipe",
+      "id": "kastikkeet-5",
+      "sectionId": "kastikkeet",
+      "section": "Kastikkeet ja soosit",
+      "title": "Sitruunainen raejuustosoosi",
+      "meta": "Vaihtoehto lime-jogurttisoosille",
+      "macros": "~124 kcal / ~22 g prot",
       "favorite": false,
       "badge": null
     }

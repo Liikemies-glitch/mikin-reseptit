@@ -50,7 +50,14 @@ function renderIndexList() {
     .filter((row) => row.id !== "perusarvot" && !String(row.title || "").toLowerCase().includes("perusravinto"))
     .filter((row) => matchesQuery(row, query))
     .slice()
-    .sort((a, b) => Number(Boolean(b.favorite)) - Number(Boolean(a.favorite)));
+    .sort((a, b) => {
+      const rank = (row) => {
+        if (row.favorite) return 0;
+        if (row.sectionId === "kastikkeet" || row.section === "Kastikkeet ja soosit") return 2;
+        return 1;
+      };
+      return rank(a) - rank(b);
+    });
 
   els.count.textContent = `${rows.length} / ${state.data.index.length}`;
   els.emptyState.hidden = rows.length > 0;
