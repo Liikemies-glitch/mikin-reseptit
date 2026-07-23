@@ -295,14 +295,37 @@ Reseptejä rakennettu fat loss -tavoitteen tueksi: korkea proteiini, kontrolloid
 
 ---
 
-### TikTok-kebab
-*ohut versio · 6/10*
+### Rullakebab
+*~6 annosta · 6/10*
 
-**Ainekset:** jauheliha (~120 g per rulla), mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri.
+**Ainekset (liha):**
+- 600 g naudanjauhelihaa 10 %
+- Mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri
 
-**Valmistus:** Sekoita mausteet jauhelihaan. Kauli ohueksi levyksi ja rullaa tiiviisti leivinpaperiin. Paista uunissa ~15 min (ohut versio — paksumpi rulla tarvitsee 45–50 min). Viipaloi ja tarjoile.
+**Soosit:**
+- Jogurtti-sriracha
+- Lime-persilja-jogurtti
 
-**Kypsennys:** 15 min riittää ohuena versiona (ei 45–50 min kuten paksummassa rullaversiossa).
+**Täytteet:**
+- Jääsalaatti
+- Cocktailkurkut
+- Punasipuli
+- Tomaatti
+- Turkinpippurit
+- Vehnätortilloja — niin isoja kuin kaupasta löytyy
+
+**Lautaselle kaveriksi:** 100 g raejuustoa + Bon Appétit
+
+**Valmistus:**
+1. Sekoita mausteet jauhelihaan. Vaivaa kunnolla — niin kauan että massa on oikeasti taikinaa ja käsi puutuu (~10 min).
+2. Laita leivinpaperille 120 g jauhelihaa. Pane toinen leivinpaperi päälle ja kauli ohueksi.
+3. Ota päällimmäinen paperi pois. Rullaa jauheliha tiiviisti leivinpaperin kanssa rullalle ja siirrä uunipellille.
+4. Toista kunnes kaikki jauheliha on rullissa (~5 rullaa / 600 g).
+5. Paista uunissa. Ohueksi kaulittuna ~10 min riittää.
+6. Avaa rullat ja revi kebab oikean kebun näköiseksi.
+7. Tee molemmat soosit (jogurtti-sriracha + lime-persilja-jogurtti).
+8. Kokoa vehnätortillaan: salaatti, vihannekset, cocktailkurkut, molemmat soosit ja kebab. Rullaa.
+9. Tarjoile raejuuston ja Bon Appétitin kanssa. Satsista saa esim. 6 annosta.
 
 ---
 

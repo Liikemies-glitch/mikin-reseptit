@@ -578,26 +578,62 @@
           "id": "paaruuat-12"
         },
         {
-          "title": "TikTok-kebab",
-          "meta": "ohut versio",
+          "title": "Rullakebab",
+          "meta": "~6 annosta",
           "blocks": [
             {
               "type": "section",
-              "label": "Ainekset",
-              "content": "jauheliha (~120 g per rulla), mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri.",
+              "label": "Ainekset (liha)",
+              "content": "",
+              "items": [
+                "600 g naudanjauhelihaa 10 %",
+                "Mausteet: paprika, savupaprika, juustokumina, oregano, chilihiutaleet, suola, pippuri"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Soosit",
+              "content": "",
+              "items": [
+                "Jogurtti-sriracha",
+                "Lime-persilja-jogurtti"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Täytteet",
+              "content": "",
+              "items": [
+                "Jääsalaatti",
+                "Cocktailkurkut",
+                "Punasipuli",
+                "Tomaatti",
+                "Turkinpippurit",
+                "Vehnätortilloja — niin isoja kuin kaupasta löytyy"
+              ]
+            },
+            {
+              "type": "section",
+              "label": "Lautaselle kaveriksi",
+              "content": "100 g raejuustoa + Bon Appétit",
               "items": []
             },
             {
               "type": "section",
               "label": "Valmistus",
-              "content": "Sekoita mausteet jauhelihaan. Kauli ohueksi levyksi ja rullaa tiiviisti leivinpaperiin. Paista uunissa ~15 min (ohut versio — paksumpi rulla tarvitsee 45–50 min). Viipaloi ja tarjoile.",
-              "items": []
-            },
-            {
-              "type": "section",
-              "label": "Kypsennys",
-              "content": "15 min riittää ohuena versiona (ei 45–50 min kuten paksummassa rullaversiossa).",
-              "items": []
+              "content": "",
+              "items": [],
+              "steps": [
+                "Sekoita mausteet jauhelihaan. Vaivaa kunnolla — niin kauan että massa on oikeasti taikinaa ja käsi puutuu (~10 min).",
+                "Laita leivinpaperille 120 g jauhelihaa. Pane toinen leivinpaperi päälle ja kauli ohueksi.",
+                "Ota päällimmäinen paperi pois. Rullaa jauheliha tiiviisti leivinpaperin kanssa rullalle ja siirrä uunipellille.",
+                "Toista kunnes kaikki jauheliha on rullissa (~5 rullaa / 600 g).",
+                "Paista uunissa. Ohueksi kaulittuna ~10 min riittää.",
+                "Avaa rullat ja revi kebab oikean kebun näköiseksi.",
+                "Tee molemmat soosit (jogurtti-sriracha + lime-persilja-jogurtti).",
+                "Kokoa vehnätortillaan: salaatti, vihannekset, cocktailkurkut, molemmat soosit ja kebab. Rullaa.",
+                "Tarjoile raejuuston ja Bon Appétitin kanssa. Satsista saa esim. 6 annosta."
+              ]
             }
           ],
           "rating": 6,
@@ -1305,8 +1341,8 @@
       "id": "paaruuat-13",
       "sectionId": "paaruuat",
       "section": "Pääruoat",
-      "title": "TikTok-kebab",
-      "meta": "ohut versio",
+      "title": "Rullakebab",
+      "meta": "~6 annosta",
       "macros": null,
       "rating": 6
     },
