@@ -632,7 +632,7 @@
         },
         {
           "title": "Marokkolainen kanapata",
-          "meta": "~6 annosta",
+          "meta": "~4 annosta",
           "blocks": [
             {
               "type": "section",
@@ -681,7 +681,7 @@
             {
               "type": "section",
               "label": "Makrot",
-              "content": "~275 kcal / ~31 g prot per annos (6 annosta).",
+              "content": "~413 kcal / ~47 g prot per annos (4 annosta; sama satsi kuin aiemmin 6:lla).",
               "items": []
             }
           ],
@@ -1367,8 +1367,8 @@
       "sectionId": "paaruuat",
       "section": "Pääruoat",
       "title": "Marokkolainen kanapata",
-      "meta": "~6 annosta",
-      "macros": "~275 kcal / ~31 g prot per annos (6 annosta).",
+      "meta": "~4 annosta",
+      "macros": "~413 kcal / ~47 g prot per annos (4 annosta; sama satsi…",
       "rating": 8
     },
     {
